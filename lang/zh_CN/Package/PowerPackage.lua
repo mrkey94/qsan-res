@@ -82,7 +82,7 @@ return {
 	["#lukang"] = "Cô Trú Phù Hạ",
 	["illustrator:lukang"] = "王立雄",
 	["keshou"] = "Khắc Thủ",
-	[":keshou"] = "Khi nhận sát thương, có thể bỏ 2 lá bài có cùng màu để -1 sát thương. Nếu không có người khác cùng thế lực, bạn có thể tiến hành phán xét, nếu kết quả là màu Đỏ, rút 1 lá.",
+	[":keshou"] = "Khi nhận sát thương, có thể bỏ 2 lá bài trên tay có cùng màu để -1 sát thương; nếu không có người khác cùng thế lực, bạn có thể tiến hành phán xét, nếu kết quả là màu Đỏ, rút 1 lá.",
 	["zhuwei"] = "Trác Vi",
 	[":zhuwei"] = "Sau khi phán xét của bạn có hiệu lực, bạn có thể thu lấy lá đó, sau đó có thể lệnh cho người đang có lượt +1 giới hạn sử dụng [Sát] và giới hạn trữ bài +1.",
 	["@keshou"] = "Kích hoạt \"Khắc Thủ\", chọn 2 lá cùng màu.",
