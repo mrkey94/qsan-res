@@ -141,7 +141,7 @@ return {
 	["command"] = "Quân lệnh",
 
 	["@startcommand"] = "%arg: Hãy lựa chọn quân lệnh: <br>%arg2；<br>%arg3",
-	["@startcommandto"] = "%arg: Hãy lựa chọn quân lệnh cho mục tiêu %dest<br>%arg2；<br>%arg3",
+	["@startcommandto"] = "%arg: Lựa chọn quân lệnh cho %dest<br>%arg2；<br>%arg3",
 	
 	["command1"] = "Quân lệnh 1",
 	["command2"] = "Quân lệnh 2",
@@ -150,12 +150,12 @@ return {
 	["command5"] = "Quân lệnh 5",
 	["command6"] = "Quân lệnh 6",
 
-	["#command1"] = "Quân lệnh 1: Gây 1 sát thương cho 1 người do bạn chọn",
-	["#command2"] = "Quân lệnh 2: Rút 1 lá, sau đó giao cho bạn 2 lá",
-	["#command3"] = "Quân lệnh 3: Mất 1 máu",
-	["#command4"] = "Quân lệnh 4: Trong lượt này, không thể sử dụng hoặc đánh ra bài đồng thời vô hiệu hóa tất cả kỹ năng không phải Tỏa định kỹ",
-	["#command5"] = "Quân lệnh 5: Đặt chồng tướng, không thể hồi máu trong lượt này",
-	["#command6"] = "Quân lệnh 6: Chọn 1 lá trên tay và 1 lá trong vùng trang bị, bỏ đi tất cả lá còn lại.",
+	["#command1"] = "Số 1: Gây 1 st cho 1 ng do bạn chọn",
+	["#command2"] = "Số 2: Rút 1 lá, giao cho bạn 2 lá",
+	["#command3"] = "Số 3: Mất 1 máu",
+	["#command4"] = "Số 4: Lượt này, cấm dùng/đánh bài, khóa kỹ năng trừ Tỏa định kỹ",
+	["#command5"] = "Số 5: Chồng tướng, cấm hồi máu lượt này",
+	["#command6"] = "Số 6: Giữ 1 lá trên tay và 1 lá đã trang bị, bỏ chỗ còn lại.",
 	
 	["#CommandChoice"] = "%from đã lựa chọn %arg",
 	
