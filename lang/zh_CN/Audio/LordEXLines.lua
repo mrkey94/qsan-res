@@ -1,0 +1,97 @@
+--[[********************************************************************
+	Copyright (c) 2013-2015 Mogara
+
+  This file is part of QSanguosha-Hegemony.
+
+  This game is free software; you can redistribute it and/or
+  modify it under the terms of the GNU General Public License as
+  published by the Free Software Foundation; either version 3.0
+  of the License, or (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  General Public License for more details.
+
+  See the LICENSE file for more details.
+
+  Mogara
+*********************************************************************]]
+
+return {
+--
+	--["cv:huaxin"] = "",
+	["$wanggui1"] = "存志太虚，安心玄妙。",
+	["$wanggui2"] = "礼法有度，良德才略。",
+	["$xibing1"] = "千里运粮，非用兵之利。",
+	["$xibing2"] = "宜弘一代之治，绍三王之迹。",
+	["~huaxin"] = "大举发兵，劳民伤国。",
+	
+	
+	["$zhente1"] = "抗声昭节，义形于色。",
+	["$zhente2"] = "少履贞特之行，三从四德。",
+	["$zhiwei1"] = "体信贯于神明，送终以礼。",
+	["$zhiwei2"] = "昭德以行，生不能侍奉二主。",
+	["~luyusheng"] = "父亲，郁生甚是想念。",
+	
+	
+    ["cv:tangzi"] = "寂镜Jnrio",
+	["$xingzhao1"] = "该出手时，就出手！",
+	["$xingzhao2"] = "既得天时、又识风向，方为人杰。",
+	["$xingzhao3"] = "对，做人就要未雨绸缪，积谷防饥！",
+	["$xingzhao4"] = "当朝待我不薄，锋芒更要藏好。",
+	["$xingzhao5"] = "天生我才，必有底牌！",
+	["$xingzhao6"] = "天将降大任于我也。",
+	["$xunxun_tangzi1"] = "惯于如履薄冰，才有资格左右逢源。",	
+	["$xunxun_tangzi2"] = "来，同是天涯，何分彼此？",
+	["~tangzi"] = "青史留名，终为土灰。纵横南北，只身无悔……",
+	
+	
+	
+	["cv:mengda"] = "寂镜Jnrio",
+	["$qiuan1"] = "新城万事俱备，仲达？干瞪眼。",
+	["$qiuan2"] = "给我一次机会，我想做一个好人。",
+	["$liangfan1"] = "有孔明的信物，不怕，放手干！",
+	["$liangfan2"] = "往往都是事情改变人，人却改变不了事情。",
+	["~mengda"] = "每个忠于自己的人，不都是反贼吗！为何只有我落得……",
+	
+	
+		
+	["cv:liuqi"] = "寂镜Jnrio",
+	["$wenji1"] = "先生大才！琦，悉听遵命。",
+	["$wenji2"] = "嘘！此处天地不知，唯通彼此。",
+	["$tunjiang1"] = "静观其变，是最好的进攻。",
+	["$tunjiang2"] = "耐得住寂寞，守得住繁华。",
+	["~liuqi"] = "唉，我比晋文公还差了点运气啊……",
+	
+	
+	["cv:mifangfushiren"] = "寂镜Jnrio",
+	["$fengshix1"] = "一边兵锋正锐，一边攻势难退…呵，休怪我也！",
+	["$fengshix2"] = "别一口一句墙头草，干这事还得看老天爷赏口饭吃呢！",
+	["~mifangfushiren"] = "功过任评说，谁知都是锅！",
+	
+	
+	
+	["cv:shixie"] = "寂镜Jnrio",
+	["$lixia1"] = "嗯，彼此放下包袱，聊一聊。",
+	["$lixia2"] = "吾缓公务，君开心胸，共谈乱世！如何？",
+	["$lixia3"] = "好一个有舍有得！感谢赐教！",
+	["~shixie"] = "立三国而存一州，赵佗之未及，吾当瞑目矣……",
+	
+	
+	
+    ["cv:zhanglu"] = "寂镜Jnrio",
+	["$bushi1"] = "吾之一脉起自江东，既然有缘，现即传度授箓！",
+	["$bushi2"] = "诸位道民，精气神俱佳而能渡劫者，方得真果！",
+	["$bushi3"] = "孟德曾以令君与吾祖相比？且赠汝米肉，传为问候。",
+	["$bushi4"] = "蜀地二刘亦苦望汉中，何不喝吾符水，从此静修。",
+	["$midao1"] = "汝诚心修道，已得天师加持，宜速行善事。",
+	["$midao2"] = "米肉丰，苍生幸，特赐汝一法扭转乾坤。",
+	["~zhanglu"] = "身入土而神羽化，妙不可言，妙不可言啊！",
+	
+	
+	
+	
+	
+	
+}
