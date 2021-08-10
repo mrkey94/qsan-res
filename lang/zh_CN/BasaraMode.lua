@@ -88,28 +88,28 @@ return
 
 
 	["companion"] = "Châu Liên Hợp Bích",
-	[":companion"] = "Hạn Định Kỹ，① Trong lượt hành động，bốc 2 lá。② Có thể sử dụng lá này như [Đào]。",
+	[":companion"] = "Hạn định kỹ, trong giai đoạn hành động, rút 2 lá. Có thể sử dụng lá này như [Đào].",
 	["companion:peach"] = "Sử dụng như [Đào]",
 	["companion:draw"] = "Bốc 2 lá",
 
 	["halfmaxhp"] = "Khuyết Ngọc",
-	[":halfmaxhp"] = "Hạn Định Kỹ，① Trong lượt hành động，bốc 1 lá。②Giai đoạn bỏ bài, tăng giới hạn trữ bài thêm 2。",
+	[":halfmaxhp"] = "Hạn định kỹ, giai đoạn hành động，bốc 1 lá。②Giai đoạn bỏ bài, tăng giới hạn trữ bài thêm 2。",
 	["@halfmaxhp-use"] = "Bỏ [Khuyết Ngọc] để tăng giới hạn trữ bài thêm 2?",
 
 	["firstshow"] = "Tiên Phong",
-	[":firstshow"] = "Hạn Định Kỹ，trong lượt hành động, bạn có thể bổ sung bài đến khi có 4 lá trên tay, sau đó xem 1 tướng ẩn của 1 người chơi。",
+	[":firstshow"] = "Hạn định kỹ, giai đoạn hành động, bạn có thể bổ sung bài đến khi có 4 lá trên tay, sau đó xem 1 tướng ẩn của 1 người chơi。",
 	["@firstshow-see"] = "Tiên Phong： Hãy chọn 1 người chơi và xem 1 tướng ẩn",
 	["firstshow_see"] = "Tiên Phong",
 	["@firstshow-choose"] = "Tiên Phong： Hãy xem 1 tướng của %dest",
 	
 	["CompanionCard"] = "Châu Liên Hợp Bích",
-	[":CompanionCard"] = "Tiêu Ký\n\nCách dùng Ⅰ：\nGiai đoạn hành động，có thể loại bỏ Tiêu ký này, bốc 2 lá。\n\nCách dùng Ⅱ：\nKhi cần sử dụng [Đào]， có thể loại bỏ Tiêu ký này，xem như đã sử dụng [Đào]。",
+	[":CompanionCard"] = "Tiêu Ký\n\nCách dùng 1：\nGiai đoạn hành động，có thể loại bỏ Tiêu ký này, bốc 2 lá。\n\nCách dùng 2\nKhi cần sử dụng [Đào]， có thể loại bỏ Tiêu ký này，xem như đã sử dụng [Đào]。",
 	
 	["HalfMaxHpCard"] = "Khuyết Ngọc",
-	[":HalfMaxHpCard"] = "Tiêu Ký\n\nCách dùng Ⅰ：\nGiai đoạn hành động，có thể loại bỏ Tiêu ký này, bốc 1 lá。\n\nCách dùng Ⅱ：\nGiai đoạn bỏ bài，nếu bài trên tay lớn hơn giới hạn trữ bài，có thể loại bỏ Tiêu ký này，tăng giới hạn trữ bài thêm 2。",
+	[":HalfMaxHpCard"] = "Tiêu Ký\n\nCách dùng 1：\nGiai đoạn hành động，có thể loại bỏ Tiêu ký này, bốc 1 lá。\n\nCách dùng：\nGiai đoạn bỏ bài，nếu bài trên tay lớn hơn giới hạn trữ bài，có thể loại bỏ Tiêu ký này，tăng giới hạn trữ bài thêm 2。",
 	
 	["FirstShowCard"] = "Tiên Phong",
-	[":FirstShowCard"] = "Tiêu Ký\n\nGiai đoạn hành động，nếu số bài trên tay của bạn nhỏ hơn 4，có thể loại bỏ Tiêu ký này，bốc bài đến khi tay có 4 lá，sau đó xem 1 tướng ẩn của 1 người chơi khác。",
+	[":FirstShowCard"] = "Tiêu Ký\n\nGiai đoạn hành động, nếu số bài trên tay của bạn nhỏ hơn 4，có thể loại bỏ Tiêu ký này, chọn 1 người chơi có tướng chưa mở, bạn rút bài đến khi tay có 4 lá, sau đó xem 1 tướng ẩn của người đã chọn.",
 	
 	
 	["canshowinplay"] = "Có thể lật tướng",

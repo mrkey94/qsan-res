@@ -57,7 +57,7 @@ return {
 	["luoyi"] = "Lỏa Y",
 	[":luoyi"] = "Cuối giai đoạn rút bài, bạn có thể bỏ đi 1 lá; trong lượt này, khi bạn gây sát thương cho mục tiêu của [Sát] hoặc [Quyết Đấu], sát thương này +1.",
 	["#LuoyiBuff"] = "%from đã kích hoạt \"<font color=\"yellow\"><b>Loả Y</b></font>\", sát thương từ %arg tăng thành %arg2",
-	["@luoyi"] = "Bạn có thể rút ít đi 1 lá.",
+	["@luoyi"] = "Lỏa Y: Bạn có thể bỏ đi 1 lá.",
 
 	["illustrator:guojia"] = "绘聚艺堂",
 	["#guojia"] = "Tảo Chung Tiên Tri",
