@@ -31,7 +31,8 @@ programmers = {
 	'lrl026',
 	'Para',
 	'tangjs520',
-	'数字'
+	'数字',
+	'Lãng Khách'
 }
 
 ai_designers = {
@@ -77,6 +78,14 @@ audio_workers = {
 consultants = {
 	'太阳神上',
 	'蒋彩阳'
+}
+
+vietnamese = {
+	'Lãng Khách',
+	'Ong Thành Đạt',
+	'Jun Bach',
+	'Mayumi Hibari',
+	'Trần Thị Minh Anh'
 }
 
 about_us.width = 900
@@ -227,12 +236,16 @@ function createHomePage()
 	table.insert(about_us.homepage, HTMLTable.getFileHead("QSanguosha-Hegemony"))
 	table.insert(about_us.homepage, HTMLTable.encloseInTagsOfDivId(HTMLTable.encloseInTag("QSanguosha-Hegemony", "h1"), "header"))
 	local sectionbody = {}
-	table.insert(sectionbody, HTMLTable.createListingBlock("<br>简介",
-		"QSanguosha-Hegemony是Mogara.org旗下一个以桌面游戏三国杀·国战为蓝本的开源试验性项目"))
-	table.insert(sectionbody, HTMLTable.createListingBlock("<br>联系我们", "电子邮箱：dev@qsanguosha.org"))
-	table.insert(sectionbody, HTMLTable.createListingBlock("开发人员", "程序：" .. table.concat(programmers, " "),
-		"AI：" .. table.concat(ai_designers, " "), "美工：" .. table.concat(art_designers, " "), "助理: " .. table.concat(assistants, " "),
-		"配音工作人员:" .. table.concat(audio_workers, " "), "技术顾问：" .. table.concat(consultants, " ")))
+	table.insert(sectionbody, HTMLTable.createListingBlock("<br>Giới thiệu",
+		"QSanguosha-Hegemony là 1 dự án mã nguồn mở của Mogara.org dựa trên trò chơi Tam Quốc Sát - Quốc Chiến"))
+	table.insert(sectionbody, HTMLTable.createListingBlock("<br>Liên hệ chúng tôi", "Email：dev@qsanguosha.org"))
+	table.insert(sectionbody, HTMLTable.createListingBlock("Liên hệ đội Việt hóa", HTMLTable.getHref("Lãng Khách", "https://fb.com/mrkey94"),
+		HTMLTable.getHref("Discord Tam Quốc Sát online", "https://discord.gg/jfm4PKpjmN"),
+		HTMLTable.getHref("Group Cộng đồng Tam Quốc Sát - Việt Nam", "https://www.facebook.com/groups/tqsvn")))
+	table.insert(sectionbody, HTMLTable.createListingBlock("Nhà phát triển", "Phần mềm：" .. table.concat(programmers, ", "),
+		"AI：" .. table.concat(ai_designers, ", "), "Thiết kế：" .. table.concat(art_designers, ", "), "Hỗ trợ: " .. table.concat(assistants, ", "),
+		"Diễn viên lồng tiếng:" .. table.concat(audio_workers, ", "), "Tư vấn kỹ thuật：" .. table.concat(consultants, ", "),
+		"Việt Hóa:" .. table.concat(vietnamese, ", ")))
 	table.insert(sectionbody, HTMLTable.createListingBlock("特别鸣谢", getQunInfo("太阳神三国杀国战联机群",
 		"低调的付尼玛", "01112a97ee4545654e1a098850184a84a9eadd3d6c7dc570fdd883e461babfd4", "nini"),
 		getQunInfo("豚豚神杀游戏群", "洛神", "ffb10d7ef73fbdef7cf7da3f6a64b95b889c465fdc4e1662979434583357638b", "tuntun"),
@@ -246,6 +259,13 @@ function createHomePage()
 end
 
 local pages = {
+	{
+		[0] = "LK",
+		"Tôi là 1 lập trình viên, cũng là 1 người đam mê boardgame, Tam quốc sát là 1 trong số đó.",
+		"Với đam mê game cũng như mong muốn chơi game Tam Quốc Sát,",
+		"Tôi đã Việt hóa cũng như tạo server chơi online cho game.",
+		HTMLTable.getHref("Liên hệ", "https://fb.com/mrkey94")
+	},
 	{
 		[0] = "Yanguam",
 		"啦啦在下一盘很大很大很大很大很大很大很大很大很大很大很大很大的棋！"
@@ -300,8 +320,8 @@ local pages = {
 
 sgs.LoadTranslationTable {
 
-	["homepage"] = "太阳神三国杀·国战",
-
+	["homepage"] = "Trang chính",
+	["LK"] = "Lãng Khách",
 	["Yanguam"] = "啦啦SLG",
 	["BeginnerSlob"] = "女王受·虫",
 	["36li"] = "36李",
@@ -318,7 +338,7 @@ function createDeveloperPages()
 		table.insert(about_us.developers, owner)
 		table.insert(page, HTMLTable.getFileHead(owner))
 		table.insert(page, HTMLTable.encloseInTagsOfDivId(HTMLTable.encloseInTag(sgs.Sanguosha:translate(owner), "h1"), "header"))
-		local listingblock = HTMLTable.createListingBlock("<br><br><br>" .. HTMLTable.getImg(("./image/system/developers/%s.jpg"):format(owner), nil, owner) .. "<br>简介", table.unpack(t))
+		local listingblock = HTMLTable.createListingBlock("<br><br><br>" .. HTMLTable.getImg(("./image/system/developers/%s.jpg"):format(owner), nil, owner) .. "<br>Giới thiệu", table.unpack(t))
 		local sectionbody = HTMLTable.encloseInTagsOfDivClass(listingblock, "sectionbody")
 		table.insert(page, HTMLTable.encloseInTagsOfDivId(sectionbody, "preamble", "content"))
 		table.insert(page, HTMLTable.getFileFoot())
