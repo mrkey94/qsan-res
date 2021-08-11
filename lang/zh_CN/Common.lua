@@ -282,7 +282,7 @@ CommonTranslationTable = {
 	["BattleRoyalMode"] = "Chế độ Huyết Chiến",
 	["view_next_player_deputy_general"] = "Xem phó tướng của người kế tiếp",
 
-	["$gamestart"] = "Trận đấu bắt đầu!",
+	["$gamestart"] = "Trận chiến bắt đầu!",
 }
 
 return CommonTranslationTable
