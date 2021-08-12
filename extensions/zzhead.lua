@@ -94,6 +94,7 @@ Zzhead22 = sgs.General(general_extension, "zzhead22", "god", 3 , true, true)
 Zzhead23 = sgs.General(general_extension, "zzhead23", "god", 3 , true, true)
 Zzhead24 = sgs.General(general_extension, "zzhead24", "god", 3 , true, true)
 Zzhead25 = sgs.General(general_extension, "zzhead25", "god", 3 , true, true)
+Zzhead26 = sgs.General(general_extension, "zzhead26", "god", 3 , true, true)
 Zzhead101 = sgs.General(general_extension, "zzhead101", "god", 3 , true, true)
 Zzhead102 = sgs.General(general_extension, "zzhead102", "god", 3 , true, true)
 Zzhead103 = sgs.General(general_extension, "zzhead103", "god", 3 , true, true)
@@ -125,6 +126,8 @@ Zzhead128 = sgs.General(general_extension, "zzhead128", "god", 3 , true, true)
 Zzhead129 = sgs.General(general_extension, "zzhead129", "god", 3 , true, true)
 Zzhead130 = sgs.General(general_extension, "zzhead130", "god", 3 , true, true)
 Zzhead131 = sgs.General(general_extension, "zzhead131", "god", 3 , true, true)
+Zzhead1001 = sgs.General(general_extension, "zzhead1001", "god", 4 , true, true)
+Zzhead1002 = sgs.General(general_extension, "zzhead1002", "god", 3 , true, true)
 
 zzjishi = sgs.CreateTriggerSkill{
 	name = "zzjishi" ,
@@ -283,6 +286,13 @@ zzziren = sgs.CreateTriggerSkill{
 }
 Zzhead25:addSkill(zzziren)
 
+zzfengyushuang = sgs.CreateTriggerSkill{
+    name = "zzfengyushuang" ,
+
+}
+Zzhead26:addSkill(zzfengyushuang)
+
+
 
 sgs.LoadTranslationTable{
     ["#zzhead0"] = "神杀基石",
@@ -365,7 +375,7 @@ sgs.LoadTranslationTable{
 	["zzmeimeng"] = "魈梦",
 	[":zzmeimeng"] = "神杀忠实粉丝之一，喜欢yy很多三国杀的东西。" ,
 	
-	["#zzhead16"] = "安静听者",
+	["#zzhead16"] = "随遇而安",
 	["zzhead16"] = "聆听",
 	["zzlingting"] = "听者",
 	[":zzlingting"] = "神杀忠实粉丝之一，喜欢做很多神杀的小视频，经典是b站的top秀。" ,
@@ -398,7 +408,7 @@ sgs.LoadTranslationTable{
 	["#zzhead22"] = "Christina",
 	["zzhead22"] = "Christina",
 	["zzChristina"] = "圣堂武士",
-	[":zzChristina"] = "神杀忠实粉丝之一，原名加慧滕，现于二三群担任管理一职" ,	
+	[":zzChristina"] = "神杀忠实粉丝之一，原名加慧滕" ,    
 	
 	["#zzhead23"] = "媚儿",
 	["zzhead23"] = "媚儿",
@@ -413,7 +423,12 @@ sgs.LoadTranslationTable{
 	["#zzhead25"] = "子任",
 	["zzhead25"] = "子任",
 	["zzziren"] = "禁止迫害",
-	[":zzziren"] = "神杀忠实粉丝之一，现于二三群担任管理一职，技术高超，是一名高玩禁止迫害！" ,	
+	[":zzziren"] = "神杀忠实粉丝之一，技术高超，是一名高玩禁止迫害！" ,    
+    
+    ["#zzhead26"] = "狗托",
+    ["zzhead26"] = "枫毓霜",
+    ["zzfengyushuang"] = "狗托",
+    [":zzfengyushuang"] = "神杀忠实粉丝之一，技术高超，各种素材局提供者！" ,
 	
 	
 	["#zzhead101"] = "小杀一号",
@@ -479,8 +494,10 @@ sgs.LoadTranslationTable{
     ["zzhead130"] = "兔宝小杀",
 	["#zzhead131"] = "感恩郭嘉",
     ["zzhead131"] = "感恩郭嘉",
-	
-
+	["#zzhead1001"] = "Chu Du Đích Độc Lãng",
+    ["zzhead1001"] = "Lãng Khách",
+	["#zzhead1002"] = "Chíp Chíp Nữ Chủ",
+    ["zzhead1002"] = "Hanako",
 
 
 

@@ -264,7 +264,8 @@ local pages = {
 		"Tôi là 1 lập trình viên, cũng là 1 người đam mê boardgame, Tam quốc sát là 1 trong số đó.",
 		"Với đam mê game cũng như mong muốn chơi game Tam Quốc Sát,",
 		"Tôi đã Việt hóa cũng như tạo server chơi online cho game.",
-		HTMLTable.getHref("Liên hệ", "https://fb.com/mrkey94")
+		HTMLTable.getHref("Liên hệ", "https://fb.com/mrkey94"),
+		HTMLTable.getHref("Giao lưu boardgame và tqs offline với tôi tại Chíp Cafe", "https://www.facebook.com/chipcafe")
 	},
 	{
 		[0] = "Yanguam",
