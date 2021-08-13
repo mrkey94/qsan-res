@@ -141,7 +141,7 @@ end
 sgs.ai_skill_cardask["@guicai-card"] = function(self, data)
 	if not (self:willShowForAttack() or self:willShowForDefence() ) then return "." end
 	local judge = data:toJudge()
-	local cards = sgs.QList2Table(self.player:getHandcards())
+	local cards = sgs.QList2Table(self.player:getCards("he"))
 	for _, id in sgs.qlist(self.player:getHandPile()) do
 		table.insert(cards, 1, sgs.Sanguosha:getCard(id))
 	end
@@ -665,7 +665,7 @@ sgs.ai_skill_use["@@shensu2"] = function(self, prompt, method)
 	cards = sgs.QList2Table(cards)
 
 	local eCard
-	local hasCard = { 0, 0, 0, 0, 0 }
+	local hasCard = { 0, 0, 0, 0, 0, 0 }
 
 	if self:needToThrowArmor() and not self.player:isCardLimited(self.player:getArmor(), method) then
 		eCard = self.player:getArmor()

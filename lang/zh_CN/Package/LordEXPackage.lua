@@ -63,7 +63,29 @@ return {
 	
 	["#ZhiweiFinsh"] = "%from đã kết thúc kỹ năng \"%arg\" lên %to",
 	
-	
+	["#zongyux"] = "Cửu Uẩn Hồng Lư",
+    ["zongyux"] = "Tông Dự",
+    ["illustrator:zongyux"] = "铁杵",
+    ["qiao"] = "Khí Ngạo",
+    [":qiao"] = "Hai lần trong giai đoạn hành động của mỗi người, sau khi bạn trở thành mục tiêu của bài do người khác thế lực sử dụng, có thể bỏ 1 lá của họ, sau đó bạn bỏ 1 lá.",
+    ["chengshang"] = "Thừa Thưởng",
+    [":chengshang"] = "Một lần trong giai đoạn hành động, sau khi bài bạn sử dụng chỉ định người khác thế lực làm mục tiêu kết toán xong, nếu lá này không gây sát thương, có thể thu lấy 1 lá đó.",
+
+    ["@qiao-discard"] = "Khí Ngạo: Bỏ 1 lá.",
+    
+    
+    
+    ["MOL"] = "Mobile",
+    
+    
+    ["#duyu"] = "Văn Thành Võ Đức",
+    ["duyu"] = "Đỗ Dự",
+    ["illustrator:duyu"] = "石蝉",
+    ["wuku"] = "Vũ Khố",
+    [":wuku"] = "Tỏa định kỹ, khi 1 người không cùng thế lực sử dụng 1 trang bị, bạn thu lấy 1 tiêu kỹ [Võ Khố] (Tối đa 2).",
+    ["miewu"] = "Diệt Ngô",
+    [":miewu"] = "Một lần trong lượt của mỗi người, có thể bỏ 1 [Võ Khố], sau đó sử dụng/đánh ra 1 lá bài như 1 lá cơ bản hoặc công cụ tùy ý; sau đó, rút lá.",
+    ["#armory"] = "Vũ Khố",
 	
 	["lord_ex"] = "Song Quốc -·EX",
 	
@@ -140,5 +162,16 @@ return {
 	["lixia:discard"] = "Bỏ 2 lá",
 	["lixia:losehp"] = "Mất 1 máu",
 	["lixia:draw"] = "Cho %from rút 2 lá",
+
+    ["#zhonghui"] = "Kiệt Ngạo Đích Dã Tâm Gia",
+    ["zhonghui"] = "Chung Hội",
+    ["illustrator:zhonghui"] = "磐蒲",
+    ["quanji"] = "Quyền Kế",
+    [":quanji"] = "Sau khi nhận sát thương hoặc sau khi bạn gây sát thương cho 1 người do hiệu quả của 1 lá đơn mục tiêu, có thể rút 1 lá, sau đó đặt ngửa 1 lá lên tướng, gọi là [Quyền]. Giới hạn trữ bài của bạn +X (X là số [Quyền]).",
+    ["paiyi"] = "Bài Dị",
+    [":paiyi"] = "Giai đoạn hành động, có thể bỏ 1 [Quyền] và chọn 1 người, họ rút X lá (X là số [Quyền]; sau đó nếu số bài trên tay họ không nhỏ hơn bạn, bạn gây 1 sát thương cho họ và vô hiệu kỹ năng này trong lượt này.",
+
+    ["@quanji-push"] = "Quyền Kế: Đặt 1 lá lên tướng làm [Quyền]",
+    ["power_pile"] = "Quyền",
 
 }

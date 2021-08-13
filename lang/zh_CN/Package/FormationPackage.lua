@@ -29,9 +29,7 @@ return {
 	["illustrator:dengai"] = "Amo",
 	["tuntian"] = "Truân Điền",
 	[":tuntian"] = "Sau khi bạn mất đi bài ngoài lượt, có thể tiến hành phán xét. Nếu kết quả phán xét không phải là chất Cơ, bạn có thể đặt phán xét lên tướng này, gọi là [Điền]. Với mỗi [Điền], khoảng cách từ bạn tới người khác -1.",
-	["#tuntian-gotofield"] = "Truân Điền (Đặt lên tướng)",
-	["#tuntian"] = "Truân Điền" ,
-	["@tuntian-gotofield"] = "Truân Điền: Có thể đặt lên tướng làm [Điền]" ,
+	["@tuntian-gotofield"] = "Truân Điền: Đặt lá phán xét [%arg] lên tướng thành [Điền]" ,
 	["field"] = "Điền",
 	["#tuntian-dist"] = "Truân Điền" ,
 	["jixi"] = "Cấp Tập",
@@ -74,9 +72,10 @@ return {
 	["&jiangwanfeiyi"] = "Tưởng Uyển Phí Y",
 	["illustrator:jiangwanfeiyi"] = "cometrue",
 	["shengxi"] = "Sinh Tức",
-	[":shengxi"] = "Đầu giai đoạn bỏ bài, nếu trong lượt này bạn không gây sát thương, có thể rút 2 lá bài.",
+	[":shengxi"] = "Giai đoạn kết thúc, nếu trong lượt này bạn không gây sát thương, có thể rút 2 lá bài.",
 	["shoucheng"] = "Thủ Thành",
-	[":shoucheng"] = "Khi người chơi cùng thế lực mất đi lá bài cuối cùng trên tay ngoài lượt, có thể cho họ rút 1 lá bài.",
+	[":shoucheng"] = "Sau khi người chơi cùng thế lực mất đi lá bài cuối cùng trên tay ngoài lượt, có thể cho họ rút 1 lá bài.",
+	["@shoucheng"] = "Có thể kích hoạt \"Thủ Thành\", lệnh cho 1 người rút 1 lá.",
 
 	["#jiangqin"] = "Kỳ Hề Chi Khí",
 	["jiangqin"] = "Tưởng Khâm",
@@ -114,24 +113,24 @@ return {
 	["qiluan"] = "Thích Loạn",
 	[":qiluan"] = "Cuối lượt của 1 người, nếu trong lượt này bạn có giết người, bạn có thể rút 3 lá.",
 
-	["#lord_liubei"] = "龙横蜀汉",
-	["lord_liubei"] = "刘备-君",
-	["&lord_liubei"] = "刘备" ,
+	["#lord_liubei"] = "Long Hoành Thục Hán",
+	["lord_liubei"] = "Lưu Bị - Quân",
+	["&lord_liubei"] = "Lưu Bị" ,
 	["illustrator:lord_liubei"] = "LiuHeng",
-	["zhangwu"] = "章武",
-	["#zhangwu-draw"] = "章武（摸牌）",
-	[":zhangwu"] = "锁定技，①当【飞龙夺凤】移至弃牌堆或其他角色的装备区后，你获得此【飞龙夺凤】。②当你并非因使用【飞龙夺凤】而失去【飞龙夺凤】前，你展示此【飞龙夺凤】，将此【飞龙夺凤】的此次移动的目标区域改为牌堆底→此【飞龙夺凤】移动至牌堆底后，你摸两张牌。",
-	["shouyue"] = "授钺",
-	[":shouyue"] = "君主技，锁定技，你拥有\"五虎将大旗\"。\n\n#\"五虎将大旗\"\n" ..
-					"存活的蜀势力角色拥有的〖武圣〗、〖咆哮〗、〖龙胆〗、〖铁骑〗和〖烈弓〗分别改为：\n" ..
-					"武圣——你可将一张牌当【杀】使用或打出。\n" ..
-					"咆哮——增加“③当【杀】指定目标后，若使用者为你，你令此目标对应的角色的防具技能无效。”\n" ..  --remove the detail of Qinggang-like effect
-					"龙胆——增加“③当因〖龙胆〗转化的普【杀】或【闪】被使用/打出时，若使用/打出者为你，你摸一张牌。”\n" ..
-					"烈弓——增加“②你的攻击范围+1。”\n" ..
-					"铁骑——当【杀】指定目标后，若使用者为你，你可判定▶你令此目标对应的角色的所有处于明置状态的武将牌的未带有“锁定技”标签的武将技能于当前回合内无效。其选择：1.弃置与结果花色相同的一张牌；2.令此【杀】于对此目标进行的使用结算中不是其使用【闪】的合法目标。",
-	["jizhao"] = "激诏",
-	[":jizhao"] = "限定技，当你处于濒死状态时，你可将你的手牌补至X张（X为你的体力上限），将体力回复至2点，失去〖授钺〗并获得〖仁德〗。",
-	["@jizhao"] = "激诏",
+	["zhangwu"] = "Chương Vũ",
+	["#zhangwu-draw"] = "Chương Vũ (Rút bài)",
+	[":zhangwu"] = "Tỏa định kỹ, khi [Phi Long Đoạt Phượng] tiến vào chồng bài bỏ hoặc được người khác trang bị, bạn thu lấy nó; Khi bạn mất đi [Phi Long Đoạt Phượng] không vì sử dụng thì mở nó ra, đặt vào đáy chồng bài rút và bạn rút 2 lá.",
+	["shouyue"] = "Thụ Việt",
+	[":shouyue"] = "Quân chủ kỹ, Tỏa định kỹ, Bạn có \"Ngũ Hổ Tướng Đại Kỳ\".\n\n#\"Ngũ Hổ Tướng Đại Kỳ\"\n" ..
+					"Người thuộc thế lực Thục thay đổi các kỹ năng sau:\n" ..
+					"Võ Thánh: Có thể sử dụng hoặc đánh ra 1 lá như [Sát].\n" ..
+					"Bào Hao: Sau khi bạn chỉ định mục tiêu của [Sát], vô hiệu phòng cụ của mục tiêu.\n" ..  --remove the detail of Qinggang-like effect
+					"Long Đảm: Sau khi sử dụng hoặc đánh ra [Sát] hoặc [Thiểm] bởi \"Long Đảm\", rút 1 lá.\n" ..
+					"Liệt Cung: Tầm đánh của bạn +1\n" ..
+					"Thiết Kỵ: Khi",
+	["jizhao"] = "Kích Chiếu",
+	[":jizhao"] = "Hạn định kỹ, Khi ban trong trạng thái hấp hối, có thể bổ sung bài trên tay đến giới hạn máu, hồi máu đến 2, mất \"Thụ Việt\" và nhận \"Nhân Đức\"",
+	["@jizhao"] = "Kích Chiếu",
 
 	["DragonPhoenix"] = "Phi Long Đoạt Phượng",
 	[":DragonPhoenix"] = "Bài Trang bị - Vũ khí\n\nTầm đánh: 2\nKỹ năng:\n" ..
@@ -139,5 +138,5 @@ return {
 					"2. Khi mục tiêu của [Sát] từ bạn vào trạng thái hấp hối, có thể thu lấy 1 lá trên tay họ.\n" ,
 	["@dragonphoenix-discard"] = "Đã kích hoạt [Phi Long Đoạt Phượng], hãy bỏ 1 lá.",
 
-	["DragonPhoenix:revive"] = "你可以点击下方确定按钮，从未使用的武将牌中选择与你势力相同的一张武将牌重新加入游戏。",
+	["DragonPhoenix:revive"] = "Có thể bấm \"Xác định\" để chọn 1 tướng cùng thế lực với bạn và lệnh cho họ quay lại trò chơi.",
 }

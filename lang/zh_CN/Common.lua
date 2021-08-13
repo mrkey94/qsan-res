@@ -108,9 +108,9 @@ CommonTranslationTable = {
 
 	["yourself"] = "bản thân",
 
-	["attack_card"] = "Thẻ tấn công",
-	["defense_card"] = "Thẻ phòng ngự",
-	["recover_card"] = "Thẻ khôi phục",
+	["attack_card"] = "Lá tấn công",
+	["defense_card"] = "Lá phòng ngự",
+	["recover_card"] = "Lá khôi phục",
 	["global_effect"] = "Hiệu quả toàn cục",
 	["aoe"] = "AOE",
 	["single_target_trick"] = "Thẻ công cụ đơn mục tiêu",
@@ -124,7 +124,7 @@ CommonTranslationTable = {
 	["offensive_horse"] = "Chiến mã -1 ",
 	["treasure"] = "Bảo vật",
 
-	["luck_card"] = "Thẻ may mắn",
+	["luck_card"] = "Lá may mắn",
 
 	["wei"] = "Nguỵ",
 	["shu"] = "Thục",
@@ -132,7 +132,7 @@ CommonTranslationTable = {
 	["qun"] = "Quần hùng",
 	["careerist"] = "Dã tâm",
 	["god"] = "Thần",
-	["default"] = "Mặc nhận",
+	["default"] = "Mặc định",
 
 	["#Murder"] = "%to【%arg】 trận vong, sát thương do %from gây ra",
 	["#Suicide"] = "%to【%arg】 tự sát",
@@ -164,7 +164,7 @@ CommonTranslationTable = {
 	["$ChangedJudge"] = "%from kích hoạt 【%arg】 buộc thẻ phán xét của %to đổi thành %card",
 	["$MoveCard"] = "%to nhận được %card từ %from",
 	["$PasteCard"] = "%from dùng %card với %to",
-	["$LightningMove"] = "%card từ %from chuyển sang %to",
+	["$LightningMove"] = "%card được chuyển sang vùng phán xét của %to",
 	["$TurnOver"] = "%from đã lật thẻ bài đầu tập là %card",
 	["$DiscardCard"] = "%from đã bỏ đi %card",
 	["$DiscardCardWithSkill"] = "%from bỏ đi %card phát động 【%arg】",

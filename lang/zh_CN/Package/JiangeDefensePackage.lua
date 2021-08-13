@@ -21,8 +21,8 @@
 -- translation for JiangeDefense Package
 
 return {
-	["jiange_defense"] = "守卫剑阁",
-	["jiange-defense"] = "守卫剑阁",
+	["jiange_defense"] = "Thủ Hộ Kiếm Các",
+	["jiange-defense"] = "Thủ Hộ Kiếm Các",
 	
 	["#jg_liubei"] = "蜀汉英魂",
 	["jg_liubei"] = "烈帝玄德",

@@ -63,7 +63,7 @@ return
 	["#BasaraGeneralChosenDual"] = "Tướng bạn đã chọn là %arg và %arg2",
 	["Hegemony"] = "Quốc Chiến",
 	["Roles"] = "Thân phận",
-	["~anjiang"] = "What can I do?……",
+	["~anjiang"] = "Mạng ta tiêu rồi...",
 
 	["@define:changetolord"] = "Đổi thành Quân Chủ?" ,
 	["#FirstShowReward"] = "%from 全场第一个亮将，选择摸两张牌或回复1点体力",
@@ -103,14 +103,24 @@ return
 	["@firstshow-choose"] = "Tiên Phong： Hãy xem 1 tướng của %dest",
 	
 	["CompanionCard"] = "Châu Liên Hợp Bích",
-	[":CompanionCard"] = "Tiêu Ký\n\nCách dùng 1：\nGiai đoạn hành động，có thể loại bỏ Tiêu ký này, bốc 2 lá。\n\nCách dùng 2\nKhi cần sử dụng [Đào]， có thể loại bỏ Tiêu ký này，xem như đã sử dụng [Đào]。",
+	[":CompanionCard"] = "Tiêu Ký\n\nCách dùng 1：\nGiai đoạn hành động, có thể loại bỏ Tiêu ký này, rút 2 lá。\n\nCách dùng 2\nKhi cần sử dụng [Đào], có thể loại bỏ Tiêu ký này, xem như đã sử dụng [Đào].",
 	
-	["HalfMaxHpCard"] = "Khuyết Ngọc",
-	[":HalfMaxHpCard"] = "Tiêu Ký\n\nCách dùng 1：\nGiai đoạn hành động，có thể loại bỏ Tiêu ký này, bốc 1 lá。\n\nCách dùng：\nGiai đoạn bỏ bài，nếu bài trên tay lớn hơn giới hạn trữ bài，có thể loại bỏ Tiêu ký này，tăng giới hạn trữ bài thêm 2。",
+	["HalfMaxHpCard"] = "Âm Dương Ngư",
+	[":HalfMaxHpCard"] = "Tiêu Ký\n\nCách dùng 1：\nGiai đoạn hành động, có thể loại bỏ Tiêu ký này, rút 1 lá。\n\nCách dùng：\nGiai đoạn bỏ bài, nếu bài trên tay lớn hơn giới hạn trữ bài, có thể loại bỏ Tiêu ký này，tăng giới hạn trữ bài thêm 2.",
 	
-	["FirstShowCard"] = "Tiên Phong",
-	[":FirstShowCard"] = "Tiêu Ký\n\nGiai đoạn hành động, nếu số bài trên tay của bạn nhỏ hơn 4，có thể loại bỏ Tiêu ký này, chọn 1 người chơi có tướng chưa mở, bạn rút bài đến khi tay có 4 lá, sau đó xem 1 tướng ẩn của người đã chọn.",
+	["FirstShowCard"] = "Tiên Khu",
+	[":FirstShowCard"] = "Tiêu Ký\n\nGiai đoạn hành động, có thể loại bỏ Tiêu ký này, chọn 1 người chơi có tướng chưa mở, bạn rút bài đến khi tay có 4 lá, sau đó xem 1 tướng ẩn của người đã chọn.",
 	
+	["careerman"] = "Dã Tâm Gia",
+    ["CareermanCard"] = "Dã Tâm Gia",
+    [":CareermanCard"] = "Tiêu Ký\n\nCách dùng 1：\nGiai đoạn hành động, có thể loại bỏ Tiêu ký này và chọn: 1. Rút 2 lá; 2. Rút 1 lá; 3. Rút bài đến khi tay có 4 lá và xem 1 tướng ẩn của người khác.\n\nCách dùng 2: Khi cần sử dụng [Đào]， có thể loại bỏ Tiêu ký này, xem như đã sử dụng [Đào]\n\nCách dùng 3: Đầu giai đoạn bỏ bài, có thể loại bỏ Tiêu ký này, giới hạn trữ bài lượt này +2.",
+    ["careerman:draw1card"] = "Rút 1 lá",
+    ["careerman:draw2cards"] = "Rút 2 lá",
+    ["careerman:peach"] = "Xem như sử dụng [Đào]",
+    ["careerman:firstshow"] = "Rút đến khi 4 lá trên tay và xem 1 tướng ẩn",
+    ["@careerman-target"] = "Dã Tâm Gia: Chọn 1 người chơi để xem 1 tướng ẩn",
+    ["@careerman-use"] = "Có thể loại bỏ tiêu ký \"Dã Tâm Gia\" để giới hạn trữ bài +2.",
+    ["@careerman-choose"] = "Chọn 1 hiệu ứng để kích hoạt",
 	
 	["canshowinplay"] = "Có thể lật tướng",
 	
@@ -119,4 +129,20 @@ return
 	
 	["showdeputy"] = "Lật tướng",
 	[":showdeputy"] = "Lật Phó tướng",
+	
+	["@careerist-show"] = "Bộc lộ dã tâm: Có thể lật Chủ tướng.",
+    ["GameRule:CareeristShow:yes"] = "Lật tướng Dã Tâm",
+    ["GameRule:CareeristShow:no"] = "Hủy bỏ",
+    
+    ["#GameRule_CareeristShow"] = "%from đã thể hiện Dã Tâm và lật chủ tướng.",
+    
+    ["@careerist-summon"] = "Có thể lật tướng Dã tâm.",
+    ["GameRule:CareeristSummon:yes"] = "Lật tướng Dã Tâm",
+    ["GameRule:CareeristSummon:no"] = "Hủy bỏ",
+
+    ["#GameRule_CareeristSummon"] = "%from đã mở tướng Dã tâm",
+
+    ["@careerist-add"] = "Có thể gia nhập dã tâm của %src",
+
+    ["#GameRule_CareeristAdd"] = "%from đã đồng ý gia nhập dã tâm của %to",
 }

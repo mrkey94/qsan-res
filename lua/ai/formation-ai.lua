@@ -24,11 +24,9 @@ sgs.ai_skill_invoke.tuntian = function(self, data)
 	end
 	return true
 end
-sgs.ai_skill_invoke._tuntian = function(self, data)
-	if not (self:willShowForAttack() or self:willShowForDefence()) then
-		return false
-	end
-	return true
+
+sgs.ai_skill_choice["tuntian"] = function(self, choices)
+	return "yes"
 end
 
 local jixi_skill = {}

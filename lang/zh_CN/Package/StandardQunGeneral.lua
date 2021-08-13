@@ -165,5 +165,6 @@ return {
 	["qingcheng"] = "Khuynh Thành",
 	[":qingcheng"] = "Giai đoạn hành động, bạn có thể bỏ 1 lá Đen và chọn 1 người khác đã mở tất cả tướng, úp 1 tướng của họ. Nếu lá bạn bỏ là trang bị, bạn có thể chọn 1 người khác và lặp lại quá trình.",
 	["qingcheng-second"] = "Khuynh thành: Bạn có thể úp tướng của 1 người khác.",
+	["#QingchengSecond"] = "%from đã kích hoạt \"%arg\" lên %to",
 }
 
