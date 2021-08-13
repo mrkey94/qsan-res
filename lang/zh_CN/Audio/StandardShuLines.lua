@@ -21,95 +21,96 @@
 return {
 
 	-- 刘备
-	["$rende_liubei1"] = "以德服人。",
-	["$rende_liubei2"] = "惟贤惟德，能服于人。",
-	["$jijiang1"] = "蜀将何在？",
-	["$jijiang2"] = "尔等敢应战否？",
-	["~liubei"] = "这就是桃园吗？",
+	["$rende1"] = "Lấy đức phục người.",
+	["$rende2"] = "Chỉ có hiền đức mới có thể phục chúng.",
+	["$jijiang1"] = "Thục giờ nơi đâu?",
+	["$jijiang2"] = "Ngươi có dám ứng chiến không?",
+	["~liubei"] = "Đây chính là đào viên sao?",
 
 	-- 关羽
-	["$wusheng1"] = "关羽在此，尔等受死！",
-	["$wusheng2"] = "看尔乃插标卖首！",
-	["~guanyu"] = "什么？此地名叫麦城？",
+	["$wusheng1"] = "Quan Vũ ở đây, ngươi chờ chết đi!",
+	["$wusheng2"] = "Xem ra ngươi sắp bay đầu đấy!",
+	["~guanyu"] = "Cái gì? Nơi này chính là Mạch Thành?",
+
 
 	-- 张飞
-	["$paoxiao1"] = "啊~~~",
-	["$paoxiao2"] = "燕人张飞在此！",
-	["~zhangfei"] = "实在是杀不动了……",
+	["$paoxiao1"] = "A~~~",
+	["$paoxiao2"] = "Người đâu, Trương Phi ở đây!",
+	["~zhangfei"] = "Thật ra là đánh hết nổi rồi ....",
 
 	-- 诸葛亮
-	["$guanxing1"] = "观今夜天象，知天下大事。",
-	["$guanxing2"] = "知天易，逆天难。",
-	["$kongcheng1"] = "（抚琴声）",
-	["$kongcheng2"] = "（抚琴声）",
-	["~zhugeliang"] = "将星陨落，天命难违。",
+	["$guanxing1"] = "Tối xem thiên tượng, hiểu thiên hạ đại sự.",
+	["$guanxing2"] = "Hiểu mệnh dễ, cãi mệnh khó.",
+	["$kongcheng1"] = "(tiếng đàn)",
+	["$kongcheng2"] = "(tiếng đàn)",
+	["~zhugeliang"] = "Tướng tinh vẫn lạc, mệnh trời khó cãi.",
 
 	-- 赵云
-	["$longdan1"] = "能进能退，乃真正法器！",
-	["$longdan2"] = "吾乃常山赵子龙也！",
-	["~zhaoyun"] = "这，就是失败的滋味吗？",
+	["$longdan1"] = "Có tiến có lùi, chính là pháp khí!",
+	["$longdan2"] = "Ta chính là Thường Sơn Triệu Tử Long đây!",
+	["~zhaoyun"] = "Đây, chính là cảm giác thất bại sao ?",
 
 	-- 马超
-	["$tieqi1"] = "敌人阵型已乱，随我杀~~~",
-	["$tieqi2"] = "目标敌阵，全军突击！",
-	["~machao"] = "请将我葬在西凉……",
+	["$tieqi1"] = "Quân thù đang hỗn loạn, theo ta truy sát.",
+	["$tieqi2"] = "Mục tiêu toàn bộ định, toàn quân xuất kích.",
+	["~machao"] = "Hãy chôn ta ở Tây Lương.",
 
 	-- 黄月英
-	["$jizhi1"] = "哼哼",
-	["$jizhi2"] = "哼" ,
-	["~huangyueying"] = "亮",
+	["$jizhi1"] = "Hừm hừm",
+	["$jizhi2"] = "Hừm" ,
+	["~huangyueying"] = "Lượng",
 
 
 	-- 黄忠
-	["$liegong2"] = "百步穿杨！",
-	["$liegong1"] = "中！",
-	["~huangzhong"] = "不得不服老了……",
+	["$liegong2"] = "Bách bộ xuyên dương!",
+	["$liegong1"] = "Trúng!",
+	["~huangzhong"] = "Không thể không già...",
 
 	-- 魏延
-	["$kuanggu1"] = "哈哈哈哈哈哈，赢你还不容易。",
-	["$kuanggu2"] = "哼！也不看看我是何人！",
-	["~weiyan"] = "奸贼……害我……",
+	["$kuanggu1"] = "Hahahahahaha, người không dễ thắng vậy đâu.",
+	["$kuanggu2"] = "Hừ, người nhìn xem ta là ai!",
+	["~weiyan"] = "Tên phản bội... Ngươi hại ta...",
 
-	["$bazhen1"] = "你可识得此阵？",
-	["$bazhen2"] = "太极生两仪，两仪生四象，四象生八卦。",
-	["$huoji1"] = "燃烧吧。",
-	["$huoji2"] = "此火可助我军大获全胜。",
-	["$kanpo_wolong1"] = "雕虫小技。",
-	["$kanpo_wolong2"] = "你的计谋被识破啦。",
-	["~wolong"] = "我的计谋竟被……",
+	["$bazhen1"] = "Ngươi có nhớ được trận này ?",
+	["$bazhen2"] = "Thái cực sinh lưỡng nghi, lưỡng nghi sinh tứ tượng, tứ tượng sinh bát quái.",
+	["$huoji1"] = "Bùng cháy lên.",
+	["$huoji2"] = "Lửa này có thể giúp quân ta thu được toàn thắng.",
+	["$kanpo1"] = "Toàn là tài mọn.",
+	["$kanpo2"] = "Kế của ngươi bị phá rồi.",
+	["~wolong"] = "Mưu kế của ta vậy mà bị...",
 
-	["$lianhuan1"] = "伤一敌可连其百。",
-	["$lianhuan2"] = "统统连起来吧。",
-	["$niepan1"] = "浴火重生！",
-	["$niepan2"] = "凤雏岂能消亡？",
-	["~pangtong"] = "看来，我命中注定将丧命于此。",
+	["$lianhuan1"] = "Địch thương một kéo thành trăm.",
+	["$lianhuan2"] = "Toàn bộ xích lại với nhau a.",
+	["$niepan1"] = "Dục hoả trùng sinh!",
+	["$niepan2"] = "Phượng hoàng có thể chết sao?",
+	["~pangtong"] = "Xem ra, mạng ta đã định sẽ tiêu vong thế này.",
 
-	["$huoshou1"] = "背黑锅我来，送死？你去！",
-	["$huoshou2"] = "统统算我的！",
-	["$zaiqi1"] = "起！！！！",
-	["$zaiqi2"] = "丞相助我！！",
-	["~menghuo"] = "七纵之恩，来世再报了！",
+	["$huoshou1"] = "Muốn gánh tội thì để ta gánh, còn muốn chết thì tự đi mà làm",
+	["$huoshou2"] = "Toàn bộ tính lên ta đây!",
+	["$zaiqi1"] = "Khởi!!!",
+	["$zaiqi2"] = "Thừa tướng giúp ta!!",
+	["~menghuo"] = "Ân tha 7 lần, kiếp sau sẽ báo !",
 
-	["$juxiang1"] = "小小把戏。",
-	["$juxiang2"] = "大王，看我的！",
-	["$lieren1"] = "亮兵器吧。",
-	["$lieren2"] = "尝尝我飞刀的厉害！",
-	["~zhurong"] = "大王，我，先走一步了。",
+	["$juxiang1"] = "Trò xiếc trẻ con.",
+	["$juxiang2"] = "Đại vương, xem ta đây!",
+	["$lieren1"] = "Xem đao ta đây.",
+	["$lieren2"] = "Xem lợi hại phi đao của ta đây.",
+	["~zhurong"] = "Đại vương, ta, i trước một bước.",
 
-	["$fangquan1"] = "这可如何是好啊？",
-	["$fangquan2"] = "嘿，你办事，我放心。",
-	["$ruoyu1"] = "不装疯卖傻，岂能安然无恙。",
-	["$ruoyu2"] = "世人皆错看我，唉。",
-	["$xiangle1"] = "嗯，打打杀杀，真没意思。",
-	["$xiangle2"] = "我爸爸是刘备！",
-	["$jijiang3"] = "匡扶汉室，谁敢出战？",
-	["$jijiang4"] = "我蜀汉岂无人乎？",
-	["~liushan"] = "别打脸，我投降还不行吗？",
+	["$fangquan1"] = "Giờ thế nào thì tốt?",
+	["$fangquan2"] = "Ha, ngươi làm việc, ta yên tâm.",
+	["$ruoyu1"] = "Không giả ngây giả dại, há có thể bình an.",
+	["$ruoyu2"] = "Người đời đều nhìn lầm ta~",
+	["$xiangle1"] = "Hả, đánh đánh giết giết, không có ý nghĩa.",
+	["$xiangle2"] = "Cha ta là Lưu Bị!",
+	["$jijiang3"] = "Phò tá Hán Thất, ai dám xuất chiến?",
+	["$jijiang4"] = "Thục Hán ta không có người sao?",
+	["~liushan"] = "Khỏi mất mặt, ta đầu hàng còn không được sao?",
 
 	-- 甘夫人
-	["$shushen1"] = "船到桥头自然直。",
-	["$shushen2"] = "妾身无恙，相公请安心征战。", --刘备
-	["$shenzhi1"] = "子龙将军，一切都托付给你了。",
-	["$shenzhi2"] = "阿斗，相信妈妈，没事的。",
-	["~ganfuren"] = "请替我照顾好阿斗。",
+	["$shushen1"] = "Chuyện gì rồi cũng có cách xoay chuyển.",
+	["$shushen2"] = "Thần thiếp bình an vô sự, phu quân cứ yên tâm mà đánh.", --刘备
+	["$shenzhi1"] = "Tử Long tướng quân, mọi việc xin giao cho ngài.",
+	["$shenzhi2"] = "A Đẩu, nghe lời mẹ, không sao đâu.",
+	["~ganfuren"] = "Xin hãy chăm sóc A Đẩu cho ta.",
 }
