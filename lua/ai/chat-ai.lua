@@ -68,30 +68,30 @@ sgs.ai_chat_func[sgs.SlashEffected].blindness = function(self, player, data)
 	local effect = data:toSlashEffect()
 	if not effect.from then return end
 
-	local chat = {"队长，是我，别开枪，自己人.",
-				"尼玛你杀我，你真是夏侯惇啊",
-				"再杀我一下，老子和你拼命了",
-				"信不信等下我砍死你"
+	local chat = {"Nè anh bạn, tôi cùng phe, đừng đánh tôi",
+				"Sao ngươi đánh ta",
+				"Ta thực sự thất vọng về ngươi",
+				"Thử đánh ta phát nữa xem ta liều mạng với ngươi không",
+				"Ta có làm ma cũng quyết về báo oán nhà ngươi"
 				}
 
 	if self:hasCrossbowEffect(effect.from) then
-		table.insert(chat, "杀得我也是醉了。。。")
-		table.insert(chat, "果然是连弩降智商呀。")
-		table.insert(chat, "杀死我也没牌拿，真2")
+		table.insert(chat, "Muốn giết ta à, đánh thêm nữa đi.")
+		table.insert(chat, "Thôi thôi, ta sợ ngươi rồi.")
+		table.insert(chat, "Mất bài đó, đừng đánh nữa")
 	end
 
 	if effect.from:getMark("drank") > 0 then
-		table.insert(chat, "喝醉了吧，乱砍人？")
+		table.insert(chat, "Ah, đau quá")
 	end
 
 	if sgs.isAnjiang(effect.to) then
-		table.insert(chat, "尼玛眼瞎了，老子是和你一伙的")
-		table.insert(chat, "老大别打我，我现在不方便暴露")
-		table.insert(chat, "别再杀我，你会裸")
-		table.insert(chat, "盲狙一时爽啊, 我泪奔啊")
-		table.insert(chat, "我次奥，哥们，盲狙能不能轻点？")
+		table.insert(chat, "Thôi nào, biết đâu cùng phe")
+		table.insert(chat, "Thôi để tôi lật tướng rồi hẵng đánh")
+		table.insert(chat, "Tôi khóc đây :(")
+		table.insert(chat, "Nào, lật tướng đi đã rồi đánh")
 		if not sgs.isAnjiang(effect.from) and effect.from:getRole() ~= "careerist" then
-			table.insert(chat, "杀你妹啊，我也是" .. sgs.Sanguosha:translate(effect.from:getKingdom()))
+			table.insert(chat, "Nào nào, mình cùng phe " .. sgs.Sanguosha:translate(effect.from:getKingdom()))
 		end
 	end
 
@@ -105,11 +105,9 @@ end
 sgs.ai_chat_func[sgs.Death].stupid_friend = function(self, player, data)
 	if player:getState() ~= "robot" then return end
 	local damage = data:toDeath().damage
-	local chat = {"2B了吧，老子和你是一伙的还杀我",
-				"你这个逼装得太厉害了",
-				"房主下盘T了这个2货，拉黑不解释",
-				"还有更2的吗",
-				"真的很无语",
+	local chat = {"Ta sẽ đợi ngươi dưới cửu tuyền",
+				"Ahhhhhhhh",
+				"Không còn gì để nói nữa",
 				}
 	if damage and damage.from and player:isFriendWith(damage.from) and damage.to:objectName() == player:objectName() and ((not damage.card) or (damage.card:getSkillName() ~= "lijian")) then
 		local index = 1 + (os.time() % #chat)
@@ -140,8 +138,8 @@ sgs.ai_chat_func[sgs.EventPhaseStart].ally = function(self, player, data)
 			if player:getKingdom() == kingdom then return end
 			kingdom = sgs.Sanguosha:translate(kingdom)
 			local chat = {
-				"现在" .. kingdom .. "国比较猖狂，我们应该联合起来",
-				"不要乱砍了，砍" .. kingdom .. "的"
+				"Phe " .. kingdom .. " mạnh quá rồi, chúng ta liên minh thôi.",
+				"Diệt " .. kingdom .. " đi"
 			}
 			if os.time() % 10 < 1 then
 				player:speak(chat[math.random(1, #chat)])
