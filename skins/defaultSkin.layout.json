@@ -30,7 +30,7 @@
     "cardTransferableIconArea": [58, 95, 35, 35],
     "cardFootnoteArea": [0, 70, 93, 50],
     "cardAvatarArea": [45, 45, 40, 40],
-    "cardFootnoteFont": ["Arial", [12, 12, 3], 0, [255, 255, 255, 255], 1, 10, [0, 0], [20, 20, 20, 255]],
+    "cardFootnoteFont": ["RobotoCondensed", [12, 12, 3], 0, [255, 255, 255, 255], 1, 10, [0, 0], [20, 20, 20, 255]],
 	"promptInfoSize": [900, 110],
     "promptInfoFont": ["SimHei", [20, 20, 3], 0, [255, 255, 255, 255], 5, 20, [0, 0], [7, 50, 78, 255]],
 	"choiceInfoFont": ["SimHei", 16, 0, [255, 255, 255, 255], 1, 20, [0, 0], [0, 0, 0, 100]],
@@ -78,17 +78,17 @@
     "graphicsBoxBorderColor": [166, 150, 122],
     "graphicsBoxTitleFont": ["wqy-microhei", 16, 2, [228, 213, 160]],
 
-    "generalBoxDestSeatFont": ["Arial", 12, 2, [105, 103, 91]],
+    "generalBoxDestSeatFont": ["RobotoCondensed", 12, 2, [105, 103, 91]],
 
     "generalCardItemCompanionPromptRegion": [-1, 102, 95, 15],
 
-    "optionButtonText": ["wqy-microhei", [18, 18, 0], 0, [255, 255, 255, 255], 1, 10, [0, 0], [50, 50, 50, 200]],
+    "optionButtonText": ["RobotoCondensed", [18, 18, 0], 0, [255, 255, 255, 255], 1, 10, [0, 0], [50, 50, 50, 200]],
     "generalButtonPositionIconRegion": [-1, 2, 29, 24],
     "generalButtonNameRegion": [26, 0, 60, 23],
 
     "playerCardBoxPlaceNameText": ["@wqy-microhei", 16, 2, [228, 213, 160]],
 
-	"skinItemTitleText": ["@simli", [18, 18, -1], 0, [255, 255, 255, 255], 1, 10, [0, 0], [50, 50, 50, 200]]
+	"skinItemTitleText": ["RobotoCondensed", [18, 18, -1], 0, [255, 255, 255, 255], 1, 10, [0, 0], [50, 50, 50, 200]]
 },
 "room":
 {
@@ -136,13 +136,13 @@
     "secondaryAvatarArea": [78, 1, 77, 179],
     "circleArea": [1, 1, 155, 179],
     "avatarNameArea": [3, 23, 40, 60],
-    "avatarNameFont": ["@SimLi", [18, 18, 0], 0, [255, 255, 255, 255], 4, 10, [0, 0], [50, 50, 50, 200]],
+    "avatarNameFont": ["RobotoCondensed", [18, 18, 0], 0, [255, 255, 255, 255], 4, 10, [0, 0], [50, 50, 50, 200]],
     "secondaryAvatarNameArea": [78, 23, 40, 60],
-    "smallAvatarNameFont": ["@SimLi", [18, 18, 0], 0, [255, 255, 255, 255], 4, 10, [0, 0], [50, 50, 50, 200]],
+    "smallAvatarNameFont": ["RobotoCondensed", [18, 18, 0], 0, [255, 255, 255, 255], 4, 10, [0, 0], [50, 50, 50, 200]],
     "kingdomIconArea": [2, -1, 28, 28],
     //"kingdomMaskArea": [-2, 14, 36, 98],
     "screenNameArea": [0, 0, 157, 15],
-    "screenNameFont": ["Arial", 12, 0, [255, 255, 255, 255], 0, 10, [0, 0], [20, 20, 20, 155]],
+    "screenNameFont": ["RobotoCondensed", 12, 0, [255, 255, 255, 255], 0, 10, [0, 0], [20, 20, 20, 155]],
     "magatamasHorizontal": false,
     "magatamaSize": [18, 17],
     "magatamaImageArea": [1, 1, 17, 17],
@@ -152,7 +152,7 @@
     "phaseArea": [25, 176, 140, 12],
     "onlineStatusArea": [122, 24, 30, 25],
     "onlineStatusBgColor": [0, 0, 0, 0],
-    "onlineStatusFont": ["Arial",12, 0, [255, 255, 255, 255], 3, 10, [0, 0], [20, 20, 20, 155]],
+    "onlineStatusFont": ["RobotoCondensed",12, 0, [255, 255, 255, 255], 3, 10, [0, 0], [20, 20, 20, 155]],
     "skillNameArea": [0, 83, 160, 32],
     "skillNameFont": ["simkai", 18, 40, [255, 255, 255, 255], 1, 0, [0, 0], [0, 0, 0, 255]],
     "progressBarArea": ["topLeft", "bottomLeft", [0, 8], [160, 10]],
@@ -213,8 +213,8 @@
     "focusFrameArea": [0, -3, 128, 153],
     "focusFrameArea2": [129, -3, 128, 153],
     "secondaryAvatarNameArea": [154, -10, 60, 30],
-    "avatarNameFont": ["simli", [18, 18, 0], 0, [255, 255, 255, 255], 1, 10, [0, 0], [50, 50, 50, 200]],
-    "smallAvatarNameFont": ["simli", [18, 18, 0], 0, [255, 255, 255, 255], 1, 10, [0, 0], [50, 50, 50, 200]],
+    "avatarNameFont": ["RobotoCondensed", [18, 18, 0], 0, [255, 255, 255, 255], 1, 10, [0, 0], [50, 50, 50, 200]],
+    "smallAvatarNameFont": ["RobotoCondensed", [18, 18, 0], 0, [255, 255, 255, 255], 1, 10, [0, 0], [50, 50, 50, 200]],
     "headIconRegion": [0, -5, 29, 24],
     "deputyIconRegion": [128, -5, 29, 24],
     // must be in one of the following format:
@@ -231,7 +231,7 @@
     "kingdomMaskArea": [2, -1, 87, 18],
     "kingdomMaskArea2": [130, -1, 87, 18],
     "screenNameArea": [0, 7, 157, 25],
-    "screenNameFont": ["Arial", 12, 0, [255, 255, 255, 255], 2, 10, [0, 0], [0, 0, 0, 224]],
+    "screenNameFont": ["RobotoCondensed", 12, 0, [255, 255, 255, 255], 2, 10, [0, 0], [0, 0, 0, 224]],
     "magatamasHorizontal": false,
     "magatamaSize": [23, 23],
     "magatamaImageArea": [0, 3, 22, 22],
@@ -271,9 +271,9 @@
     "width": [120, 58, 45],
     "textArea": [[13, 2, 112, 20], [16, 2, 44, 20], [9, 2, 40, 20]],
     "textAreaDown": [[14, 3, 112, 20], [17, 3, 44, 20], [10, 3, 40, 20]],
-    "textFont": [["simkai", [13, 13, 2], 50, [0, 0, 0, 255], 1, 1, [0, 0], [255, 255, 190, 128]],  // wide
-                ["simkai", [13, 13, 1], 50, [0, 0, 0, 255], 1, 1, [0, 0], [255, 255, 190, 128]],  // medium
-                ["simkai", [13, 13, 0], 50, [0, 0, 0, 255], 1, 1, [0, 0], [255, 255, 190, 128]]],  // narrow
+    "textFont": [["RobotoCondensed", [13, 13, 2], 50, [0, 0, 0, 255], 1, 1, [0, 0], [255, 255, 190, 128]],  // wide
+                ["RobotoCondensed", [13, 13, 1], 50, [0, 0, 0, 255], 1, 1, [0, 0], [255, 255, 190, 128]],  // medium
+                ["RobotoCondensed", [13, 13, 0], 50, [0, 0, 0, 255], 1, 1, [0, 0], [255, 255, 190, 128]]],  // narrow
 
     // The following settings override the text color defined above
     // xxButtonColor = [normalColor, downColor, disabledColor, hoverColor]
