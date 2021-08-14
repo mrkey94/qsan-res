@@ -156,7 +156,7 @@ return {
 	[":PeaceSpell"] = "Bài trang bị - Phòng cụ\n\nKỹ năng:\n" ..
 					"1. Tỏa định kỹ, khi bạn nhận sát thương có thuộc tính, chặn sát thương này.\n" ..
 					"2. Tỏa định kỹ, giới hạn trữ bài của bạn +X (X là số người cùng thế lực với bạn).\n" ..
-					"3. Tỏa định kỹ, khi bạn mất đi [Thái Bình Yêu Thuật] từ vùng trang bị, nếu máu của bạn lớn hơn 1, bạn mất 1 máu rồi rút 2 lá.\n" ,
+					"3. Tỏa định kỹ, khi bạn mất đi [Thái Bình Yêu Thuật] từ vùng trang bị, rút 2 lá, sau đó nếu máu của bạn lớn hơn 1, bạn mất 1 máu.\n" ,
 	["#PeaceSpellNatureDamage"] = "[<font color=\"yellow\"><b>Thái Bình Yêu Thuật</b></font>] đã kích hoạt, chặn sát thương từ %from gây cho %to %arg sát thương." ,
 	["#PeaceSpellLost"] = "%from đã mất [<font color=\"yellow\"><b>太平要术</b></font>] khỏi vùng trang bị, đã mất 1 máu và rút 2 lá." ,
 }
