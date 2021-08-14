@@ -334,7 +334,7 @@ sgs.ai_chat_func[sgs.GeneralShown].show = function(self, player, data)
 		end
 	end
 	if shown == 1 then
-		table.insert(chat,"首亮一时爽")
+		table.insert(chat,"")
 		if sgs.GetConfig("RewardTheFirstShowingPlayer", true) then
 			table.insert(chat1,"")
 		end
@@ -543,7 +543,7 @@ sgs.ai_chat.leiji_jink = {
 
 --quhu
 sgs.ai_chat.quhu = {
-"！",
+"",
 "",
 ""
 }
