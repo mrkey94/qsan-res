@@ -115,7 +115,7 @@ return {
 	["zhanglu"] = "Trương Lỗ",
 	["illustrator:zhanglu"] = "佚名",
 	["bushi"] = "Bố Thí",
-	[":bushi"] = "Tỏa định kỹ, sau khi bạn nhận sát thương, lệnh những người cùng thế lực rút 1 lá; Sau khi gây sát thương cho người khác, lệnh những người cùng thế lực với họ rút 1 lá.",
+	[":bushi"] = "Tỏa định kỹ, sau khi bạn nhận sát thương, lệnh 1 người cùng thế lực rút 1 lá; Sau khi gây sát thương cho người khác, lệnh 1 người cùng thế lực với họ rút 1 lá.",
 	["midao"] = "Mễ Đạo",
 	[":midao"] = "Một lần trong giai đoạn hành động của người cùng thế lực, khi họ sử dụng lá Cơ bản hoặc Công cụ phổ thông, họ có thể giao cho bạn 1 lá trên tay, sau đó bạn tùy ý thay đổng chất và số của lá bài được sử dụng.",
 
