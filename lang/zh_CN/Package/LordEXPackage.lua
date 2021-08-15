@@ -119,8 +119,8 @@ return {
 	["midao"] = "Mễ Đạo",
 	[":midao"] = "Một lần trong giai đoạn hành động của người cùng thế lực, khi họ sử dụng lá Cơ bản hoặc Công cụ phổ thông, họ có thể giao cho bạn 1 lá trên tay, sau đó bạn tùy ý thay đổng chất và số của lá bài được sử dụng.",
 
-	["bushi-invoke"] = "Kích hoạt \"Bố Thí\", cho người chơi cùng thế lực rút 1 lá",
-	["bushi:prompt"] = "Kích hoạt \"Bố Thí\", cho người cùng thế lực với %dest rút 1 lá",
+	["bushi-invoke"] = "Kích hoạt \"Bố Thí\", cho 1 người cùng thế lực rút 1 lá",
+	["bushi:prompt"] = "Kích hoạt \"Bố Thí\", cho 1 người cùng thế lực với %dest rút 1 lá",
 	["@midao"] = "Có thể kích hoạt \"Mễ Đạo\" của %src",
 	["@midao-number"] = "Mễ Đạo: chọn số điểm cho lá bài [%arg] được sử dụng bởi %dest",
 	["#MidaoSuit"] = "%from đã đổi chất của [%arg] thành %arg2",
