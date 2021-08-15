@@ -143,7 +143,7 @@ return {
 	[":wenji"] = "Đầu giai đoạn hành động, bạn có thể lệnh 1 người khác giao cho bạn 1 lá ngửa mặt. Nếu họ cùng thế lực hoặc vô thế lực, lượt này bạn sử dụng lá này không hạn chế khoảng cách cùng số lần và không thể hưởng ứng' Nếu họ không cùng thế lực, bạn giao cho họ 1 lá bài khác.",
 	
 	["tunjiang"] = "Truân Giang",
-	[":tunjiang"] = "Giai đoạn kết thúc, nếu bạn trong giai đoạn hành động sử dụng ít nhất 1 lá và không chỉ định người khác làm mục tiêu, bạn có thể rút X lá (X là số lá trên bàn chơi).",
+	[":tunjiang"] = "Giai đoạn kết thúc, nếu bạn trong giai đoạn hành động sử dụng ít nhất 1 lá và không chỉ định người khác làm mục tiêu, bạn có thể rút X lá (X là số thế lực trên bàn chơi).",
 	["@wenji"] = "Có thể kích \"Vấn Kế\", chọn 1 người khác",
 	["@wenji-give"] = "Vấn Kế, chọn 1 lá và giao cho %src",
 	["#WenjiEffect"] = "%from đã kích hoạt %arg, [%arg2] không thể bị phản ứng.",
