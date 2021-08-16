@@ -83,7 +83,6 @@ consultants = {
 vietnamese = {
 	'Lãng Khách',
 	'Ong Thành Đạt',
-	'Jun Bach',
 	'Mayumi Hibari',
 	'Trần Thị Minh Anh'
 }
