@@ -29,7 +29,7 @@ return {
 	["xunyou"] = "Tuân Du",
 	["designer:xunyou"] = "淬毒",
 	["illustrator:xunyou"] = "心中一凛",
-	["qice"] = "Kỳ sácg",
+	["qice"] = "Kỳ sách",
 	[":qice"] = "Một lần trong giai đoạn hành động, có thể sử dụng tất cả bài trên tay như 1 lá công cụ phi thời gian (Số mục tiêu không vượt quá số lá bài trên tay), sau đó bạn có thể đổi Phó tướng",
 	["zhiyu"] = "Trí Ngu",
 	[":zhiyu"] = "Sau khi nhận sát thương, có thể rút 1 lá bài và mở ra tất cả bài trên tay, nếu tất cà đều cùng màu, nguồn sát thương bỏ đi 1 lá trên tay.",

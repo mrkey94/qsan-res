@@ -74,7 +74,7 @@ return {
 	[":burning_camps"] = "Bài công cụ\n\nSử dụng: Giai đoạn hành động.\nMục tiêu: Người chơi phía sau bạn và toàn bộ người chơi cùng đội hình.\nHiệu quả: Gây 1 điểm sát thương Hoả lên từng mục tiêu. ",
 
 	["lure_tiger"] = "Điệu Hổ Ly Sơn",
-	[":lure_tiger"] = "Bài công cụ\n\nSử dụng: Trong lượt hành động.\nMục tiêu: Tối đa 2 người chơi.\nHiệu quả: Mục tiêu không được tính cự ly, vị trí, không được sử dụng bài hay được chọn làm mục tiêu của bài cho đến hết lượt này. Bạn được rút thêm 1 thẻ sau khi sử dụng.",
+	[":lure_tiger"] = "Bài công cụ\n\nSử dụng: Trong lượt hành động.\nMục tiêu: Tối đa 2 người chơi.\nHiệu quả: Mục tiêu không được tính cự ly, vị trí, không được sử dụng bài hay được chọn làm mục tiêu của bài cho đến hết lượt này.",
 	["lure_tiger_effect"] = "Điệu Hổ Ly Sơn",
 	["#lure_tiger-prohibit"] = "Điệu Hổ Ly Sơn",
 
