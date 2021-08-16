@@ -128,6 +128,7 @@ Zzhead130 = sgs.General(general_extension, "zzhead130", "god", 3 , true, true)
 Zzhead131 = sgs.General(general_extension, "zzhead131", "god", 3 , true, true)
 Zzhead1001 = sgs.General(general_extension, "zzhead1001", "god", 4 , true, true)
 Zzhead1002 = sgs.General(general_extension, "zzhead1002", "god", 3 , true, true)
+Zzhead1003 = sgs.General(general_extension, "zzhead1003", "god", 3 , true, true)
 
 zzjishi = sgs.CreateTriggerSkill{
 	name = "zzjishi" ,
@@ -498,7 +499,8 @@ sgs.LoadTranslationTable{
     ["zzhead1001"] = "Lãng Khách",
 	["#zzhead1002"] = "Chíp Chíp Nữ Chủ",
     ["zzhead1002"] = "Hanako",
-
+	["#zzhead1003"] = "Donator",
+    ["zzhead1003"] = "Bấm Quẻ",
 
 
 }
