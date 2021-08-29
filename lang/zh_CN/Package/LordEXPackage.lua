@@ -31,17 +31,17 @@ return {
 	["wanggui:prompt"] = "Có thể kích \"Vong Quy\", người cùng thế lực rút 1 lá.",
 	["wanggui-invoke"] = "Có thể kích \"Vong Quy\", gây 1 sát thương cho người không cùng thế lực.",
 	["xibing"] = "Tức Binh",
-	[":xibing"] = "Sau khi 1 người khác lần đầu trong giai đoạn hành động của họ sử dụng [Sát] đen hoặc công cụ phổ thông đen và chỉ định 1 mục tiêu duy nhất, bạn có thể lệnh họ bổ sung bài trên tay đến số máu và không thể tiếp tục sử dụng bài trên tay trong lượt này. Nếu bạn và họ đã mở tất cả tướng, bạn có thể úp 1 tướng của bạn và họ, trong lượt này không thể mở lại tướng đó.",
+	[":xibing"] = "Sau khi 1 người khác lần đầu trong giai đoạn hành động của họ sử dụng [Sát] đen hoặc công cụ phổ thông đen và chỉ định 1 mục tiêu duy nhất:\n1. Nếu bài trên tay họ nhỏ hơn số máu, bạn có thể lệnh họ bổ sung bài trên tay đến số máu và không thể tiếp tục sử dụng bài trên tay trong lượt này\n2. Nếu bạn và họ đã mở tất cả tướng, bạn có thể úp 1 tướng của bạn và họ, trong lượt này không thể mở lại tướng đó.",
 	["@xibing-hide"] = "Tức Binh: Chọn tướng của %dest để úp.",
-	["xibing:head"] = "Tức Binh chủ tướng",
-	["xibing:deputy"] = "Tức Binh phó tướng",
+	["xibing:head"] = "Chủ tướng",
+	["xibing:deputy"] = "Phó tướng",
 	
 	
 	["#luyusheng"] = "Nghĩa Cô",
 	["luyusheng"] = "Lục Úc Sinh",
 	["illustrator:luyusheng"] = "君桓文化",
 	["zhente"] = "Trinh Đặc",
-	[":zhente"] = "Một lần trong lượt của mỗi người, sau khi trở thành mục tiêu của lá cơ bản đen hoặc công cụ phổ thông đen từ người khác, có thể lệnh cho họ chọn 1 mục:\n1. Lượt này họ không thể sử dụng bài có màu này.\n2. Lá này không có hiệu quả với bạn.",
+	[":zhente"] = "Một lần trong lượt của mỗi người, sau khi trở thành mục tiêu của lá cơ bản Đen hoặc công cụ phổ thông Đen từ người khác, có thể lệnh cho họ chọn 1 mục:\n1. Lượt này họ không thể sử dụng bài Đen.\n2. Lá này không có hiệu quả với bạn.",
 
 	["zhente-ask"] = "Kích hoạt Trinh Đặc, chọn 1: khiến [%arg] vô hiệu với %src; Không thể sử dụng bài đen trong lượt này.",
 	["zhente:nullified"] = "Vô hiệu cho mục tiêu",
