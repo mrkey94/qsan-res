@@ -69,7 +69,7 @@ return {
     ["qiao"] = "Khí Ngạo",
     [":qiao"] = "Hai lần trong giai đoạn hành động của mỗi người, sau khi bạn trở thành mục tiêu của bài do người khác thế lực sử dụng, có thể bỏ 1 lá của họ, sau đó bạn bỏ 1 lá.",
     ["chengshang"] = "Thừa Thưởng",
-    [":chengshang"] = "Một lần trong giai đoạn hành động, sau khi bài bạn sử dụng chỉ định người khác thế lực làm mục tiêu kết toán xong, nếu lá này không gây sát thương, có thể thu lấy 1 lá đó.",
+    [":chengshang"] = "Một lần trong giai đoạn hành động, sau khi bài bạn sử dụng chỉ định người khác thế lực làm mục tiêu kết toán xong, nếu lá này không gây sát thương, có thể rút 1 lá.",
 
     ["@qiao-discard"] = "Khí Ngạo: Bỏ 1 lá.",
     
