@@ -21,7 +21,7 @@
 -- translation for Standard General Package
 
 return {
-	["manoeuvre"] = "EX",
+	["manoeuvre"] = "Tung Hoành Bãi Hạp",
 	
 	["#huaxin"] = "Uyên Thanh Ngọc Khiết",
 	["huaxin"] = "Hoa Hâm",
@@ -87,7 +87,7 @@ return {
     [":miewu"] = "Một lần trong lượt của mỗi người, có thể bỏ 1 [Võ Khố], sau đó sử dụng/đánh ra 1 lá bài như 1 lá cơ bản hoặc công cụ tùy ý; sau đó, rút lá.",
     ["#armory"] = "Vũ Khố",
 	
-	["lord_ex"] = "Song Quốc -·EX",
+	["lord_ex"] = "EX",
 	
 	
 	["#mengda"] = "Đãi Quân Phản Phúc",
