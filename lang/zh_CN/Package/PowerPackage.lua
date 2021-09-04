@@ -40,7 +40,7 @@ return {
 	["#yujin"] = "Thảo Bạo Kiên Lũy",
 	["illustrator:yujin"] = "biou09",
 	["jieyue"] = "Tiết Viện",
-	[":jieyue"] = "Giai đoạn chuẩn bị, có thể giao cho 1 người chơi không phải thế lực Ngụy 1 lá bài trên tay, sau đó yêu cầu họ thực hiện [Quân Lệnh]. Nếu họ chấp hành, bạn rút 1 lá; ngược lại, giai đoạn rút bài lượt này, bạn rút thêm 3 lá.",
+	[":jieyue"] = "Giai đoạn chuẩn bị, có thể giao cho 1 người chơi không phải thế lực Ngụy 1 lá bài trên tay, sau đó yêu cầu họ chấp hành 1 [Quân Lệnh]. Nếu họ chấp hành, bạn rút 1 lá; ngược lại, giai đoạn rút bài lượt này, bạn rút thêm 3 lá.",
 	["@jieyue"] = "Kích hoạt \"Tiết Việt\": Đưa 1 lá cho 1 người không phải Ngụy",
 
 	["wangping"] = "Vương Bình",
@@ -85,7 +85,10 @@ return {
 	[":keshou"] = "Khi nhận sát thương, có thể bỏ 2 lá bài trên tay có cùng màu để -1 sát thương; nếu không có người khác cùng thế lực, bạn có thể tiến hành phán xét, nếu kết quả là màu Đỏ, rút 1 lá.",
 	["zhuwei"] = "Trác Vi",
 	[":zhuwei"] = "Sau khi phán xét của bạn có hiệu lực, bạn có thể thu lấy lá đó, sau đó có thể lệnh cho người đang có lượt +1 giới hạn sử dụng [Sát] và giới hạn trữ bài +1.",
-	["@keshou"] = "Kích hoạt \"Khắc Thủ\", chọn 2 lá cùng màu.",
+	["@keshou"] = "Có thể kích hoạt \"Khắc Thủ\", chọn 2 lá cùng màu.",
+	["keshou:judge"] = "Có thể kích hoạt \"Khắc Thủ\", tiến hành phán xét.",
+	["@zhuwei-choose"] = "Trác Vi: Có thể lệnh cho %src giới hạn sử dụng [Sát] và giới hạn trữ bài +1.",
+	["#ZhuweiBuff"] = "%from đã lệnh %to giới hạn sử dụng [Sát] và giới hạn trữ bài +1.",
 
 	["yuanshu"] = "Viên Thuật",
 	["#yuanshu"] = "Trọng Gia Đế",
