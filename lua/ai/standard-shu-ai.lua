@@ -258,7 +258,7 @@ table.insert(sgs.ai_skills, longdan_skill)
 longdan_skill.getTurnUseCard = function(self)
 	local cards = sgs.QList2Table(self.player:getHandcards())
 	for _, id in sgs.qlist(self.player:getHandPile()) do
-		cards:prepend(sgs.Sanguosha:getCard(id))
+		table.insert(cards, sgs.Sanguosha:getCard(id))
 	end
 	local jink_card
 
@@ -593,7 +593,6 @@ sgs.ai_skill_invoke.fangquan = function(self, data)
 		return false
 	end
 
-
 	-- First we'll judge whether it's worth skipping the Play Phase
 	local cards = sgs.QList2Table(self.player:getHandcards())
 	local shouldUse, range_fix = 0, 0
@@ -689,7 +688,7 @@ sgs.ai_skill_invoke.fangquan = function(self, data)
 	return false
 end
 
-sgs.ai_skill_use["@@fangquan"] = function(self, prompt)
+sgs.ai_skill_use["@@fangquan_ask"] = function(self, prompt)
 	local fangquan_card = sgs.Card_Parse(self.fangquan_card_str)
 	local in_handcard = true
 	for _, id in sgs.qlist(fangquan_card:getSubcards()) do

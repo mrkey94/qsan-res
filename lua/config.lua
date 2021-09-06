@@ -55,6 +55,7 @@ config = {
 		"MomentumEquip",
 		"TransformationEquip",
 		"PowerEquip",
+		"LordEXCard",
 
 		"Standard",
 		"Formation",
@@ -69,16 +70,16 @@ config = {
 	},
 
 	easy_text = {
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		""
+		"Chậm chạp quá",
+		"Nhanh lên",
+		"Hóng game nãy giờ",
+		"Tuyệt vời",
+		"Ngươi còn phải luyện nhiều lắm",
+		"Ngươi biết chơi không đó",
+		"Ê, trò này chơi sao vậy?",
+		"Để ta dạy ngươi cách chơi bài",
+		"Giết hết, gặp thần giết thần, gặp phật giết phật",
+		"Ngươi hiểu gì không?"
 	},
 
 	robot_names = {
@@ -90,6 +91,7 @@ config = {
 		"Quan Vũ",
 		"Ong Thành Đạt",
 		"Đường Tank",
-		"Ultimate AI"
+		"Ultimate AI",
+		"KayaK"
 	},
 }

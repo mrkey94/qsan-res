@@ -28,23 +28,20 @@ return {
 	["jianxiong"] = "Gian Hùng",
 	[":jianxiong"] = "Sau khi nhận sát thương, có thể thu lấy lá bài gây sát thương cho bạn.",
 
-	["illustrator:simayi"] = "木美人",
 	["#simayi"] = "Lang Cố Chi Quỷ",
 	["simayi"] = "Tư Mã Ý",
 	["fankui"] = "Phản Phệ",
-	[":fankui"] = "Sau khi nhận sát thương, có thể lấy 1 lá của người gây sát thương.",
+	[":fankui"] = "Sau khi nhận sát thương, có thể lấy 1 lá của nguồn sát thương.",
 	["guicai"] = "Quỷ Tài",
 	[":guicai"] = "Trước khi 1 phán xét có hiệu lực, có thể đánh ra 1 lá bài để thay thế kết quả Phán xét đó.",
 	["@guicai-card"] = CommonTranslationTable["@askforretrial"],
 	["~guicai"] = "Chọn 1 lá bài xong bấm \"Xác Định\"",
 
-	["illustrator:xiahoudun"] = "DH",
 	["#xiahoudun"] = "Độc Nhãn La Sát",
 	["xiahoudun"] = "Hạ Hầu Đôn",
 	["ganglie"] = "Cương Liệt",
 	[":ganglie"] = "Sau khi nhận 1 sát thương, có thể tiến hành phán xét. Nếu kết quả phán xét là:\nĐỏ: gây 1 sát thương cho nguồn sát thương;\nĐen: bỏ 1 lá bài của nguồn sát thương",
 
-	["illustrator:zhangliao"] = "张帅",
 	["#zhangliao"] = "Tiền Tướng Quân",
 	["zhangliao"] = "Trương Liêu",
 	["tuxi"] = "Tập Kích",
@@ -59,7 +56,6 @@ return {
 	["#LuoyiBuff"] = "%from đã kích hoạt \"<font color=\"yellow\"><b>Loả Y</b></font>\", sát thương từ %arg tăng thành %arg2",
 	["@luoyi"] = "Lỏa Y: Bạn có thể bỏ đi 1 lá.",
 
-	["illustrator:guojia"] = "绘聚艺堂",
 	["#guojia"] = "Tảo Chung Tiên Tri",
 	["guojia"] = "Quách Gia",
 	["tiandu"] = "Thiên Khiển",
@@ -69,7 +65,6 @@ return {
 
 	["#zhenji"] = "Bạc Hạnh Đích Mỹ Nhân",
 	["zhenji"] = "Chân Cơ",
-	["illustrator:zhenji"] = "DH",
 	["luoshen"] = "Lạc Thần",
 	[":luoshen"] = "Giai đoạn chuẩn bị, có thể tiến hành Phán Xét, nếu kết quả có màu Đen, có thể lặp lại quá trình này. Sau đó bạn thu lấy tất cả phán xét màu Đen.",
 	["#luoshen-move"] = "Lạc Thần (Chuyển lá này vào vùng Phán xét)",
@@ -87,7 +82,6 @@ return {
 
 	["#zhanghe"] = "Liệu Địch Cơ Tiên",
 	["zhanghe"] = "Trương Cáp",
-	["illustrator:zhanghe"] = "Trương Suất",
 	["qiaobian"] = "Xảo Biến",
 	[":qiaobian"] = "Có thể bỏ 1 lá bài trên tay để bỏ qua 1 giai đoạn trong lượt (trừ chuẩn bị và kết thúc). Sau đó,\nNếu bỏ qua giai đoạn rút bài, có thể chọn từ 1 đến 2 người chơi đang có bài trên tay để thu lấy 1 lá trên tay mỗi người.\nNếu bỏ qua lượt hành động, có thể chuyển 1 lá bài từ vùng trang bị hoặc vùng phán xét của 1 người sang người khác.",
 	["@qiaobian-2"] = "Bạn có thể lấy 1 lá bài từ 1 đến 2 người chơi khác nhau.",
@@ -99,11 +93,9 @@ return {
 
 	["#xuhuang"] = "Châu Á Phu Chi Phong",
 	["xuhuang"] = "Từ Hoảng",
-	["illustrator:xuhuang"] = "Tuu.",
 	["duanliang"] = "Đoạn Lương",
 	[":duanliang"] = "Có thể sử dụng lá bài Đen không phải Công cụ như [Binh Lương Thốn Đoạn] không giới hạn khoảng cách. Nếu khoảng cách giữa bạn và mục tiêu lớn hơn 2, vô hiệu kỹ năng này trong giai đoạn này.",
 
-	["illustrator:caoren"] = "Ccat",
 	["#caoren"] = "Đại Tướng Quân",
 	["caoren"] = "Tào Nhân",
 	["jushou"] = "Chiếm Thủ",
@@ -113,13 +105,11 @@ return {
 	
 	["#dianwei"] = "Cổ Chi Ác Lai",
 	["dianwei"] = "Điển Vi",
-	["illustrator:dianwei"] = "Tiểu Lãnh",
 	["qiangxi"] = "Cường Kích",
 	[":qiangxi"] = "Một lần trong giai đoạn hành động, có thể mất 1 máu hoặc bỏ 1 Vũ khí để gây 1 sát thương cho 1 người trong tầm đánh.",
 
 	["#xunyu"] = "Vương Tá Chi Tài",
 	["xunyu"] = "Tuân Úc",
-	["illustrator:xunyu"] = "LiuHeng",
 	["quhu"] = "Vờn Hổ",
 	[":quhu"] = "Một lần trong giai đoạn hành động, có thể tiến hành đấu điểm với 1 người có số máu lớn hơn bạn. Nếu thắng, họ gây 1 sát thương cho 1 người trong tầm đánh của họ do bạn chỉ định. Nếu không thắng, họ gây 1 sát thương cho bạn.",
 	["@quhu-damage"] = "Hãy chọn 1 người trong tầm đánh của %src",
@@ -130,7 +120,6 @@ return {
 
 	["#caopi"] = "Kế Thừa Bá Nghiệp",
 	["caopi"] = "Tào Phi",
-	["illustrator:caopi"] = "DH",
 	["xingshang"] = "Hành Thương",
 	[":xingshang"] = "Khi có người trận vong, bạn có thể thu lấy toàn bộ bài của người đó.",
 	["fangzhu"] = "Lưu Đày",
@@ -140,7 +129,6 @@ return {
 
 	["#yuejin"] = "Kiên Cường Đột Phá",
 	["yuejin"] = "Nhạc Tiến",
-	["illustrator:yuejin"] = "Ba Tát Tiểu Mã",
 	["xiaoguo"] = "Dũng Mãnh",
 	[":xiaoguo"] = "Giai đoạn kết thúc của một người khác, có thể bỏ 1 lá cơ bản để lệnh người đó chọn bỏ 1 trang bị hoặc nhận 1 sát thươg từ bạn.",
 	["@xiaoguo"] = "Có thể bỏ 1 lá cơ bản để kích hoạt \"Dũng Mãnh\"",
@@ -149,7 +137,6 @@ return {
 	
 	["#jianggan"] = "Phong Đích Huyền Tín",
 	["jianggan"] = "Tưởng Cán",
-	["illustrator:jianggan"] = "biou09",
 	["weicheng"] = "Ngụy Thành",
 	[":weicheng"] = "Khi bài trên tay bạn chuyển đến tay người chơi khác, nếu bài trên tay bạn nhỏ hơn số HP hiện tại, có thể rút 1 thẻ.",
 	["daoshu"] = "Đạo Thư",
@@ -157,5 +144,23 @@ return {
 	["@daoshu-give"] = "Đạo Thư: chọn 1 lá bài không phải chất %arg và giao cho %dest",
 	
 	
+
+	["illustrator:simayi"] = "Mộc Mĩ Nhân",
+	["illustrator:xiahoudun"] = "DH",
+	["illustrator:zhangliao"] = "张帅",
+	["illustrator:guojia"] = "绘聚艺堂",
+	["illustrator:zhenji"] = "DH",
+	["illustrator:zhanghe"] = "张帅",
+	["illustrator:xuhuang"] = "波子",
+	["illustrator:caoren"] = "Ccat",
+	["illustrator:dianwei"] = "小冷",
+	["illustrator:xunyu"] = "LiuHeng",
+	["illustrator:caopi"] = "DH",
+	["illustrator:yuejin"] = "巴萨小马",
+	["illustrator:jianggan"] = "biou09",
+
+
+	
+
 }
 

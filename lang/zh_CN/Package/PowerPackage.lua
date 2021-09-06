@@ -27,7 +27,6 @@ return {
 	["cuiyanmaojie"] = "Thôi Diễm & Mao Giới",
 	["&cuiyanmaojie"] = "Thôi Diễm Mao Giới",
 	["#cuiyanmaojie"] = "Nhật Xuất Nguyệt Thịnh",
-	["illustrator:cuiyanmaojie"] = "兴游",
 	["zhengbi"] = "Chinh Tịch",
 	[":zhengbi"] = "Đầu giai đoạn hành động, có thể chọn 1 trong 2:\n1. Chọn 1 người chơi khác không có thế lực, bạn sử dụng bài lên họ không giới hạn khoảng cách và số lần cho đến hết lượt này hoặc khi họ lật tướng.\n2. Chọn 1 người chơi khác phe, giao cho người đó 1 lá cơ bản, buộc người đó giao cho bạn 2 lá cơ bản hoặc 1 lá phi cơ bản",
 	["@zhengbi"] = "Kích hoạt \"Chinh Tịch\"",
@@ -38,20 +37,17 @@ return {
 	
 	["yujin"] = "Vu Cấm",
 	["#yujin"] = "Thảo Bạo Kiên Lũy",
-	["illustrator:yujin"] = "biou09",
 	["jieyue"] = "Tiết Viện",
 	[":jieyue"] = "Giai đoạn chuẩn bị, có thể giao cho 1 người chơi không phải thế lực Ngụy 1 lá bài trên tay, sau đó yêu cầu họ chấp hành 1 [Quân Lệnh]. Nếu họ chấp hành, bạn rút 1 lá; ngược lại, giai đoạn rút bài lượt này, bạn rút thêm 3 lá.",
 	["@jieyue"] = "Kích hoạt \"Tiết Việt\": Đưa 1 lá cho 1 người không phải Ngụy",
 
 	["wangping"] = "Vương Bình",
 	["#wangping"] = "Kiện Bế Kiếm Môn",
-	["illustrator:wangping"] = "zoo",
 	["jianglve"] = "Tướng Lược",
 	[":jianglve"] = "Hạn định kỹ: Giai đoạn hành động, bạn có thể chọn 1 [Quân Lệnh], sau đó lần lượt từng người chơi khác cùng thế lực có thể chấp hành [Quân Lệnh] này (Người chơi chưa lật tướng nếu cùng phe có thể lật hưởng ứng). Bạn và những người đã chấp hành [Quân Lệnh] tăng 1 giới hạn máu, hồi 1 máu, sau đó bạn rút X lá bài (X là số người đã hồi máu)",
 
 	["fazheng"] = "Pháp Chính",
 	["#fazheng"] = "Thục Hán Đích Phụ Dực",
-	["illustrator:fazheng"] = "黑白画谱",
 	["enyuan"] = "Ân Oán",
 	[":enyuan"] = "Tỏa định kỹ, Sau khi bạn trở thành mục tiêu của [Đào] do người chơi khác sử dụng, họ rút 1 lá. Sau khi bạn nhận sát thương, nguồn gây sát thương chọn giao 1 lá bài trên tay cho bạn hoặc mất 1 máu",
 	["@enyuan-give"] = "Ân Oán: Chọn 1 lá trên tay và đưa cho %src hoặc bấm Hủy bỏ để mất 1 máu.",
@@ -71,7 +67,6 @@ return {
 
 	["wuguotai"] = "Ngô Quốc Thái",
 	["#wuguotai"] = "Vũ Liệt Hoàng Hậu",
-	["illustrator:wuguotai"] = "李秀森",
 	["ganlu"] = "Cam Lộ",
 	[":ganlu"] = "Một lần trong giai đoạn hành động, có thể chọn 2 người chơi có số bài trong vùng trang bị không cùng bằng 0 và chênh lệch không lớn hơn số máu bạn đã mất, hoán đổi bài trong vùng trang bị của 2 người này.",
 	["#GanluSwap"] = "%from và %to trao đổi bài trong vùng trang bị.",
@@ -80,7 +75,6 @@ return {
 
 	["lukang"] = "Lục Kháng",
 	["#lukang"] = "Cô Trú Phù Hạ",
-	["illustrator:lukang"] = "王立雄",
 	["keshou"] = "Khắc Thủ",
 	[":keshou"] = "Khi nhận sát thương, có thể bỏ 2 lá bài trên tay có cùng màu để -1 sát thương; nếu không có người khác cùng thế lực, bạn có thể tiến hành phán xét, nếu kết quả là màu Đỏ, rút 1 lá.",
 	["zhuwei"] = "Trác Vi",
@@ -92,7 +86,6 @@ return {
 
 	["yuanshu"] = "Viên Thuật",
 	["#yuanshu"] = "Trọng Gia Đế",
-	["illustrator:yuanshu"] = "YanBai",
 	["weidi"] = "Ngụy Đế",
 	[":weidi"] = "Một lần trong giai đoạn hành động, có thể lựa chọn 1 người chơi đã nhận bài từ chồng bài trong lượt này, yêu cầu họ chấp hành 1 [Quân Lệnh]. Nếu họ không chấp hành, bạn lấy toàn bộ bài trên tay họ xong giao cho họ lượng bài tương đương.",
 	["@weidi-return"] = "Ngụy Đê: Chọn %arg lá bài để giao cho %src",
@@ -101,7 +94,6 @@ return {
 
 	["zhangxiu"] = "Trương Tú",
 	["#zhangxiu"] = "Bắc Địa Thương Vương",
-	["illustrator:zhangxiu"] = "青岛磐蒲",
 	["fudi"] = "Phụ Địch",
 	[":fudi"] = "Sau khi nhận sát thương, có thể giao cho nguồn sát thương 1 lá bài trên tay, sau đó gây 1 sát thương cho 1 người cùng thế lực với nguồn sát thương mà có số máu nhiều nhất và không thấp hơn bạn.",
 	["congjian"] = "Tòng Gián",
@@ -109,24 +101,23 @@ return {
 	["@fudi-give"] = "Kích hoạt \"Phụ Địch\", đưa 1 lá cho nguồn sát thương (%src)",
 	["@fudi-damage"] = "Phụ Địch: Chọn người chơi nhận sát thương.",
 
-	["#lord_caocao"] = "凤舞九霄",
-	["lord_caocao"] = "曹操-君",
-	["&lord_caocao"] = "曹操" ,
-	["illustrator:lord_caocao"] = "波子",
-	["jianan"] = "建安",
-	[":jianan"] = "君主技，锁定技，你拥有\"五子良将纛\"。",
-	["elitegeneralflag"] = "五子良将纛",
-	[":elitegeneralflag"] = "一名魏势力角色的准备阶段开始时，其可弃置一张牌并选择一张暗置的武将牌或暗置两张明置的武将牌中的一张▶其选择下列技能中其他角色均没有的一个：“突袭”、“巧变”、“骁果”、“节钺”、“断粮”。其于你的下个回合开始之前拥有其以此法选择的技能且不能明置其选择的武将牌。",
-	["@elitegeneralflag"] = "你可以发动“五子良将纛”，请弃置一张牌",
-	["@jianan-hide"] = "五子良将纛：请选择要暗置的武将牌",
-	["elitegeneralflag:head"] = "暗置主将",
-	["elitegeneralflag:deputy"] = "暗置副将",
-	["@jianan-skill"] = "五子良将纛：请选择获得的技能",
-	["huibian"] = "挥鞭",
-	[":huibian"] = "出牌阶段限一次，你可选择一名魏势力角色和另一名已受伤的魏势力角色并对前者造成1点普通伤害▶前者摸两张牌。后者回复1点体力。",
-	["zongyu"] = "总御",
-	[":zongyu"] = "①当【六龙骖驾】移至其他角色的装备区后，若你的装备区里有坐骑牌，你可交换你与其装备区里的所有坐骑牌。②当坐骑牌被使用时，若使用者为你且{其他角色的装备区或弃牌堆有【六龙骖驾】}，你将【六龙骖驾】置入你的装备区。",
-	["#ZongyuSwap"] = "%from 与 %to 交换了装备区里的坐骑牌",
+	["#lord_caocao"] = "Phụng Vũ Cửu Tiêu",
+	["lord_caocao"] = "Tào Tháo - Quân",
+	["&lord_caocao"] = "Tào Tháo" ,
+	["jianan"] = "Kiến Anh",
+	[":jianan"] = "Quân chủ kỹ, Tỏa định kỹ, Bạn có \"Ngũ Tử Lương Tướng Đạo\".",
+	["elitegeneralflag"] = "Ngũ Tử Lương Tướng Đạo",
+	[":elitegeneralflag"] = "Giai đoạn chuẩn bị của người thế lực Ngụy, họ có thể bỏ 1 lá và chọn 1 tướng chưa mở của họ (nếu họ đã mở 2 tướng thì chọn úp 1 tướng), sau đó họ lựa chọn 1 trong các kỹ năng sau mà chưa có trên bàn: \"Đột Kích\", \"Kiêu Quả\", \"Xảo Biến\", \"Tiết Việt\", \"Đoạn Lương\", Họ có kỹ năng đó và không thể mở tướng đã chọn đến đầu lượt sau của họ.",
+	["@elitegeneralflag"] = "Có thể kích hoạt \"Ngũ Tử Lương Tướng Đạo\", bỏ 1 lá.",
+	["@jianan-hide"] = "Ngũ Tử Lương Tướng Đạo: Chọn 1 tướng để úp xuống.",
+	["elitegeneralflag:head"] = "Chủ tướng",
+	["elitegeneralflag:deputy"] = "Phó tướng",
+	["@jianan-skill"] = "Ngũ Tử Lương Tướng Đạo: Chọn kỹ năng để nhận.",
+	["huibian"] = "Huy Tiên",
+	[":huibian"] = "Một lần trong giai đoạn hành động, bạn có thể chọn 1 người thế lực Ngụy và 1 người thế lực Ngụy khác đang bị thương, bạn gây 1 sát thương  cho người đầu tiên và họ rút 2 lá, sau đó người còn lại hồi 1 máu.",
+	["zongyu"] = "Tổng Ngự",
+	[":zongyu"] = "Khi [Lục Long Tham Giá] tiến vào vùng trang bị của người khác, nếu có Tọa kỵ trong vùng trang bị của bạn, bạn có thể hoán đổi tất cả Tọa kỹ trong vùng trang bị của bạn với [Lục Long Tham Giá]. Khi bạn sử dụng 1 Tọa kỵ, nếu trên bàn hoặc chồng bài bỏ có [Lục Long Tham Giá], bạn đem [Lục Long Tham Giá] đặt vào vùng trang bị của bạn.",
+	["#ZongyuSwap"] = "%from và %to đã hoán đổi Tọa kỵ trong vùng trang bị.",
 
 	["SixDragons"] = "Lục Long Tham Giá",
 	[":SixDragons"] = "Bài Trang Bị - Chiến Mã\n\nKỹ năng:\n" ..
@@ -146,19 +137,19 @@ return {
 	["@startcommand"] = "%arg: Hãy lựa chọn quân lệnh: <br>%arg2；<br>%arg3",
 	["@startcommandto"] = "%arg: Lựa chọn quân lệnh cho %dest<br>%arg2；<br>%arg3",
 	
-	["command1"] = "Quân lệnh 1",
-	["command2"] = "Quân lệnh 2",
-	["command3"] = "Quân lệnh 3",
-	["command4"] = "Quân lệnh 4",
-	["command5"] = "Quân lệnh 5",
-	["command6"] = "Quân lệnh 6",
+	["command1"] = "Gây 1 st cho 1 ng do bạn chọn",
+	["command2"] = "Rút 1 lá, giao cho bạn 2 lá",
+	["command3"] = "Mất 1 máu",
+	["command4"] = "Cấm dùng/đánh bài, khóa kỹ năng trừ Tỏa",
+	["command5"] = "Chồng tướng, cấm hồi máu",
+	["command6"] = "Giữ 1 trên tay, 1 trang bị, bỏ chỗ còn lại",
 
-	["#command1"] = "Số 1: Gây 1 st cho 1 ng do bạn chọn",
-	["#command2"] = "Số 2: Rút 1 lá, giao cho bạn 2 lá",
-	["#command3"] = "Số 3: Mất 1 máu",
-	["#command4"] = "Số 4: Lượt này, cấm dùng/đánh bài, khóa kỹ năng trừ Tỏa định kỹ",
-	["#command5"] = "Số 5: Chồng tướng, cấm hồi máu lượt này",
-	["#command6"] = "Số 6: Giữ 1 lá trên tay và 1 lá đã trang bị, bỏ chỗ còn lại.",
+	["#command1"] = "Gây 1 st cho 1 ng do bạn chọn",
+	["#command2"] = "Rút 1 lá, giao cho bạn 2 lá",
+	["#command3"] = "Mất 1 máu",
+	["#command4"] = "Lượt này, cấm dùng/đánh bài, khóa kỹ năng trừ Tỏa định kỹ",
+	["#command5"] = "Chồng tướng, cấm hồi máu lượt này",
+	["#command6"] = "Giữ 1 lá trên tay và 1 lá đã trang bị, bỏ chỗ còn lại.",
 	
 	["#CommandChoice"] = "%from đã lựa chọn %arg",
 	
@@ -170,18 +161,24 @@ return {
 	["@command-select"] = "Quân lệnh: Lựa chọn 1 lá trên tay và 1 lá trong vùng trang bị để giữ lại.",
 	
 	["@docommand"] = "%arg: Lựa chọn chấp hành quân lệnh từ %src<br>%arg2",
-	["@docommand1"] = "%arg: Lựa chọn chấp hành quân lệnh từ %src<br>Quân lệnh 1: Gây 1 sát thương cho %dest",
-	["@docommand2"] = "%arg: Lựa chọn chấp hành quân lệnh từ %src<br>Quân lệnh 2: Rút 1 lá, sau đó giao cho %src 2 lá",
+	["@docommand1"] = "%arg: Lựa chọn chấp hành quân lệnh từ %src<br>Gây 1 sát thương cho %dest",
+	["@docommand2"] = "%arg: Lựa chọn chấp hành quân lệnh từ %src<br>Rút 1 lá, sau đó giao cho %src 2 lá",
 	["yes"] = "Có",
 	["no"] = "Không",
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+	["illustrator:cuiyanmaojie"] = "兴游",
+	["illustrator:yujin"] = "biou09",
+	["illustrator:wangping"] = "zoo",
+	["illustrator:fazheng"] = "Hắc Bạch Họa Phổ",
+	["illustrator:wuguotai"] = "李秀森",
+	["illustrator:lukang"] = "王立雄",
+	["illustrator:yuanshu"] = "YanBai",
+	["illustrator:zhangxiu"] = "Qingdao Panpu",
+	["illustrator:lord_caocao"] = "波子",
+
+	["designer:cuiyanmaojie"] = "Virgopaladin(HanXu)",
+	["designer:yujin"] = "Virgopaladin(HanXu)",
+	["designer:zhangxiu"] = "Thiên Huyễn",
+
+
 }

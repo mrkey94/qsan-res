@@ -90,19 +90,19 @@ return {
 
 	["threaten_emperor"] = "Hiệp Thiên Tử Dĩ Lệnh Chư Hầu",
 	[":threaten_emperor"] = "Bài công cụ\n\nSử dụng: Trong lượt hành động\nMục tiêu: Bản thân nếu thuộc phe đại thế lực.\nHiệu quả: Kết thúc lượt hành động. Cuối lượt có thể bỏ đi 1 thẻ để nhận thêm một lượt nữa.",
-	["@threaten_emperor"] = "Nhận hiệu quả của [Hiệp Thiên Tử Dĩ Lệnh Chư Hầu], có thể bỏ 1 thẻ bài để nhận thêm 1 lượt đi tiếp.",
+	["@threaten_emperor"] = "Nhận hiệu quả của [Hiệp Thiên Tử Dĩ Lệnh Chư Hầu], có thể bỏ 1 lá trên tay để nhận thêm 1 lượt đi tiếp.",
 
 	["imperial_order"] = "Sắc lệnh",
-	[":imperial_order"] = "Bài công cụ\n\nSử dụng: Trong lượt hành động.\nMục tiêu: Tất cả người chơi chưa mở tướng.\nHiệu quả: Mục tiêu phải chọn: 1.Lật mở 1 thẻ tướng; 2.Bỏ 1 thẻ trang bị; 3.Tự mất 1 máu.\n\n※Nếu lá này bị bỏ mà chưa được dùng, lá này sẽ bị loại khỏi trận đấu. Đồng thời cuối lượt tất cả người chơi chưa mở tướng sẽ bị hiệu quả của lá bài này.",
-	["@imperial_order-equip"] = "Chịu ảnh hưởng của [Sắc lệnh] cần phải bỏ 1 trang bị hoặc bấm \"Huỷ bỏ\" rồi chọn lật mở tướng hoặc tự mất 1 máu",
-	["imperial_order:show"] = "Lật mở tướng, sau đó rút 1 lá bài",
-	["imperial_order:losehp"] = "Mất 1 máu",
+	[":imperial_order"] = "Bài công cụ\n\nSử dụng: Trong lượt hành động.\nMục tiêu: Tất cả người chơi chưa mở tướng.\nHiệu quả: Mục tiêu phải chọn: 1.Lật mở 1 thẻ tướng; 2.Bỏ 1 thẻ trang bị; 3.Tự mất 1 máu.\n\n※Nếu lá này tiến vào chồng bài bỏ không phải do sử dụng, lá này sẽ bị loại khỏi trận đấu. Đồng thời cuối lượt tất cả người chơi chưa mở tướng sẽ bị hiệu quả của lá bài này.",
+
 	["#RemoveImperialOrder"] = "[%arg] bị bỏ ra nhưng chưa dùng, sẽ bị loại khỏi trận đấu.",
 	["#ImperialOrderEffect"] = "%from kết thúc lượt, phát động hiệu quả của [%arg] đã bị loại bỏ",
 	
+    ["@imperial_order-choose"] = "Hiệu lực của [Sắc Lệnh], lựa chọn: 1. Mở 1 tướng và rút bài; 2. Bỏ 1 trang bị; 3. Mất 1 máu.",
 	["imperial_order:show_head"] = "Mở chủ tướng",
 	["imperial_order:show_deputy"] = "Mở phó tướng",
-	["imperial_order:dis_equip"] = "Bỏ 1 trang bị",
-	["imperial_order:losehp"] = "Mất 1 máu",
+    ["imperial_order:dis_equip"] = "Bỏ trang bị",
+    ["imperial_order:losehp"] = "Mất 1 máu",
+    ["@imperial_order-equip"] = "[Sắc Lệnh]: chọn 1 trang bị để bỏ.",
 	
 }

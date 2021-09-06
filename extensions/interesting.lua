@@ -440,6 +440,7 @@ sgs.LoadTranslationTable{
 
     ["beimihu"] = "Himiko",
 	["#beimihu"] = "Tà Mã Đài Đích Nữ Vương",
+	["designer:beimihu"] = "淬毒",
 	["illustrator:beimihu"] = "Town",
 	["guishu"] = "Quỷ Thuật",
 	[":guishu"] = "Có thể sử dụng 1 lá Bích trên tay như [Tri Bỉ Tri Kỷ] hoặc [Viễn Giao Cận Công], trong cùng 1 lượt cần sử dụng xen kẽ 2 lá bài trên." ,

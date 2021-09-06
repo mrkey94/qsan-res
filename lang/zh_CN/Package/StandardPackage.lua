@@ -79,33 +79,33 @@ local t = {
 	["~Axe"] = "Chọn 2 thẻ bài muốn bỏ rồi kích \"Xác định\"",
 
 	["KylinBow"] = "Kỳ Lân Cung",
-	[":KylinBow"] = "Bài trang bị - Vũ khí\n\nTầm đánh: 5\nKỹ năng: Khi gây sát thương cho mục tiêu của lá [Sát], có thể loại bỏ một Chiến mã trong vùng trang bị của mục tiêu.",
+	[":KylinBow"] = "Bài trang bị - Vũ khí\n\nTầm đánh: 5\nKỹ năng: Khi gây sát thương cho mục tiêu của [Sát], có thể loại bỏ một Chiến mã trong vùng trang bị của mục tiêu.",
 	["KylinBow:dhorse"] = "+1 Chiến mã",
 	["KylinBow:ohorse"] = "-1 Chiến mã",
 	["KylinBow:shorse"] = "Lục Long Tham Giá",
 
 	["EightDiagram"] = "Bát Quái Trận",
-	[":EightDiagram"] = "Bài trang bị - Phòng cụ\n\nKỹ năng: Khi cần sử dụng hoặc đánh ra lá [Thiểm], có thể rút Phán xét, nếu phán xét có màu Đỏ sẽ xem như sử dụng hoặc đánh ra lá [Thiểm].",
+	[":EightDiagram"] = "Bài trang bị - Phòng cụ\n\nKỹ năng: Khi cần sử dụng hoặc đánh ra [Thiểm], có thể tiến hành Phán xét, nếu phán xét có màu Đỏ, xem như sử dụng hoặc đánh ra [Thiểm].",
 
 	["RenwangShield"] = "Nhân Vương Thuẫn",
-	[":RenwangShield"] = "Bài trang bị - Phòng cụ\n\nKỹ năng: Tỏa định kỹ, [Sát] Đen không có tác dụng lên bạn.",
+	[":RenwangShield"] = "Bài trang bị - Phòng cụ\n\nKỹ năng: Tỏa định kỹ, [Sát] Đen không có hiệu quả với bạn.",
 
 	["IceSword"] = "Hàn Băng Kiếm",
-	[":IceSword"] = "Bài trang bị - Vũ khí\n\nTầm đánh: 2\nKỹ năng: Khi gây sát thương cho mục tiêu của lá [Sát], bạn có thể chặn sát thương này lại và lần lượt bỏ 2 lá bài của mục tiêu.",
+	[":IceSword"] = "Bài trang bị - Vũ khí\n\nTầm đánh: 2\nKỹ năng: Khi gây sát thương cho mục tiêu của [Sát], bạn có thể chặn sát thương này lại và lần lượt bỏ 2 lá của mục tiêu.",
 
 	["Fan"] = "Chu Tước Vũ Phiến",
-	[":Fan"] = "Bài trang bị - Vũ khí\n\nTầm đánh: 4\nKỹ năng: Có thể sử dụng lá [Sát] thường như [Sát Hỏa].",
+	[":Fan"] = "Bài trang bị - Vũ khí\n\nTầm đánh: 4\nKỹ năng: Có thể sử dụng [Sát] thường như [Sát Hỏa].",
 	["fan"] = "Chu Tước Vũ Phiến",
 
 	["SilverLion"] = "Bạch Ngân Sư Tử",
 	[":SilverLion"] = "Bài trang bị - Phòng cụ\n\nKỹ năng:\n" ..
-	"1. Tỏa định kỹ, khi nhận sát thương, nếu sát thương này lớn hơn 1, giảm lượng sát thương xuống còn 1.\n" ..
+	"1. Tỏa định kỹ, khi nhận sát thương, nếu sát thương này lớn hơn 1, sát thương này trở thành 1.\n" ..
 "2. Tỏa định kỹ, sau khi bạn mất đi [Bạch Ngân Sư Tử] từ vùng trang bị của bạn, hồi 1 máu.\n" ,
 	["#SilverLion"] = "[<font color=\"yellow\"><b>Bạch Ngân Sư Tử</b></font>] của %from giảm %arg sát thương còn <font color=\"yellow\"><b>1</b></font> điểm.",
 
 	["Vine"] = "Đằng Giáp",
 	[":Vine"] ="Bài trang bị - Phòng cụ\n\nKỹ năng:\n" ..
-	"1. Tỏa định kỹ, [Nam Man Nhập Xâm]、[Vạn Tiễn Tề Phát] và [Sát] phổ thông không có tác dụng với bạn.\n "..
+	"1. Tỏa định kỹ, [Nam Man Nhập Xâm]、[Vạn Tiễn Tề Phát] và [Sát] phổ thông không có hiệu quả với bạn.\n "..
 "2. Tỏa định kỹ, Khi nhận sát thương có thuộc tính Hỏa, +1 sát thương này.\n" ,
 	["#VineDamage"] = "Kích hoạt hiệu quả [<font color=\"yellow\"><b>Đằng Giáp</b></font>] của %from, sát thương Hoả hệ tăng từ %arg lên %arg2 điểm.",
 

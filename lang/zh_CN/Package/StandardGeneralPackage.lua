@@ -24,14 +24,15 @@ return {
 	["standard"] = "Tiêu chuẩn",
 
 	-- Test
-	["test"] = "Test",
+	["test"] = "Binh Sĩ",
 
 	["#sujiang"] = "Tướng nam",
 	["sujiang"] = "Tướng nam",
-	["illustrator:sujiang"] = "官方",
 	["#sujiangf"] = "Tướng nữ",
 	["sujiangf"] = "Tướng nữ",
-	["illustrator:sujiangf"] = "官方",
+
+	["illustrator:sujiang"] = "Chính thức",
+	["illustrator:sujiangf"] = "Chính thức",
 
 }
 

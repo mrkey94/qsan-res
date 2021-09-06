@@ -341,7 +341,7 @@ return {
     ["#wenqin"] = "Dương Châu Thích Sử",
     ["wenqin"] = "Văn Khâm",
     ["jinfa"] = "Căng Phạt",
-    [":jinfa"] = "Một lần trong giai đoạn hành động, có thể bỏ 1 lá và chọn 1 người khác có bài, họ chọn:\n1. Lệnh bạn lấy 1 lá của họ.\n2. Đưa 1 trang bị cho bạn, nếu bạn nhận được lá ♠, xem như họ sử dụng 1 [Sát].",
+    [":jinfa"] = "Một lần trong giai đoạn hành động, có thể bỏ 1 lá và chọn 1 người khác có bài, họ chọn:\n1. Lệnh bạn lấy 1 lá của họ.\n2. Đưa 1 trang bị cho bạn, nếu bạn nhận được lá ♠ và lá đó còn trên tay bạn, xem như họ sử dụng 1 [Sát] với bạn.",
     ["@jinfa-give"] = "Căng Phạt: Chọn 1 trang bị giao cho %src hoặc bấm hủy và lệnh %src lấy 1 lá của bạn.",
 
 

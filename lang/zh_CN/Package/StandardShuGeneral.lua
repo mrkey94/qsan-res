@@ -22,7 +22,6 @@
 
 return {
 	-- 蜀势力
-	["illustrator:liubei"] = "木美人",
 	["#liubei"] = "Loạn Thế Đích Kiêu Hùng",
 	["liubei"] = "Lưu Bị",
 	["rende"] = "Nhân Đức",
@@ -35,15 +34,15 @@ return {
 	["wusheng"] = "Võ Thánh",
 	[":wusheng"] = "Có thể sử dụng hoặc đánh ra 1 lá Đỏ như [Sát].",
 
-	["illustrator:zhangfei"] = "宋其金",
 	["#zhangfei"] = "Vạn Phu Bất Đương",
 	["zhangfei"] = "Trương Phi",
 	["paoxiao"] = "Bào Hao",
 	[":paoxiao"] = "Tỏa định kỹ, Có thể sử dụng lá [Sát] không giới hạn số lượng. Khi bạn sử dụng lá [Sát] thứ 2 trong 1 lượt, rút 1 lá.",
+	["#PaoxiaoDraw"] = "%from đã kích hoạt \"%arg\", rút 1 lá",
+    ["#PaoxiaoTarget"] = "%from đã kích hoạt \"%arg\", bỏ qua phòng cụ của %to",
 
 	["#zhugeliang"] = "Trì Mộ Đích Thừa Tướng",
 	["zhugeliang"] = "Gia Cát Lượng",
-	["illustrator:zhugeliang"] = "Mộc Mỹ Nhân",
 	["guanxing"] = "Quan Tinh",
 	[":guanxing"] = "Giai đoạn chuẩn bị, bạn có thể xem X lá bài trên đầu chồng bài (X là số người chơi trên bàn, tối đa 5), sau đó sắp xếp tùy ý những lá này lên đầu hoặc đáy chồng bài",
 	["kongcheng"] = "Không Thành",
@@ -53,7 +52,6 @@ return {
 	["$GuanxingBottom"] = "Đặt dưới đáy chồng bài: %card",
 	["zither"] = "Cầm",
 
-	["illustrator:zhaoyun"] = "DH",
 	["#zhaoyun"] = "Hổ Uy Tướng Quân",
 	["zhaoyun"] = "Triệu Vân",
 	["longdan"] = "Long Đảm",
@@ -70,7 +68,6 @@ return {
 	
 	["#machao"] = "Nhất Kỵ Đươmg Thiên",
 	["machao"] = "Mã Siêu",
-	["illustrator:machao"] = "KayaK&木美人&张帅",
 	["mashu_machao"] = "Mã Thuật",
 	[":mashu"] = "Tỏa định kỹ, Khoảng cách từ bạn đến người chơi khác -1.",
 	["tieqi"] = "Thiết Kỵ",
@@ -84,13 +81,11 @@ return {
 	
 	["#huangyueying"] = "Quy Ẩn Kiệt Nữ",
 	["huangyueying"] = "Hoàng Nguyệt Anh",
-	["illustrator:huangyueying"] = "Mộc Mỹ Nhân",
 	["jizhi"] = "Tập Trí",
 	[":jizhi"] = "Khi sử dụng công cụ phổ thông không chuyển hóa, có thể rút 1 lá bài.",
 	["qicai"] = "Kỳ Tài",
 	[":qicai"] = "Tỏa định kỹ, có thể sử dụng công cụ không hạn chế khoảng cách.",
 
-	["illustrator:huangzhong"] = "玖等仁品",
 	["#huangzhong"] = "Lão Đương Ích Tráng",
 	["huangzhong"] = "Hoàng Trung",
 	["liegong"] = "Liệt Cung",
@@ -98,7 +93,6 @@ return {
 
 	["#weiyan"] = "Thị Huyết Độc Lang",
 	["weiyan"] = "Ngụy Diên",
-	["illustrator:weiyan"] = "SoniaTang",
 	["kuanggu"] = "Cuồng Cốt",
 	[":kuanggu"] = "Sau khi gây 1 sát thương cho 1 mục tiêu trong tầm 1, hồi 1 máu hoặc rút 1 lá.",
 	["kuanggu:draw"] = "Rút 1 lá",
@@ -115,7 +109,6 @@ return {
 	["#wolong"] = "Ngoạ Long",
 	["wolong"] = "Khổng Minh",
 	["&wolong"] = "Gia Cát Lượng",
-	["illustrator:wolong"] = "Bắc",
 	["bazhen"] = "Bát Trận",
 	[":bazhen"] = "Tỏa định kỹ, nếu vùng trang bị của bạn không có phòng cụ, xem như có [Bát Quái Trận].",
 	["huoji"] = "Hoả Kế",
@@ -125,7 +118,6 @@ return {
 
 	["#liushan"] = "Vô Vi Chân Mệnh Chủ",
 	["liushan"] = "Lưu Thiện",
-	["illustrator:liushan"] = "LiuHeng",
 	["xiangle"] = "Hưởng Lạc",
 	[":xiangle"] = "Tỏa định kỹ, sau khi trở thành mục tiêu của [Sát], người sử dụng phải bỏ thêm 1 lá cơ bản nếu không [Sát] đó bị vô hiệu với bạn.",
 	["@xiangle-discard"] = "%src đã kích hoạt [Hưởng Lạc], hãy bỏ thêm 1 lá cơ bản nếu không lá [Sát] sẽ vô hiệu.",
@@ -137,7 +129,6 @@ return {
 
 	["#menghuo"] = "Nam Man Vương",
 	["menghuo"] = "Mạnh Hoạch",
-	["illustrator:menghuo"] = "Phế Sài Nam",
 	["huoshou"] = "Chủ Mưu",
 	[":huoshou"] = "Tỏa định kỹ, [Nam Man Nhập Xâm] không có hiệu quả với bạn, Sau khi 1 người chơi sử dụng [Nam Man Nhập Xâm] chỉ định mục tiêu, bạn trở thành nguồn sát thương của [Nam Man Nhập Xâm] này.",
 	["#sa_avoid_huoshou"] = "Chủ Mưu (vô hiệu Nam Man Nhập Xâm)" ,
@@ -147,7 +138,6 @@ return {
 
 	["#zhurong"] = "Dã Tính Nữ Vương",
 	["zhurong"] = "Chúc Dung",
-	["illustrator:zhurong"] = "Phế Sài Nam",
 	["juxiang"] = "Cự Tượng",
 	[":juxiang"] = "Tỏa định kỹ, vô hiệu hoá [Nam Man Nhập Xâm] lên bản thân; có thể thu lấy [Nam Man Xâm Lược] sau khi lá này chuyển vào chồng bài bỏ.",
 	["#sa_avoid_juxiang"] = "Cự Tượng vô hiệu hoá [Nam Man Nhập Xâm]" ,
@@ -156,10 +146,27 @@ return {
 
 	["#ganfuren"] = "Chiêu Liệt Hoàng Hậu",
 	["ganfuren"] = "Cam Phu Nhân",
-	["illustrator:ganfuren"] = "Sâm - Mỹ Đệ Kỳ",
 	["shushen"] = "Thục Thận",
 	[":shushen"] = "Sau khi hồi 1 máu, có thể chọn một người chơi khác, người đó rút 1 lá.",
 	["shushen-invoke"] = "Kích hoạt \"Thục Thận\". <br/>Chọn một người chơi rồi bấm \"Xác định\"<br/>",
 	["shenzhi"] = "Thần Trí",
 	[":shenzhi"] = "Giai đoạn chuẩn bị, có thể bỏ tất cả bài trên tay, nếu số lá bỏ đi lớn hơn hoặc bằng số máu hiện tại, bạn hồi 1 máu.",
+
+	["illustrator:liubei"] = "Mộc Mĩ Nhân",
+	["illustrator:zhangfei"] = "宋其金",
+	["illustrator:zhugeliang"] = "Mộc Mĩ Nhân",
+	["illustrator:zhaoyun"] = "DH",
+	["illustrator:machao"] = "KayaK&Mộc Mĩ Nhân&张帅",
+	["illustrator:huangyueying"] = "Mộc Mĩ Nhân",
+	["illustrator:huangzhong"] = "玖等仁品",
+	["illustrator:weiyan"] = "瞌瞌一休",
+	["illustrator:wolong"] = "绘聚艺堂",
+	["illustrator:liushan"] = "LiuHeng",
+	["illustrator:menghuo"] = "废柴男",
+	["illustrator:zhurong"] = "废柴男",
+	["illustrator:ganfuren"] = "琛·美弟奇",
+
+
+	
+
 }

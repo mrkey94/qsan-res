@@ -501,7 +501,7 @@ table.insert(sgs.ai_skills, aozhan_skill)
 aozhan_skill.getTurnUseCard = function(self)
 	local cards = sgs.QList2Table(self.player:getHandcards())
 	for _, id in sgs.qlist(self.player:getHandPile()) do
-		cards:prepend(sgs.Sanguosha:getCard(id))
+		table.insert(cards, sgs.Sanguosha:getCard(id))
 	end
 	local Peach
 	self:sortByUseValue(cards, true)

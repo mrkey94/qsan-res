@@ -25,7 +25,6 @@ return {
 	["#huatuo"] = "Thần Y",
 	["huatuo"] = "Hoa Đà",
 	["chuli"] = "Trừ Lệ",
-	["illustrator:huatuo"] = "琛·美弟奇",
 	
 	[":chuli"] = "Một lần trong giai đoạn hành động, nếu bạn có bài, bạn có thể chọn tối đa 3 người khác thể lực với nhau và có bài, bạn bỏ đi 1 lá bài của bạn và họ. Sau khi kết toán, người mất đi bài chất Bích rút 1 lá.",
 	["jijiu"] = "Cấp Cứu",
@@ -33,7 +32,6 @@ return {
 
 	["#lvbu"] = "Vũ Đích Hóa Thân",
 	["lvbu"] = "Lữ Bố",
-	["illustrator:lvbu"] = "LiuHeng",
 	["wushuang"] = "Vô Song",
 	[":wushuang"] = "Tỏa định kỹ: Sau khi sử dụng [Sát] chỉ định mục tiêu, mục tiêu phải sử dụng 2 [Thiểm] để triệt tiêu thẻ [Sát]; Người chơi cùng bạn [Quyết Đấu] phải đánh ra 2 [Sát] mỗi lần.",
 	["@wushuang-slash-1"] = "%src [Quyết Đấu] với bạn, bạn phải đánh ra 2 [Sát] liên tiếp.",
@@ -41,7 +39,6 @@ return {
 
 	["#diaochan"] = "Tuyệt Thế Đích Vũ Cơ",
 	["diaochan"] = "Điêu Thuyền",
-	["illustrator:diaochan"] = "LiuHeng",
 	["lijian"] = "Ly Gián",
 	[":lijian"] = "Một lần trong giai đoạn hành động, bạn có thể bỏ 1 lá bài và lựa chọn 2 người nam khác, xem như người chọn sau sử dụng [Quyết Đấu] lên người chọn trước.",
 	["biyue"] = "Bế Nguyệt",
@@ -49,7 +46,6 @@ return {
 
 	["#yuanshao"] = "Cao Quý Đính Danh Môn",
 	["yuanshao"] = "Viên Thiệu",
-	["illustrator:yuanshao"] = "北辰菌",
 	["luanji"] = "Loạn Kích",
 	[":luanji"] = "Giai đoạn hành động, bạn có thể sử dụng 2 lá bài trên tay như [Vạn Tiễn Tề Phát]. Bạn không thể sử dụng lá bài cùng chất với nhưng lá bạn đã sử dụng theo cách này trong lượt này; khi người cùng thế lực với bạn kết toán [Thiểm] để hưởng ứng, họ có thể rút 1 lá.",
 	["#luanji-draw"] = "Loạn Kích (Rút bài)",
@@ -64,7 +60,6 @@ return {
 	["#shuangxiong"] = "Song Hùng (Thu lấy lá phán xét)",
 
 	["#jiaxu"] = "Lãnh Khốc Đích Độc Sĩ",
-	["illustrator:jiaxu"] = "绘聚艺堂",
 	["jiaxu"] = "Giả Hủ",
 	["wansha"] = "Hoàn Sát",
 	[":wansha"] = "Tỏa định kỹ: Trong lượt của bạn, khi có người vào trạng thái hấp hối, bạn lệnh người khác không ở trạng thái hấp hối không được sử dụng [Đào]",
@@ -79,14 +74,12 @@ return {
 
 	["#pangde"] = "Nhân Mã Nhất Thể",
 	["pangde"] = "Bàng Đức",
-	["illustrator:pangde"] = "凝聚永恒",
 	["mashu_pangde"] = "Mã Thuật",
 	["jianchu"] = "Kiện Xuất",
 	[":jianchu"] = "Sau khi sử dụng [Sát] chỉ định mục tiêu, bạn có thể bỏ 1 lá của họ; Nếu lá bỏ đi là trang bị. họ không thể sử dụng [Thiểm] để hưởng ứng; Nếu không phải trang bị, họ thu lấy [Sát] bạn sử dụng.",
 
 	["#zhangjiao"] = "Thiên Công Tướng Quân",
 	["zhangjiao"] = "Trương Giác",
-	["illustrator:zhangjiao"] = "LiuHeng",
 	["leiji"] = "Lôi Kích",
 	[":leiji"] = "Khi sử dụng/đánh ra [Thiểm], bạn có thể lệnh 1 người chơi khác tiến hành phán xét, nếu kết quả là chất Bích, bạn gây 2 sát thương Lôi cho họ.",
 	["leiji-invoke"] = "Bạn có thể kích \"Lôi Kích\" và chọn 1 người chơi khác",
@@ -97,7 +90,6 @@ return {
 
 	["#caiwenji"] = "Dị Hương Đích Cô Nữ",
 	["caiwenji"] = "Thái Văn Cơ",
-	["illustrator:caiwenji"] = "SoniaTang",
 	["beige"] = "Bi ca",
 	[":beige"] = "Sau khi 1 người chơi nhận sát thương bởi lá [Sát], bạn có thể bỏ 1 lá, lệnh cho họ tiến hành phán xét. Nếu kết quả có chất: Cơ: họ hồi 1 máu; Rô: họ rút 2 lá; Chuồn: nguồn sát thương bỏ 2 lá; Bích: nguồn sát thương chồng tướng",
 	["@beige"] = "Có thể bỏ 1 lá để kích \"Bi Ca\"",
@@ -109,7 +101,6 @@ return {
 
 	["#mateng"] = "Trì Sính Tây Thùy",
 	["mateng"] = "Mã Đằng",
-	["illustrator:mateng"] = "DH",
 	["mashu_mateng"] = "Mã Thuật",
 	["xiongyi"] = "Hùng Dị",
 	[":xiongyi"] = "Hạn định kỹ: Giai đoạn hành động, bạn có thể lệnh cho tất cả người chơi cùng thế lực rút 3 lá; Sau đó, nếu thế lực của bạn là một trong những thế lực ít người nhất, bạn hồi 1 máu.",
@@ -117,7 +108,6 @@ return {
 
 	["#kongrong"] = "Lẫm Nhiên Trọng Nghĩa",
 	["kongrong"] = "Khổng Dung",
-	["illustrator:kongrong"] = "苍月白龙",
 	["mingshi"] = "Danh Sĩ",
 	[":mingshi"] = "Tỏa định kỹ, Khi bạn nhận sát thương, nếu nguồn sát thương có tướng chưa mở, sát thương -1.",
 	["lirang"] = "Lễ Nhượng",
@@ -128,14 +118,12 @@ return {
 
 	["#jiling"] = "Trọng Gia Đích Chủ Tướng",
 	["jiling"] = "Kỷ Linh",
-	["illustrator:jiling"] = "樱花闪乱",
 	["shuangren"] = "Song Nhận",
 	[":shuangren"] = "Đầu giai đoạn hành động, bạn có thể đấu điểm với 1 người. Nếu bạn thắng, xem như bạn sử dụng [Sát] lên 1 người chơi cùng thế lực với họ. Nếu không thắng, bạn kết thúc giai đoạn hành động.",
 	["@shuangren"] = "Bạn có thể kích \"Song Nhận\"",
 
 	["#tianfeng"] = "Hà Bắc Côi Kiệt",
 	["tianfeng"] = "Điền Phong",
-	["illustrator:tianfeng"] = "地狱许",
 	["sijian"] = "Tử Gián",
 	[":sijian"] = "Khi bạn mất đi lá cuối cùng trên tay, có thể bỏ 1 lá của người khác.",
 	["sijian-invoke"] = "Bạn có thể kích \"Tử Gián\"<br/>Chọn 1 người khác có bài, bấm Xác Định.<br/>",
@@ -144,7 +132,6 @@ return {
 
 	["#panfeng"] = "Liên Quân Thượng Tướng",
 	["panfeng"] = "Phạn Phụng",
-	["illustrator:panfeng"] = "Yi章",
 	["kuangfu"] = "Cuồng Phủ",
 	[":kuangfu"] = "Sau khi bạn gây sát thương cho mục tiêu của [Sát], bạn có thể chọn 1 trang bị ở vùng trang bị của họ, bạn chọn di chuyển đến vùng trang bị của bạn hoặc bỏ lá đó.",
 	["#kuangfu"] = "Cuồng Phủ %log",
@@ -159,12 +146,30 @@ return {
 
 	["#zoushi"] = "Hoặc Tâm Chi Mị",
 	["zoushi"] = "Trâu Thị",
-	["illustrator:zoushi"] = "Tuu.",
 	["huoshui"] = "Họa Thủy",
 	[":huoshui"] = "Tỏa định kỹ: Trong lượt của bạn, người chơi khác không thể mở tướng",
 	["qingcheng"] = "Khuynh Thành",
 	[":qingcheng"] = "Giai đoạn hành động, bạn có thể bỏ 1 lá Đen và chọn 1 người khác đã mở tất cả tướng, úp 1 tướng của họ. Nếu lá bạn bỏ là trang bị, bạn có thể chọn 1 người khác và lặp lại quá trình.",
 	["qingcheng-second"] = "Khuynh thành: Bạn có thể úp tướng của 1 người khác.",
 	["#QingchengSecond"] = "%from đã kích hoạt \"%arg\" lên %to",
+
+	["illustrator:huatuo"] = "琛·美弟奇",
+	["illustrator:lvbu"] = "LiuHeng",
+	["illustrator:diaochan"] = "LiuHeng",
+	["illustrator:yuanshao"] = "北辰菌",
+	["illustrator:jiaxu"] = "绘聚艺堂",
+	["illustrator:pangde"] = "凝聚永恒",
+	["illustrator:zhangjiao"] = "LiuHeng",
+	["illustrator:caiwenji"] = "SoniaTang",
+	["illustrator:mateng"] = "DH",
+	["illustrator:kongrong"] = "苍月白龙",
+	["illustrator:jiling"] = "樱花闪乱",
+	["illustrator:tianfeng"] = "地狱许",
+	["illustrator:panfeng"] = "Yi章",
+	["illustrator:zoushi"] = "Tuu.",
+
+
+	
+
 }
 
