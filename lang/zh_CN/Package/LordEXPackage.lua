@@ -401,7 +401,7 @@ return {
 	["tongdu"] = "Trù Độ",
 	[":tongdu"] = "Giai đoạn kết thúc của người cùng thế lực, họ có thể rút X lá (X là số bài họ đã bỏ trong giai đoạn bỏ bài của lượt này, tối đa 3",
 	["qingyin"] = "Quy Ẩn",
-	[":qingyin"] = "Hạn định kỹ, giai đoạn hành động, bạn chọn tất cả người cùng thế lực (Áp dụng sau khi bạn đã lật tướng); họ lần lượt hồi X máu (X là giới hạn máu trừ đi số máu của họ); sau đó bạn loại bỏ tướng này.",
+	[":qingyin"] = "Hạn định kỹ, giai đoạn hành động, bạn chọn tất cả người cùng thế lực (Áp dụng sau khi bạn đã mở tướng này); họ lần lượt hồi X máu (X là giới hạn máu trừ đi số máu của họ); sau đó bạn loại bỏ tướng này.",
 	["@tongdu"] = "Có thể kích hoạt \"Trù Độ\" của %src",
 	["#tongdu-other"] = "Trù Độ",
 	
