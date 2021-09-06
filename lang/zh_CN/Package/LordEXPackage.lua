@@ -330,9 +330,9 @@ return {
     ["#panjun"] = "Quan Nhân Vu Vy",
     ["panjun"] = "Phan Tuấn",
     ["congcha"] = "Quan Vy",
-    [":congcha"] = "Giai đoạn chuẩn bị, có thể chọn 1 người không có thế lực; khi họ lật tướng và trước khi lượt tiếp theo của bạn bắt đầu, nếu họ cùng thế lực với bạn, bạn và họ rút 2 lá, nếu không cùng thế lực, họ mất 1 máu.",
+    [":congcha"] = "Giai đoạn chuẩn bị, bạn có thể chọn 1 người không có thế lực; Trước khi bắt đầu lượt tiếp theo của bạn, khi họ mở tướng và trở thành có thế lực, nếu họ cùng thế lực với bạn, bạn và họ lá; nếu không cùng thế lực, họ mất 1 máu. Giai đoạn rút bài, nếu không có người không có thế lực, bạn có thể lệnh số lá rút +2.",
     ["gongqing"] = "Công Thanh",
-    [":gongqing"] = "Tỏa định kỹ, khi bạn nhận sát thương, nếu tầm đánh của nguồn sát thương lớn hơn 3, sát thương này +1; nếu nhỏ hơn 3 và sát thương lớn hơn 1, sát thương này trở thành 1.",
+    [":gongqing"] = "Tỏa định kỹ, khi bạn nhận sát thương, nếu tầm đánh của nguồn sát thương lớn hơn 3, sát thương này +1; nếu tầm đánh của nguồn sát thương nhỏ hơn 3 và sát thương lớn hơn 1, sát thương này trở thành 1.",
     ["@congcha-target"] = "Có thể kích hoạt \"Quan Vy\", chọn 1 người không có thế lực.",
     
     ["#congcha-effect"] = "Quan Vy",
