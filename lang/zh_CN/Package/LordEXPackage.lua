@@ -371,12 +371,12 @@ return {
 
 	["#test"] = "%arg",
 	
-	["#pengyang"] = "Giang Dương Thái Thú",
-	["pengyang"] = "Bành Dạng",
-	["daming"] = "Gián Nghịch",
-	[":daming"] = "Đầu giai đoạn hành động của người cùng thế lực với bạn, bạn có thể bỏ 1 công cụ, ",
-	["xiaoni"] = "Hiêu Bạt",
-	[":xiaoni"] = "Tỏa định kỹ, khi bạn sử dụng hoặc trở thành mục tiêu của lá cơ bản và công cụ phổ thông và không có người khác cùng thế lực với bạn và số bài",
+	["#pengyang"] = "江阳太守",
+	["pengyang"] = "彭羕",
+	["daming"] = "谏逆",
+	[":daming"] = "与你势力相同的角色的出牌阶段开始时，你可弃置一张锦囊牌▶你令一名角色横置，摸X张牌（X为处于连环状态的角色的势力数），选择：1.对当前回合角色使用无对应的实体牌的【桃】；2.当前回合角色对你选择的另一名角色使用无对应的实体牌的雷【杀】。",
+	["xiaoni"] = "嚣跋",
+	[":xiaoni"] = "锁定技，当{基本牌或普通锦囊牌}被使用时，若{使用者为你或你是此牌的目标对应的角色}且有与你势力相同的其他角色且这些角色的手牌数均不大于你，你令所有是此牌的目标对应的角色的角色不能响应此牌。",
 	
 	["@daming"] = "是否对%dest使用“谏逆”，弃置一张锦囊牌",
 	["@daming-chain"] = "谏逆：选择要横置的角色",
