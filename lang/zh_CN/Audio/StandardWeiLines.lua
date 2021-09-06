@@ -20,16 +20,16 @@
 
 return {
 	-- 曹操
-	["$jianxiong1"] = "Thà ta phụ thiên hạ, quyết không để người thiên hạ phụ ta !",
-	["$jianxiong2"] = "Ta trong mộng giết người!",
-	["~caocao"] = "Bá nghiệp chưa thành, chưa thành aaa...",
+	["$jianxiong1"] = "宁教我负天下人，休教天下人负我！",
+	["$jianxiong2"] = "吾好梦中杀人！",
+	["~caocao"] = "霸业未成，未成啊……",
 
 	-- 司马懿
-	["$guicai1"] = "Thiên mệnh? Ha ha ha ha....",
-	["$guicai2"] = "Ta mới chính là thiên mệnh chi tử !",
-	["$fankui2"] = "Hừ! Tự mình gây nghiệp còn muốn sống sao!",
-	["$fankui1"] = "Hừ! 正中下怀！",
-	["~simayi"] = "Lẽ nào thực sự thiên mệnh khó cãi ?",
+	["$guicai2"] = "天命难违？哈哈哈哈哈哈哈哈……",
+	["$guicai1"] = "才通天地，逆天改命！",
+	["$fankui_simayi2"] = "哼！自作孽，不可活！",
+	["$fankui_simayi1"] = "哼！正中下怀！",
+	["~simayi"] = "我的气数就到这里了吗？",
 
 	-- 夏侯惇
 	["$ganglie2"] = "伤我者，十倍奉还！",
@@ -44,23 +44,23 @@ return {
 	["~zhangliao"] = "被敌人占了先机……呃……",
 
 	-- 许褚
-	["$luoyi1"] = "Phá!",
-	["$luoyi2"] = "Ai đến chiến 300 hiệp với ta?",
-	["~xuchu"] = "Lạnh, lạnh quá...",
+	["$luoyi1"] = "破！",
+	["$luoyi2"] = "谁来与我大战三百回合？",
+	["~xuchu"] = "冷，好冷啊……",
 
 	-- 郭嘉
-	["$tiandu1"] = "Chỉ như vậy thôi.",
-	["$tiandu2"] = "Sao ?",
-	["$yiji1"] = "Cũng tốt.",
-	["$yiji2"] = "Mà thôi.",
-	["~guojia"] = "Khụ, khụ...",
+	["$yiji1"] = "就这样吧。",
+	["$yiji2"] = "哦？",
+	["$tiandu1"] = "也好。",
+	["$tiandu2"] = "罢了。",
+	["~guojia"] = "咳，咳……",
 
 	-- 甄姬
-	["$luoshen1"] = "Phảng phất như mây che bóng nguyệt.",
-	["$luoshen2"] = "Phiêu diêu như gió bay làn tuyết.",
-	["$qingguo1"] = "Lăng ba bước nhẹ, lụa cuốn bụi trần.",
-	["$qingguo2"] = "Thể tấn phi phù, phiêu hốt tựa thần. ",
-	["~zhenji"] = "Gặp nhau chi để giờ vĩnh viễn đoạn tuyệt, mỗi người mỗi nơi.",
+	["$luoshen1"] = "髣髴兮若轻云之蔽月。",
+	["$luoshen2"] = "飘飖兮若流风之回雪。",
+	["$qingguo1"] = "凌波微步，罗袜生尘。",
+	["$qingguo2"] = "体迅飞凫，飘忽若神。",
+	["~zhenji"] = "悼良会之永绝兮，哀一逝而异乡。",
 
 	-- 曹仁
 	["$jushou1"] = "我先休息一会儿！",
@@ -68,35 +68,35 @@ return {
 	["~caoren"] = "实在是守不住了……",
 
 	-- 夏侯渊
-	["$shensu1"] = "Ta có thể giết người ngoài ngàn dặm!",
-	["$shensu2"] = "Lấy thủ cấp dễ như trở bàn tay!",
-	["~xiahouyuan"] = "Vậy mà so với ta còn ... nhanh hơn...",
+	["$shensu1"] = "吾善于千里袭人！",
+	["$shensu2"] = "取汝首级犹如探囊取物！",
+	["~xiahouyuan"] = "竟然比我还…快……",
 
-	["$jieming2"] = "Ta, tuyệt không phản bội.",
-	["$jieming1"] = "Mang ý chí trung thành, giữ khí tiết khiêm tốn.",
-	["$quhu1"] = "Đây chính là kế Dụ hổ thôn lang.",
-	["$quhu2"] = "Mượn tay ngươi, cho nó một nhát nha.",
-	["~xunyu"] = "Chủ công bảo thần chết, thần không thể không chết.",
+	["$jieming2"] = "我，永不背弃。",
+	["$jieming1"] = "秉忠贞之志，守谦退之节。",
+	["$quhu1"] = "此乃驱虎吞狼之计。",
+	["$quhu2"] = "借你之手，与他一搏吧。",
+	["~xunyu"] = "主公要臣死，臣不得不死。",
 
-	["$qiangxi1"] = "Ăn của ta một phát!",
-	["$qiangxi2"] = "Xem ta ba bước lấy mạng nhỏ của ngươi!",
-	["~dianwei"] = "Chủ công, chạy mau!",
+	["$qiangxi1"] = "吃我一戟！",
+	["$qiangxi2"] = "看我三步之内，取你小命！",
+	["~dianwei"] = "主公，快走！",
 
 	["$xingshang1"] = "来，管杀还管埋！",
-	["$xingshang2"] = "Của ta chính là của ta, của ngươi cũng chính là của ta!",
+	["$xingshang2"] = "我的是我的，你的，还是我的！",
 	["$fangzhu1"] = "给我翻过来！",
-	["$fangzhu2"] = "Tội chết có thể miễn, tội sống khó tha!",
-	["$songwei1"] = "Tiên phúc vĩnh hưởng, thọ dữ thiên tề!",
-	["$songwei2"] = "Thiên thu vạn tái, nhất thống giang sơn!",
-	["~caopi"] = "Tử kiến, tử kiến....",
+	["$fangzhu2"] = "死罪可免，活罪难赦！",
+	["$songwei1"] = "仙福永享，寿与天齐！",
+	["$songwei2"] = "千秋万载，一统江山！",
+	["~caopi"] = "子建，子建……",
 
-	["$duanliang1"] = "Cắt gốc, đoạn lương, có thể hạ địch.",
-	["$duanliang2"] = "Người là kiếm, gạo là cương.",
-	["~xuhuang"] = "Một lát không ăn đói là cuống cuồng.",
+	["$duanliang1"] = "截其源，断其粮，贼可擒也。",
+	["$duanliang2"] = "人是铁，饭是钢。",
+	["~xuhuang"] = "一顿不吃饿得慌。",
 
-	["$qiaobian1"] = "Binh không chỉ một thế, như nước không chỉ một dòng.", -- judge
-	["$qiaobian2"] = "Dụng binh chi đạo, là trăm ngàn biến hoá.", -- draw
-	["~zhanghe"] = "Ách, đầu gối trúng tên rồi...",
+	["$qiaobian1"] = "兵无常势，水无常形。", -- judge
+	["$qiaobian2"] = "用兵之道，变化万千。", -- draw
+	["~zhanghe"] = "呃，膝盖中箭了……",
 
 	-- 乐进
 	["$xiaoguo1"] = "三军听我号令，不得撤退！", -- 发动弃牌
