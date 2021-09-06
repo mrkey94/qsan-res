@@ -99,7 +99,7 @@ return {
     ["yusui:discard"] = "Bỏ số bài trên tay bằng giới hạn máu.",
 	
 	["lord_ex"] = "Bất Thần",
-	["lord_ex_card"] = "Bất Thần",
+	["lord_ex_card"] = "Bất Thần (Thử nghiệm)",
 	
 	
 	["#mengda"] = "Đãi Quân Phản Phúc",

@@ -2,7 +2,7 @@ general_extension = sgs.Package("zzhead", sgs.Package_GeneralPack)
 
 
 sgs.LoadTranslationTable{
-	["zzhead"] = "Hàng Test",
+	["zzhead"] = "Credit (Non-playable)",
 
 }
 
