@@ -130,9 +130,9 @@ return
 	["showdeputy"] = "Lật tướng",
 	[":showdeputy"] = "Lật Phó tướng",
 	
-	["@careerist-show"] = "Bộc lộ dã tâm: Có thể lật Chủ tướng.",
+	["@careerist-show"] = "Bộc lộ dã tâm: Có thể lật Chủ tướng để tiếp tục trò chơi hoặc đầu hàng.",
     ["GameRule:CareeristShow:yes"] = "Lật tướng Dã Tâm",
-    ["GameRule:CareeristShow:no"] = "Hủy bỏ",
+    ["GameRule:CareeristShow:no"] = "Chấp nhận đầu hàng để sống",
     
     ["#GameRule_CareeristShow"] = "%from đã thể hiện Dã Tâm và lật chủ tướng.",
     

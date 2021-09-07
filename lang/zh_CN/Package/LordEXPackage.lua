@@ -73,7 +73,7 @@ return {
     ["#miheng"] = "Chí Ngạc Trác Cô Phượng",
     ["miheng"] = "Nễ Hành",
     ["kuangcai"] = "Cuồng Tài",
-    [":kuangcai"] = "Tỏa định kỹ, bài bạn sử dụng trong lượt không bị giới hạn khoảng cách và số lần sử dụng; đầu giai đoạn bỏ bài, nếu người chơi trong lượt này có sử dụng bài và không gây sát thương, giới hạn trữ bài trong lượt này -1.",
+    [":kuangcai"] = "Tỏa định kỹ, bài bạn sử dụng trong lượt không bị giới hạn khoảng cách và số lần sử dụng; đầu giai đoạn bỏ bài, nếu trong lượt này bạn có sử dụng bài và không gây sát thương, giới hạn trữ bài trong lượt này -1.",
     ["shejian"] = "Thiệt Kiếm",
     [":shejian"] = "Sau khi trở thành mục tiêu của bài, nếu số mục tiêu là 1, có thể bỏ tất cả bài trên tay và gây 1 sát thương cho người sử dụng bài.",
     
@@ -118,7 +118,7 @@ return {
 	["#tangzi"] = "Đắc Thì Thức Phong",
 	["tangzi"] = "Đường Tư",
 	["xingzhao"] = "Hưng Thạo",
-	[":xingzhao"] = "Tỏa định kỹ, dựa theo số thế lực trên bàn chơi có người bị thương: \n1 trở lên: Bạn nhận \"Tuân Tuân\".\n2 trở lên: Sau khi nhận sát thương, nếu nguồn gây sát thương có bài trên tay nhiêu hơn bạn, bạn rút 1 lá.\n3 trở lên: Đầu giai đoạn bỏ bài, giới hạn trữ bài của bạn +4.\n4 trở lên: Khi bạn mất bài trong vùng trang bị, rút 1 lá.",
+	[":xingzhao"] = "Tỏa định kỹ, dựa theo số thế lực trên bàn chơi có người bị thương: \n1 trở lên: Bạn nhận \"Tuân Tuân\".\n2 trở lên: Sau khi nhận sát thương, giữa bạn và nguồn gây sát thương, người ít bài trên tay hơn rút 1 lá.\n3 trở lên: Đầu giai đoạn bỏ bài, giới hạn trữ bài của bạn +4.\n4 trở lên: Khi bạn mất bài trong vùng trang bị, rút 1 lá.",
 	["xunxun_tangzi"] = "Tuân Tuân",
 	
 	["#zhanglu"] = "Chính Khoan Giáo Huệ",
