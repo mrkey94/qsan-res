@@ -267,7 +267,7 @@ return {
     ["#simazhao"] = "Tứ Hải Uy Phục",
     ["simazhao"] = "Tư Mã Chiêu",
     ["suzhi"] = "Túc Trí",
-    [":suzhi"] = "Tỏa định kỹ:\nGiới hạn ba lần trong lượt của bạn đối với các mục sau:\n1. Khi bạn gây sát thương do sử dụng [Sát] hoặc [Quyết Đấu], lệnh số sát thương +1.\n 2. Khi bạn sử dụng công cụ, rút 1 lá.\n 3. Sau khi người khác đưa bài vào chồng bài bỏ, thu lấy lá đó.\nNếu chưa phát động \"Túc Trí\" 3 lần trong lượt:\n1. Bạn có thể sử dụng công cụ không hạn chế khoảng cách.\n2. Khi kết thúc lượt chơi, bạn nhận kỹ năng \"Phản Quỹ\" đến trước khi bắt đầu lượt tiếp theo của bạn.",
+    [":suzhi"] = "Tỏa định kỹ:\nGiới hạn ba lần trong lượt của bạn đối với các mục sau:\n1. Khi bạn gây sát thương do sử dụng [Sát] hoặc [Quyết Đấu], lệnh số sát thương +1.\n 2. Khi bạn sử dụng công cụ, rút 1 lá.\n 3. Sau khi người khác bỏ bài vào chồng bài bỏ, thu lấy 1 lá của họ.\nNếu chưa phát động \"Túc Trí\" 3 lần trong lượt:\n1. Bạn có thể sử dụng công cụ không hạn chế khoảng cách.\n2. Khi kết thúc lượt chơi, bạn nhận kỹ năng \"Phản Quỹ\" đến trước khi bắt đầu lượt tiếp theo của bạn.",
     ["zhaoxin"] = "Chiêu Tâm",
     [":zhaoxin"] = "Sau khi nhận sát thương, có thể mở tất cả bài trên tay, sau đó hoán đổi bài trên tay với 1 người khác khác không nhiều bài hơn bạn.",
     ["@zhaoxin-exchange"] = "Chiêu Tâm: Chọn 1 người có bài trên tay không nhiều hơn bạn để đổi bài.",
