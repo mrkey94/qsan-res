@@ -42,7 +42,7 @@ return {
 	["caohong"] = "Tào Hồng",
 	["huyuan"] = "Hộ Viện",
 	[":huyuan"] = "Giai đoạn kết thúc, có thể đem trang bị đặt vào vùng trang bị của 1 người, sau đó có thể bỏ 1 lá bài của 1 người chơi có khoảng cách 1 từ họ.",
-	["@huyuan-equip"] = "Kích hoạt \"Hộ Viện\" để đặt trang bị",
+	["@huyuan-equip"] = "Phát động \"Hộ Viện\" để đặt trang bị",
 	["@huyuan-discard"] = "Hãy chọn 1 mục tiêu trong tầm 1 của %src",
 	["~huyuan"] = "Chọn 1 lá trang bị, chọn một người chơi rồi bấm \"Xác định\"",
 	["heyi"] = "Hạc Dực",
@@ -56,7 +56,7 @@ return {
 	["jiangwei"] = "Khương Duy",
 	["tiaoxin"] = "Khiêu Hấn",
 	[":tiaoxin"] = "Một lần trong giai đoạn hành động, có thể lệnh một người chơi có tầm đánh tới bạn sử dụng [Sát] lên bạn, nếu không bạn bỏ 1 lá của người đó.",
-	["@tiaoxin-slash"] = "%src đã kích hoạt \"Khiêu Hấn\", hãy sử dụng [Sát] lên %src",
+	["@tiaoxin-slash"] = "%src đã phát động \"Khiêu Hấn\", hãy sử dụng [Sát] lên %src",
 	["yizhi"] = "Di Chí",
 	[":yizhi"] = "Phó tướng kỹ - Giảm 0.5 máu gốc: Nếu Chủ tướng của bạn có kỹ năng \"Quan Tinh\" thì số lá bài được xem luôn là 5; nếu không, bạn nhận kỹ năng \"Quan Tinh\".",
 	["tianfu"] = "Thiên Phúc",
@@ -71,7 +71,7 @@ return {
 	[":shengxi"] = "Giai đoạn kết thúc, nếu trong lượt này bạn không gây sát thương, có thể rút 2 lá bài.",
 	["shoucheng"] = "Thủ Thành",
 	[":shoucheng"] = "Sau khi người chơi cùng thế lực mất đi lá bài cuối cùng trên tay ngoài lượt, có thể cho họ rút 1 lá bài.",
-	["@shoucheng"] = "Có thể kích hoạt \"Thủ Thành\", lệnh cho 1 người rút 1 lá.",
+	["@shoucheng"] = "Có thể phát động \"Thủ Thành\", lệnh cho 1 người rút 1 lá.",
 
 	["#jiangqin"] = "Kỳ Hề Chi Khí",
 	["jiangqin"] = "Tưởng Khâm",
@@ -93,15 +93,15 @@ return {
 	["yuji"] = "Vu Cát",
 	["qianhuan"] = "Thiên Huyễn",
 	[":qianhuan"] = "Sau khi 1 người cùng thế lực nhận sát thương, có thể đem 1 lá bài của bạn đặt lên tướng này, gọi là [Huyễn] (Không được đặt lá trùng chất với lá [Huyễn] đã có). Khi 1 người chơi cùng thế lực trở thành mục tiêu duy nhất của lá cơ bản hoặc công cụ, bạn có thể đưa 1 lá [Huyễn] vào chồng bài bỏ, hủy bỏ mục tiêu này.",
-	["@qianhuan-put"] = "Có thể kích hoạt \"Thiên Huyễn\", đặt 1 lá khác chất với các lá [Huyễn] khác." ,
+	["@qianhuan-put"] = "Có thể phát động \"Thiên Huyễn\", đặt 1 lá khác chất với các lá [Huyễn] khác." ,
 	["sorcery"] = "Huyễn",
-	["@qianhuan-cancel"] = "Có thể kích hoạt \"Thiên Huyễn\", hủy bỏ mục tiêu %dest của lá [%arg]",
+	["@qianhuan-cancel"] = "Có thể phát động \"Thiên Huyễn\", hủy bỏ mục tiêu %dest của lá [%arg]",
 
 	["#hetaihou"] = "Lộng Quyền Chi Xà Hạt",
 	["hetaihou"] = "Hà Thái Hậu",
 	["zhendu"] = "Độc Tửu",
 	[":zhendu"] = "Đầu giai đoạn hành động của người chơi khác, có thể bỏ 1 lá bài trên tay, xem như họ sử dụng 1 [Tửu], sau đó bạn gây cho họ 1 sát thương.",
-	["@zhendu-discard"] = "Có thể kích hoạt \"Độc Tửu\", bỏ 1 lá trên tay.",
+	["@zhendu-discard"] = "Có thể phát động \"Độc Tửu\", bỏ 1 lá trên tay.",
 	["qiluan"] = "Thích Loạn",
 	[":qiluan"] = "Cuối lượt của 1 người, nếu trong lượt này bạn có giết người, bạn có thể rút 3 lá.",
 
@@ -116,7 +116,7 @@ return {
 					"Người thuộc thế lực Thục thay đổi các kỹ năng sau:\n" ..
 					"Võ Thánh: Có thể sử dụng hoặc đánh ra 1 lá như [Sát].\n" ..
 					"Bào Hao: Bổ xung mô tả: Sau khi bạn chỉ định mục tiêu của [Sát], vô hiệu phòng cụ của mục tiêu.\n" ..  --remove the detail of Qinggang-like effect
-					"Long Đảm: Bổ xung mô tả: Sau khi sử dụng hoặc đánh ra [Sát] hoặc [Thiểm] bởi kích hoạt \"Long Đảm\", rút 1 lá.\n" ..
+					"Long Đảm: Bổ xung mô tả: Sau khi sử dụng hoặc đánh ra [Sát] hoặc [Thiểm] bởi phát động \"Long Đảm\", rút 1 lá.\n" ..
 					"Liệt Cung: Bổ xung mô tả: Tầm đánh của bạn +1\n" ..
 					"Thiết Kỵ: Thay \"1 tướng đã mở\" thành \"tất cả tướng đã mở\"",
 	["jizhao"] = "Kích Chiếu",
@@ -127,7 +127,7 @@ return {
 	[":DragonPhoenix"] = "Bài Trang bị - Vũ khí\n\nTầm đánh: 2\nKỹ năng:\n" ..
 					"1. Sau khi sử dụng [Sát] chỉ định mục tiêu, có thể lệnh mục tiêu bỏ đi 1 lá của họ.\n" ..
 					"2. Khi mục tiêu của [Sát] từ bạn vào trạng thái hấp hối, có thể thu lấy 1 lá trên tay họ.\n" ,
-	["@dragonphoenix-discard"] = "Đã kích hoạt [Phi Long Đoạt Phượng], hãy bỏ 1 lá.",
+	["@dragonphoenix-discard"] = "Đã phát động [Phi Long Đoạt Phượng], hãy bỏ 1 lá.",
 
 	["DragonPhoenix:revive"] = "Có thể bấm \"Xác định\" để chọn 1 tướng cùng thế lực với bạn và lệnh cho họ quay lại trò chơi.",
 

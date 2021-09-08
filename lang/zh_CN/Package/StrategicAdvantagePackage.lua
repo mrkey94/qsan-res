@@ -43,7 +43,7 @@ return {
 	[":IronArmor"] = "Bài Trang bị - Phòng cụ\n\nKỹ năng：\n" ..
 	"1. Tỏa định kỹ, khi là mục tiêu của [Hỏa Thiêu Liên Doanh], [Hỏa Công] và [Sát Hỏa], hủy bỏ mục tiêu đối với bạn.\n" ..
 	"2. Tỏa định kỹ, nếu là tiểu thế lực, không thể rơi vào trạng thái bị xích.\n" ,
-	["#IronArmor"] = "%from đã kích hoạt [%arg]",
+	["#IronArmor"] = "%from đã phát động [%arg]",
 
 
 	["WoodenOx"] = "Mộc Ngưu Lưu Mã",
@@ -62,7 +62,7 @@ return {
 	"1. Phe của bạn là Đại thế lực duy nhất, tất cả phe khác là Tiểu Thế Lực.\n" ..
 	"2. Giai đoạn rút bài, bạn rút thêm 1 lá\n" ..
 	"3. Đầu giai đoạn hành động, xem như sử dụng 1 lá [Tri Bỉ Tri Kỉ].\n" ,
-	["@JadeSeal"] = "Kích hoạt [Ngọc Tỉ], xem như dùng 1 [Tri Kỷ Tri Bỉ]",
+	["@JadeSeal"] = "Phát động [Ngọc Tỉ], xem như dùng 1 [Tri Kỷ Tri Bỉ]",
 	["~JadeSeal"] = "Chọn mục tiêu [Tri Kỷ Tri Bỉ] rồi bấm \"Xác Định\"",
 
 	["drowning"] = "Thuỷ Yêm Thất Quân",

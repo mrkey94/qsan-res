@@ -41,7 +41,7 @@ return {
 	["zhente"] = "Trinh Đặc",
 	[":zhente"] = "Một lần trong lượt của mỗi người, sau khi trở thành mục tiêu của lá cơ bản Đen hoặc công cụ phổ thông Đen từ người khác, có thể lệnh cho họ chọn 1 mục:\n1. Lượt này họ không thể sử dụng bài Đen.\n2. Lá này không có hiệu quả với bạn.",
 
-	["zhente-ask"] = "Kích hoạt Trinh Đặc, chọn 1: khiến [%arg] vô hiệu với %src; Không thể sử dụng bài đen trong lượt này.",
+	["zhente-ask"] = "Phát động Trinh Đặc, chọn 1: khiến [%arg] vô hiệu với %src; Không thể sử dụng bài đen trong lượt này.",
 	["zhente:nullified"] = "Vô hiệu cho mục tiêu",
 	["zhente:cardlimited"] = "Lượt này không sử dụng bài đen",
 	
@@ -52,7 +52,7 @@ return {
 	["#zhiwei-effect"] = "Chi Vi",
 	[":zhiwei"] = "Khi bạn mở tướng này, có thể chọn 1 người khác. Đến khi tướng này bị úp hoặc loại bỏ; Sau khi họ gây sát thương, bạn rút 1 lá; Sau khi họ nhận sát thương, bạn bỏ 1 lá ngẫu nhiên trên tay; Giai đoạn bỏ bài, bạn có thể lệnh cho họ thu lấy tất cả bài bỏ của bạn. Khi họ trận vong, nếu bạn đã mở tất cả tướng, bạn úp tướng này.",
 	
-	["zhiwei-invoke"] = "Có thể kích hoạn \"Chi Vi\", chọn 1 người khác.",
+	["zhiwei-invoke"] = "Có thể phát động \"Chi Vi\", chọn 1 người khác.",
 	
 	["#ZhiweiEffect1"] = "%to đã gây sát thương, %from đã kích \"%arg\" và rút 1 lá",
 	["#ZhiweiEffect2"] = "%to đã nhận sát thương, %from đã kích \"%arg\" và bỏ 1 lá",
@@ -66,7 +66,7 @@ return {
     ["qiao"] = "Khí Ngạo",
     [":qiao"] = "Hai lần trong giai đoạn hành động của mỗi người, sau khi bạn trở thành mục tiêu của bài do người khác thế lực sử dụng, có thể bỏ 1 lá của họ, sau đó bạn bỏ 1 lá.",
     ["chengshang"] = "Thừa Thưởng",
-    [":chengshang"] = "Một lần trong giai đoạn hành động, sau khi bài bạn sử dụng chỉ định người khác thế lực làm mục tiêu kết toán xong, nếu lá này không gây sát thương, có thể thu lấy những lá có cùng chất và điểm với lá đó trong chồng bài rút.",
+    [":chengshang"] = "Một lần trong giai đoạn hành động, sau khi bài bạn sử dụng chỉ định người khác thế lực làm mục tiêu kết toán xong, nếu lá này không gây sát thương, có thể thu lấy những lá có cùng chất và điểm với lá đó trong chồng bài rút; nếu bạn không thu được bài sau khi dùng kỹ năng, xem như bạn chưa phát động kỹ năng này trong giai đoạn này.",
 
     ["@qiao-discard"] = "Khí Ngạo: Bỏ 1 lá.",
     
@@ -128,7 +128,7 @@ return {
 	["midao"] = "Mễ Đạo",
 	[":midao"] = "Một lần trong giai đoạn hành động của người cùng thế lực, khi họ sử dụng lá cơ bản hoặc công cụ phổ thông có thể gây sát thương, họ có thể giao cho bạn 1 lá trên tay, sau đó bạn tùy ý thay đổi chất và thuộc tính sát thương của lá bài được sử dụng.",
 	["bushi-invoke"] = "Bố Thí: Lệnh 1 người rút 1 lá.",
-	["@midao"] = "Có thể kích hoạt \"Mễ Đạo\" của %src",
+	["@midao"] = "Có thể phát động \"Mễ Đạo\" của %src",
 	["@midao-nature"] = "Mễ Đạo: Lựa chọn thuộc tính sát thương cho lá [%arg] của %dest.",
 	["midao:normal"] = "Thường",
 	["midao:fire"] = "Hỏa",
@@ -154,7 +154,7 @@ return {
 	[":tunjiang"] = "Giai đoạn kết thúc, nếu bạn trong giai đoạn hành động sử dụng ít nhất 1 lá và không chỉ định người khác làm mục tiêu, bạn có thể rút X lá (X là số thế lực trên bàn chơi).",
 	["@wenji"] = "Có thể kích \"Vấn Kế\", chọn 1 người khác",
 	["@wenji-give"] = "Vấn Kế, chọn 1 lá và giao cho %src",
-	["#WenjiEffect"] = "%from đã kích hoạt %arg, [%arg2] không thể bị phản ứng.",
+	["#WenjiEffect"] = "%from đã phát động %arg, [%arg2] không thể bị phản ứng.",
 	["#wenji-effect"] = "Vấn Kế",
 	
 	["#shixie"] = "Bách Việt Linh Y",
@@ -164,7 +164,7 @@ return {
 	["lixia"] = "Lễ Hạ",
 	[":lixia"] = "Đầu giai đoạn chuẩn bị của người chơi không cùng thế lực, họ có thể bỏ 1 lá trong khu trang bị của bạn, sau đó họ chọn 1 mục:\nHọ bỏ 2 lá\nHọ mất 1 máu\nHọ lệnh bạn rút 2 lá.",
 
-	["@lixia"] = "Có thể kích hoạt \"Lễ Hạ\" của %src",
+	["@lixia"] = "Có thể phát động \"Lễ Hạ\" của %src",
 	["@lixia-choose"] = "Lễ Hạ: Chọn 1 mục",
 	["lixia:discard"] = "Bỏ 2 lá",
 	["lixia:losehp"] = "Mất 1 máu",
@@ -197,10 +197,10 @@ return {
     ["jiancai"] = "Tiến Tài",
     [":jiancai"] = "Phó tướng kỹ, giảm 0.5 máu gốc, khi 1 người cùng thế lực với bạn nhận sát thương, nếu số sát thương không nhỏ hơn số máu của họ, bạn có thể chặn sát thương này sau đó bạn đổi phó tướng; khi một người cùng thế lực với bạn đổi phó tướng, có thể lệnh số tướng được xem +2.",
     
-    ["@zhuhai"] = "Có thể kích hoạt \"Tru Hại\", sử dụng [Sát] với %src",
+    ["@zhuhai"] = "Có thể phát động \"Tru Hại\", sử dụng [Sát] với %src",
     ["@pozhen-discard"] = "Phá Trận: Có thể bỏ 1 lá của người chung quan hệ đội hình hoặc vây công với %dest",
-    ["jiancai:damage"] = "Có thể kích hoạt \"Tiến Tài\", chặn sát thương lên %src",
-    ["jiancai:transform"] = "Có thể kích hoạt \"Tiến Tài\", số tướng được xem +2",
+    ["jiancai:damage"] = "Có thể phát động \"Tiến Tài\", chặn sát thương lên %src",
+    ["jiancai:transform"] = "Có thể phát động \"Tiến Tài\", số tướng được xem +2",
     
     ["#wujing"] = "Hàn Mã Lưu Kim",
     ["wujing"] = "Ngô Cảnh",
@@ -218,10 +218,10 @@ return {
     
     ["#zhidao-damage"] = "Trĩ Đạo",
     ["@zhidao-target"] = "Trĩ Đạo: Chọn 1 người khác",
-    ["#ZhidaoEffect"] = "%from đã kích hoạt \"%arg\", nhận 1 lá trong vùng chơi của %to",
+    ["#ZhidaoEffect"] = "%from đã phát động \"%arg\", nhận 1 lá trong vùng chơi của %to",
     
-    ["jilix:target"] = "Có thể kích hoạt \"Ký Li\", lệnh %src 1 lần nữa xem như sử dụng [%arg] với bạn.",
-    ["jilix:damage"] = "Có thể kích hoạt \"Ký Li\", chặn sát thương và loại bỏ tướng này.",
+    ["jilix:target"] = "Có thể phát động \"Ký Li\", lệnh %src 1 lần nữa xem như sử dụng [%arg] với bạn.",
+    ["jilix:damage"] = "Có thể phát động \"Ký Li\", chặn sát thương và loại bỏ tướng này.",
 
     ["ImperialEdict"] = "Chiếu Thư",
     [":ImperialEdict"] = "Bài Ký hiệu\n\nSử dụng:\n" ..
@@ -234,7 +234,7 @@ return {
     [":imperialedicttrick"] = "Một lần trong giai đoạn hành động, nếu có 4 lá [Chiếu] không cùng chất, bạn có thể đưa tất cả [Chiếu] vào chồng bài bỏ, rút ngẫu nhiêu 1 lá công cụ thế lực.",
 
     ["rule_the_world"] = "Hiệu Lệnh Thiên Hạ",
-    [":rule_the_world"] = "Bài công cụ - Ngụy\n\nSử dụng: Trong giai đoạn hành động.\nMục tiêu: Một người không phải ít máu nhất.\nHiệu quả: Ngoại trừ mục tiêu, mỗi người lựa chọn:\n1. Bỏ 1 lá trên tay xem như sử dụng [Sát] không giới hạn tầm với mục tiêu; người thế lực Ngụy không cần bỏ bài.\n2. Bỏ 1 lá của mục tiêu, người thế lực Ngụy thu lấy lá đó.\n3. Nhận Tiêu ký [Lệnh].",
+    [":rule_the_world"] = "Bài công cụ - Ngụy\n\nSử dụng: Trong giai đoạn hành động.\nMục tiêu: Một người không phải ít máu nhất.\nHiệu quả: Ngoại trừ mục tiêu, mỗi người lựa chọn:\n1. Bỏ 1 lá trên tay xem như sử dụng [Sát] không giới hạn tầm với mục tiêu; người thế lực Ngụy không cần bỏ bài.\n2. Bỏ 1 lá của mục tiêu, người thế lực Ngụy thu lấy lá đó.",
     ["rule_the_world:slash"] = "%log xem như sử dụng [Sát] với %to",
     ["rule_the_world:discard"] = "Một lá bài của %to bị %log",
     ["rule_the_world_slash"] = "Bỏ 1 lá bài và",
@@ -267,7 +267,7 @@ return {
     ["#simazhao"] = "Tứ Hải Uy Phục",
     ["simazhao"] = "Tư Mã Chiêu",
     ["suzhi"] = "Túc Trí",
-    [":suzhi"] = "Tỏa định kỹ:\nGiới hạn ba lần trong lượt của bạn đối với các mục sau:\n1. Khi bạn gây sát thương do sử dụng [Sát] hoặc [Quyết Đấu], lệnh số sát thương +1.\n 2. Khi bạn sử dụng công cụ, rút 1 lá.\n 3. Sau khi người khác đưa bài vào chồng bài bỏ, thu lấy lá đó.\nNếu chưa kích hoạt \"Túc Trí\" 3 lần trong lượt:\n1. Bạn có thể sử dụng công cụ không hạn chế khoảng cách.\n2. Khi kết thúc lượt chơi, bạn nhận kỹ năng \"Phản Quỹ\" đến trước khi bắt đầu lượt tiếp theo của bạn.",
+    [":suzhi"] = "Tỏa định kỹ:\nGiới hạn ba lần trong lượt của bạn đối với các mục sau:\n1. Khi bạn gây sát thương do sử dụng [Sát] hoặc [Quyết Đấu], lệnh số sát thương +1.\n 2. Khi bạn sử dụng công cụ, rút 1 lá.\n 3. Sau khi người khác đưa bài vào chồng bài bỏ, thu lấy lá đó.\nNếu chưa phát động \"Túc Trí\" 3 lần trong lượt:\n1. Bạn có thể sử dụng công cụ không hạn chế khoảng cách.\n2. Khi kết thúc lượt chơi, bạn nhận kỹ năng \"Phản Quỹ\" đến trước khi bắt đầu lượt tiếp theo của bạn.",
     ["zhaoxin"] = "Chiêu Tâm",
     [":zhaoxin"] = "Sau khi nhận sát thương, có thể mở tất cả bài trên tay, sau đó hoán đổi bài trên tay với 1 người khác khác không nhiều bài hơn bạn.",
     ["@zhaoxin-exchange"] = "Chiêu Tâm: Chọn 1 người có bài trên tay không nhiều hơn bạn để đổi bài.",
@@ -333,7 +333,7 @@ return {
     [":congcha"] = "Giai đoạn chuẩn bị, bạn có thể chọn 1 người không có thế lực; Trước khi bắt đầu lượt tiếp theo của bạn, khi họ mở tướng và trở thành có thế lực, nếu họ cùng thế lực với bạn, bạn và họ lá; nếu không cùng thế lực, họ mất 1 máu. Giai đoạn rút bài, nếu không có người không có thế lực, bạn có thể lệnh số lá rút +2.",
     ["gongqing"] = "Công Thanh",
     [":gongqing"] = "Tỏa định kỹ, khi bạn nhận sát thương, nếu tầm đánh của nguồn sát thương lớn hơn 3, sát thương này +1; nếu tầm đánh của nguồn sát thương nhỏ hơn 3 và sát thương lớn hơn 1, sát thương này trở thành 1.",
-    ["@congcha-target"] = "Có thể kích hoạt \"Quan Vy\", chọn 1 người không có thế lực.",
+    ["@congcha-target"] = "Có thể phát động \"Quan Vy\", chọn 1 người không có thế lực.",
     
     ["#congcha-effect"] = "Quan Vy",
 
@@ -349,7 +349,7 @@ return {
     ["huangzu"] = "Hoàng Tổ",
     ["xishe"] = "Vãn Cung",
     [":xishe"] = "Giai đoạn chuẩn bị của người khác, bạn có thể bỏ 1 lá trong vùng trang bị và xem như sử dụng 1 [Sát] với họ không giới hạn khoảng cách, nếu số máu của họ nhỏ hơn của bạn, tất cả người chơi không thể hưởng ứng [Sát] này; bạn có thể lặp lại quá trình này. Khi lượt chơi kết thúc, nếu trong lượt họ trận vong và nguồn là [Sát] của bạn, bạn có thể đổi tướng này, tướng sau khi được đổi sẽ úp xuống.",
-    ["@xishe-slash"] = "Có thể kích hoạt \"Văn Cung\", bỏ 1 lá trong vùng trang bị, xem như sử dụng [Sát] với %src",
+    ["@xishe-slash"] = "Có thể phát động \"Văn Cung\", bỏ 1 lá trong vùng trang bị, xem như sử dụng [Sát] với %src",
     
     ["#xishe-transform"] = "Vãn Cung",
     
@@ -378,7 +378,7 @@ return {
 	["xiaoni"] = "Hiêu Bạt",
 	[":xiaoni"] = "Tỏa định kỹ, khi bạn sử dụng hoặc trở thành mục tiêu của lá cơ bản hoặc công cụ phổ thông, nếu có người khác cùng thế lực với bạn và số bài trên tay họ không nhiều hơn bạn, bạn lệnh tất cả mục tiêu không thể hưởng ứng với lá này.",
 	
-	["@daming"] = "Có thể kích hoạt \"Gián Nghịch\" với %dest, bỏ 1 công cụ.",
+	["@daming"] = "Có thể phát động \"Gián Nghịch\" với %dest, bỏ 1 công cụ.",
 	["@daming-chain"] = "Gián Nghịch: Chọn người để đưa vào trạng thái liên hoàn.",
 	["@daming-choice"] = "Gián Nghịch: Chọn hiệu quả muốn %dest chấp hành",
 	["daming:peach"] = "Sử dụng [Đào]",
@@ -390,8 +390,8 @@ return {
 	["lianpian"] = "Liên Phiên",
 	[":lianpian"] = "Giai đoạn kết thúc của 1 người, nếu trong lượt này tổng số bài họ đã bỏ của tất cả người chơi lớn hơn số máu của họ, nếu là lượt của bạn, bạn có thể lệnh 1 người cùng thế lực bổ sung bài trên tay đến giới hạn máu của họ; nếu là lượt của người khác, họ chọn bỏ 1 lá của bạn hoặc lệnh bạn hồi 1 máu.",
 	
-	["@lianpian-target"] = "Có thể kích hoạt \"Liên Phiên\", chọn 1 người bổ sung bài trên tay đến giới hạn máu?",
-	["@lianpian"] = "Có thể kích hoạt \"Liên Phiên\" của %src",
+	["@lianpian-target"] = "Có thể phát động \"Liên Phiên\", chọn 1 người bổ sung bài trên tay đến giới hạn máu?",
+	["@lianpian"] = "Có thể phát động \"Liên Phiên\" của %src",
 	["#lianpian-other"] = "Liên Phiên",
 	["lianpian:discard"] = "Bỏ 1 lá của họ.",
 	["lianpian:recover"] = "Lệnh họ hồi 1 máu.",
@@ -402,7 +402,7 @@ return {
 	[":tongdu"] = "Giai đoạn kết thúc của người cùng thế lực, họ có thể rút X lá (X là số bài họ đã bỏ trong giai đoạn bỏ bài của lượt này, tối đa 3",
 	["qingyin"] = "Quy Ẩn",
 	[":qingyin"] = "Hạn định kỹ, giai đoạn hành động, bạn chọn tất cả người cùng thế lực (Áp dụng sau khi bạn đã mở tướng này); họ lần lượt hồi X máu (X là giới hạn máu trừ đi số máu của họ); sau đó bạn loại bỏ tướng này.",
-	["@tongdu"] = "Có thể kích hoạt \"Trù Độ\" của %src",
+	["@tongdu"] = "Có thể phát động \"Trù Độ\" của %src",
 	["#tongdu-other"] = "Trù Độ",
 	
 	["#zhuling"] = "Kiên Thành Túc Tướng",

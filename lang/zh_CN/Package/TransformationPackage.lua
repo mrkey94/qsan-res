@@ -90,7 +90,7 @@ return {
 	["lingtong"] = "Lăng Thống",
 	["xuanlue"] = "Toàn Lược",
 	[":xuanlue"] = "Sau khi bạn mất bài ở vùng trang bị, có thể bỏ 1 lá của người khác.",
-	["xuanlue-invoke"] = "Có thể kích hoạt \"Toàn Lược\" để bỏ 1 lá của người khác.",
+	["xuanlue-invoke"] = "Có thể phát động \"Toàn Lược\" để bỏ 1 lá của người khác.",
 	["yongjin"] = "Dũng Tiến",
 	[":yongjin"] = "Hạn định kỹ, giai đoạn hành động, có thể di chuyển tối đa 3 trang bị trên bàn chơi.",
 	["@brave"] = "Dũng Tiến",
@@ -102,9 +102,9 @@ return {
 	["diaodu"] = "Điều Độ",
 	["#diaodu-draw"] = "Điều Độ",
 	[":diaodu"] = "Khi 1 người cùng thế lực sử dụng trang bị, họ có thể rút 1 lá. Đầu giai đoạn hành động, có thể thu lấy 1 lá trong vùng trang bị của 1 người cùng thế lực, sau đó có thể giao cho 1 người khác ngoài họ.",
-	["@diaodu"] = "Có thể kích hoạt \"Điều Độ\" để thu lấy 1 trang bị của người cùng thế lực.",
+	["@diaodu"] = "Có thể phát động \"Điều Độ\" để thu lấy 1 trang bị của người cùng thế lực.",
 	["@diaodu-give"] = "Điều Độ: có thể giao [%arg] cho 1 người khác.",
-	["@diaodu-draw"] = "Có thể kích hoạt \"Điều Độ\" của %src, rút 1 lá.",
+	["@diaodu-draw"] = "Có thể phát động \"Điều Độ\" của %src, rút 1 lá.",
 	["diancai"] = "Điển Tài",
 	[":diancai"] = "Kết thúc giai đoạn hành động của người khác, nếu bạn đã mất ít nhất X lá (X là số máu của bạn và tối thiểu 1), bạn có thể bổ sung bài trên tay tới giới hạn máu; Nếu làm vậy, bạn có thể đổi Phó tướng.",
 
@@ -157,7 +157,7 @@ return {
 
 	["LuminousPearl"] = "Định Lan Dạ Minh Châu",
 	[":LuminousPearl"] = "Bài Trang bị - Bảo vật\n\nKỹ năng\n" ..
-	                     "Tỏa định kỹ, nếu bạn không có \"Chế Hành\", xem như bạn có \"Chế Hành\"; nếu bạn đã có \"Chế Hành\", không giới hạn số lá bỏ đi trong 1 lần kích hoạt \"Chế Hành\"",
+	                     "Tỏa định kỹ, nếu bạn không có \"Chế Hành\", xem như bạn có \"Chế Hành\"; nếu bạn đã có \"Chế Hành\", không giới hạn số lá bỏ đi trong 1 lần phát động \"Chế Hành\"",
 	["zhihenglp"] = "Chế Hành",
 
 	["transform"] = "Đổi Phó tướng",

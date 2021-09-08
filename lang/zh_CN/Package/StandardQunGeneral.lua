@@ -69,8 +69,8 @@ return {
 	[":luanwu"] = "Hạn định kỹ: Giai đoạn hành động, bạn có thể lệnh cho tất cả người khác sử dụng [Sát] lên người chơi có khoảng cách nhỏ nhất hoặc mất 1 máu.",
 	["@chaos"] = "Loạn Vũ",
 	["@luanwu-slash"] = "Hãy sử dụng [Sát] để hưởng ứng \"Loạn Vũ\"",
-	["#WanshaOne"] = "%from đã kích hoạt \"%arg\", chỉ %from có thể cứu %from",
-	["#WanshaTwo"] = "%from đã kích hoạt \"%arg\", chỉ %from và %to có thể cứu %from",
+	["#WanshaOne"] = "%from đã phát động \"%arg\", chỉ %from có thể cứu %from",
+	["#WanshaTwo"] = "%from đã phát động \"%arg\", chỉ %from và %to có thể cứu %from",
 
 	["#pangde"] = "Nhân Mã Nhất Thể",
 	["pangde"] = "Bàng Đức",
@@ -96,8 +96,8 @@ return {
 	["duanchang"] = "Đoạn Trường",
 	[":duanchang"] = "Tỏa định kỹ: Khi bạn trận vong, bạn chọn 1 tướng của người đã giết bạn, họ mất đi kỹ năng của tướng đó.",
 	["@duanchang"] = "Đoạn Trường",
-	["#DuanchangLoseHeadSkills"] = "%from đã kích hoạt \"%arg\"， %to đã mất kỹ năng của Chủ tướng",
-	["#DuanchangLoseDeputySkills"] = "%from đã kích hoạt \"%arg\"， %to đã mất kỹ năng của Phó tướng",
+	["#DuanchangLoseHeadSkills"] = "%from đã phát động \"%arg\"， %to đã mất kỹ năng của Chủ tướng",
+	["#DuanchangLoseDeputySkills"] = "%from đã phát động \"%arg\"， %to đã mất kỹ năng của Phó tướng",
 
 	["#mateng"] = "Trì Sính Tây Thùy",
 	["mateng"] = "Mã Đằng",
@@ -114,7 +114,7 @@ return {
 	[":lirang"] = "Sau khi bạn bỏ bài, bạn có thể giao tùy ý cho người khác.",
 	["@lirang-distribute"] = "Lễ Nhượng: Bạn có thể giao bài bỏ cho người khác.",
 	["#lirang"] = "Lễ nhượng",
-	["#Mingshi"] = "%from đã kích hoạt \"<font color=\"yellow\"><b>Danh Sĩ</b></font>\", sát thương từ %arg đến %arg2 -1.",
+	["#Mingshi"] = "%from đã phát động \"<font color=\"yellow\"><b>Danh Sĩ</b></font>\", sát thương từ %arg đến %arg2 -1.",
 
 	["#jiling"] = "Trọng Gia Đích Chủ Tướng",
 	["jiling"] = "Kỷ Linh",
@@ -151,7 +151,7 @@ return {
 	["qingcheng"] = "Khuynh Thành",
 	[":qingcheng"] = "Giai đoạn hành động, bạn có thể bỏ 1 lá Đen và chọn 1 người khác đã mở tất cả tướng, úp 1 tướng của họ. Nếu lá bạn bỏ là trang bị, bạn có thể chọn 1 người khác và lặp lại quá trình.",
 	["qingcheng-second"] = "Khuynh thành: Bạn có thể úp tướng của 1 người khác.",
-	["#QingchengSecond"] = "%from đã kích hoạt \"%arg\" lên %to",
+	["#QingchengSecond"] = "%from đã phát động \"%arg\" lên %to",
 
 	["illustrator:huatuo"] = "琛·美弟奇",
 	["illustrator:lvbu"] = "LiuHeng",

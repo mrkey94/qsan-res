@@ -60,7 +60,7 @@ return {
 	["liuli"] = "Lưu Ly",
 	[":liuli"] = "Khi bạn trở thành mục tiêu của [Sát], bạn có thể bỏ đi một lá bài để dời mục tiêu của [Sát] này sang người khác trong tầm đánh của bạn (không thể là người sử dụng thẻ [Sát] và người đã là mục tiêu của [Sát] này).",
 	["~liuli"] = "Chọn 1 lá, chọn người khác rồi bấm \"Xác định\"",
-	["@liuli"] = "%src đã sử dụng [Sát] lên bạn, có thể bỏ 1 lá để kích hoạt \"Lưu Ly\"",
+	["@liuli"] = "%src đã sử dụng [Sát] lên bạn, có thể bỏ 1 lá để phát động \"Lưu Ly\"",
 
 	["#luxun"] = "Kình Thiên Chi Trụ",
 	["luxun"] = "Lục Tốn",
@@ -83,7 +83,7 @@ return {
 	["yinghun_sunjian"] = "Anh Hồn",
 	[":yinghun"] = "Giai đoạn chuẩn bị, nếu bạn đang bị thương, bạn có thể lựa chọn một người chơi khác và bạn lựa chọn một mục: 1. Lệnh họ rút X lá sau đó bỏ đi 1 lá; 2. Lệnh họ rút 1 lá sau đó bỏ đi X lá (X là số máu đã mất).",
 	["#yinghun_sunjian"] = "Kích hoạn \"Anh Hồn\" lên %to",
-	["yinghun-invoke"] = "Có thể kích hoạt \"Anh Hồn\"<br/>Chọn 1 người chơi rồi bấm \"Xác định\"<br/>",
+	["yinghun-invoke"] = "Có thể phát động \"Anh Hồn\"<br/>Chọn 1 người chơi rồi bấm \"Xác định\"<br/>",
 	["yinghun_sunjian:d1tx"] = "Rút 1 lá rồi bỏ ra X lá",
 	["yinghun_sunjian:dxt1"] = "Rút X lá rồi bỏ đi 1 lá",
 
@@ -94,7 +94,7 @@ return {
 	["tianxiang"] = "Thiên Hương",
 	[":tianxiang"] = "Khi bạn nhận sát thương, có thể bỏ một lá Cơ trên tay để chặn sát thương này lại và lựa chọn một người khác, bạn chọn: 1. Lệnh họ nhận một điểm sát thương từ nguồn sau đó rút X thẻ bài (X là số sinh lực mục tiêu đã tổn thất nhiều nhất 5); 2. Lệnh họ mất một sinh lực sau đó thu lấy bài bạn vừa bỏ.",
 	
-	["@tianxiang-card"] = "Có thể bỏ 1 lá Cơ để kích hoạt \"Thiên Hương \"",
+	["@tianxiang-card"] = "Có thể bỏ 1 lá Cơ để phát động \"Thiên Hương \"",
 	["@tianxiang-choose"] = "Thiên Hương: Chọn cho %dest nhận 1 sát thương và rút bài hoặc cho %dest mất 1 máu và thu lấy [%arg]",
 	["tianxiang:damage"] = "Nhận sát thương",
 	["tianxiang:losehp"] = "Mất máu",
@@ -134,7 +134,7 @@ return {
 	["guzheng"] = "Cổ Chính",
 	[":guzheng"] = "Kết thúc giai đoạn bỏ bài của người khác, có thể trả lại 1 lá trong những lá bỏ đi ở giai đoạn này lên tay của họ; nếu làm vậy, bạn có thể thu lấy những lá còn lại.",
 	["$ZhijianEquip"] = "%from được trang bị %card",
-	["@guzheng"] = "Có thể kích hoạt \"Cổ Chính\" để khiến %src lấy lại 1 lá trong chỗ bài bỏ." ,
+	["@guzheng"] = "Có thể phát động \"Cổ Chính\" để khiến %src lấy lại 1 lá trong chỗ bài bỏ." ,
 	["@guzheng-obtain"] = "Cổ chính: Có thể lấy những lá bỏ còn lại.",
 	["#guzheng"] = "Cổ Chính",
 	["#guzhengOther"] = "Cổ Chính",

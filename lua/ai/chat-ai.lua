@@ -444,7 +444,7 @@ end
 sgs.ai_chat_func[sgs.EventPhaseStart].luanwu = function(self, player, data)
 	if player:getPhase() == sgs.Player_Play then
 		local chat = {
-			"Đại loại rồi",
+			"Đại loạn rồi",
 			"Chém ai bây giờ",
 			"Ta không có sát"
 		}

@@ -29,7 +29,7 @@ return {
 	["#cuiyanmaojie"] = "Nhật Xuất Nguyệt Thịnh",
 	["zhengbi"] = "Chinh Tịch",
 	[":zhengbi"] = "Đầu giai đoạn hành động, có thể chọn 1 trong 2:\n1. Chọn 1 người chơi khác không có thế lực, bạn sử dụng bài lên họ không giới hạn khoảng cách và số lần cho đến hết lượt này hoặc khi họ lật tướng.\n2. Chọn 1 người chơi khác phe, giao cho người đó 1 lá cơ bản, buộc người đó giao cho bạn 2 lá cơ bản hoặc 1 lá phi cơ bản",
-	["@zhengbi"] = "Kích hoạt \"Chinh Tịch\"",
+	["@zhengbi"] = "Phát động \"Chinh Tịch\"",
 	["@zhengbi-give"] = "Chinh Tịch: Hãy chọn 2 lá cơ bản hoặc 1 lá phi cơ bản để giao cho %src",
 	["fengying"] = "Phụng Nghênh",
 	[":fengying"] = "Hạn định kỹ: Có thể sử dụng tất cả bài trên tay như [Hiệp Thiên Tử Dĩ Lệnh Chư Hầu], sau khi những người chơi cùng thế lực với bổ sung bài trên tay đến khi bằng giới hạn máu",
@@ -39,7 +39,7 @@ return {
 	["#yujin"] = "Thảo Bạo Kiên Lũy",
 	["jieyue"] = "Tiết Viện",
 	[":jieyue"] = "Giai đoạn chuẩn bị, có thể giao cho 1 người chơi không phải thế lực Ngụy 1 lá bài trên tay, sau đó yêu cầu họ chấp hành 1 [Quân Lệnh]. Nếu họ chấp hành, bạn rút 1 lá; ngược lại, giai đoạn rút bài lượt này, bạn rút thêm 3 lá.",
-	["@jieyue"] = "Kích hoạt \"Tiết Việt\": Đưa 1 lá cho 1 người không phải Ngụy",
+	["@jieyue"] = "Phát động \"Tiết Việt\": Đưa 1 lá cho 1 người không phải Ngụy",
 
 	["wangping"] = "Vương Bình",
 	["#wangping"] = "Kiện Bế Kiếm Môn",
@@ -79,8 +79,8 @@ return {
 	[":keshou"] = "Khi nhận sát thương, có thể bỏ 2 lá bài trên tay có cùng màu để -1 sát thương; nếu không có người khác cùng thế lực, bạn có thể tiến hành phán xét, nếu kết quả là màu Đỏ, rút 1 lá.",
 	["zhuwei"] = "Trác Vi",
 	[":zhuwei"] = "Sau khi phán xét của bạn có hiệu lực, bạn có thể thu lấy lá đó, sau đó có thể lệnh cho người đang có lượt +1 giới hạn sử dụng [Sát] và giới hạn trữ bài +1.",
-	["@keshou"] = "Có thể kích hoạt \"Khắc Thủ\", chọn 2 lá cùng màu.",
-	["keshou:judge"] = "Có thể kích hoạt \"Khắc Thủ\", tiến hành phán xét.",
+	["@keshou"] = "Có thể phát động \"Khắc Thủ\", chọn 2 lá cùng màu.",
+	["keshou:judge"] = "Có thể phát động \"Khắc Thủ\", tiến hành phán xét.",
 	["@zhuwei-choose"] = "Trác Vi: Có thể lệnh cho %src giới hạn sử dụng [Sát] và giới hạn trữ bài +1.",
 	["#ZhuweiBuff"] = "%from đã lệnh %to giới hạn sử dụng [Sát] và giới hạn trữ bài +1.",
 
@@ -98,7 +98,7 @@ return {
 	[":fudi"] = "Sau khi nhận sát thương, có thể giao cho nguồn sát thương 1 lá bài trên tay, sau đó gây 1 sát thương cho 1 người cùng thế lực với nguồn sát thương mà có số máu nhiều nhất và không thấp hơn bạn.",
 	["congjian"] = "Tòng Gián",
 	[":congjian"] = "Tỏa định kỹ: Khi bạn gây sát thương ngoài lượt hoặc khi bạn nhận sát thương trong lượt, sát thương tăng thêm 1",
-	["@fudi-give"] = "Kích hoạt \"Phụ Địch\", đưa 1 lá cho nguồn sát thương (%src)",
+	["@fudi-give"] = "Phát động \"Phụ Địch\", đưa 1 lá cho nguồn sát thương (%src)",
 	["@fudi-damage"] = "Phụ Địch: Chọn người chơi nhận sát thương.",
 
 	["#lord_caocao"] = "Phụng Vũ Cửu Tiêu",
@@ -108,7 +108,7 @@ return {
 	[":jianan"] = "Quân chủ kỹ, Tỏa định kỹ, Bạn có \"Ngũ Tử Lương Tướng Đạo\".",
 	["elitegeneralflag"] = "Ngũ Tử Lương Tướng Đạo",
 	[":elitegeneralflag"] = "Giai đoạn chuẩn bị của người thế lực Ngụy, họ có thể bỏ 1 lá và chọn 1 tướng chưa mở của họ (nếu họ đã mở 2 tướng thì chọn úp 1 tướng), sau đó họ lựa chọn 1 trong các kỹ năng sau mà chưa có trên bàn: \"Đột Kích\", \"Kiêu Quả\", \"Xảo Biến\", \"Tiết Việt\", \"Đoạn Lương\", Họ có kỹ năng đó và không thể mở tướng đã chọn đến đầu lượt sau của họ.",
-	["@elitegeneralflag"] = "Có thể kích hoạt \"Ngũ Tử Lương Tướng Đạo\", bỏ 1 lá.",
+	["@elitegeneralflag"] = "Có thể phát động \"Ngũ Tử Lương Tướng Đạo\", bỏ 1 lá.",
 	["@jianan-hide"] = "Ngũ Tử Lương Tướng Đạo: Chọn 1 tướng để úp xuống.",
 	["elitegeneralflag:head"] = "Chủ tướng",
 	["elitegeneralflag:deputy"] = "Phó tướng",
@@ -134,15 +134,15 @@ return {
 
 	["command"] = "Quân lệnh",
 
-	["@startcommand"] = "%arg: Hãy lựa chọn quân lệnh: <br>%arg2；<br>%arg3",
-	["@startcommandto"] = "%arg: Lựa chọn quân lệnh cho %dest<br>%arg2；<br>%arg3",
+	["@startcommand"] = "%arg: Hãy lựa chọn quân lệnh: <br>%arg2;<br>%arg3",
+	["@startcommandto"] = "%arg: Lựa chọn quân lệnh cho %dest<br>%arg2;<br>%arg3",
 	
-	["command1"] = "Gây 1 st cho 1 ng do bạn chọn",
+	["command1"] = "Gây 1 sát thương cho 1 người do bạn chọn",
 	["command2"] = "Rút 1 lá, giao cho bạn 2 lá",
 	["command3"] = "Mất 1 máu",
-	["command4"] = "Cấm dùng/đánh bài, khóa kỹ năng trừ Tỏa",
-	["command5"] = "Chồng tướng, cấm hồi máu",
-	["command6"] = "Giữ 1 trên tay, 1 trang bị, bỏ chỗ còn lại",
+	["command4"] = "Cấm dùng/đánh bài trong lượt này, khóa tất cả kỹ năng trừ Tỏa định kỹ",
+	["command5"] = "Chồng tướng, cấm hồi máu lượt này",
+	["command6"] = "Giữ 1 lá trên tay, 1 trang bị, bỏ chỗ còn lại",
 
 	["#command1"] = "Gây 1 st cho 1 ng do bạn chọn",
 	["#command2"] = "Rút 1 lá, giao cho bạn 2 lá",

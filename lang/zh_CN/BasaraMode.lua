@@ -41,10 +41,10 @@ return
 	["head_general"] = "Chủ tướng",
 	["deputy_general"] = "Phó tướng",
 	["CompanionEffect"] = "Châu Liên Hợp Bích",
-	["@companion-choose"] = "Kích hoạt hợp kỹ, chọn kỹ năng kích hoạt",
+	["@companion-choose"] = "Phát động hợp kỹ, chọn kỹ năng phát động",
 	["#HalfMaxHpLeft"] = "%from có 2 tướng lẻ máu, có thể rút 1 lá bài",
-	["GameRule_AskForArraySummon"] = "Kích hoạt trận pháp",
-	["#SummonType"] = "Kích hoạt trận pháp bày bố %arg",
+	["GameRule_AskForArraySummon"] = "Phát động trận pháp",
+	["#SummonType"] = "Phát động trận pháp bày bố %arg",
 	["summon_type_siege"] = "Bao vây",
 	["summon_type_formation"] = "Đội hình",
 	["#SummonResult"] = "%from đã chọn %arg",
@@ -54,8 +54,8 @@ return
 	["SiegeSummon!"] = "Hưởng ứng bao vây!",
 	["FormationSummon"] = "Hưởng ứng đội hình",
 	["FormationSummon!"] = "Hưởng ứng đội hình!",
-	["GameRule:TriggerOrder"] = "Hãy chọn kỹ năng kích hoạt",
-	["trigger_none"] = "Không kích hoạt",
+	["GameRule:TriggerOrder"] = "Hãy chọn kỹ năng phát động",
+	["trigger_none"] = "Không phát động",
 	["anjiang"] = "Tướng úp",
 	["anjiang_head"] = "Tướng úp (Chủ)" ,
 	["anjiang_deputy"] = "Tướng úp (Phó)" ,
@@ -75,7 +75,7 @@ return
 
 	["GameRule_AskForGeneralShowHead"] = "Lật chủ tướng" ,
 	["GameRule_AskForGeneralShowDeputy"] = "Lật phó tướng" ,
-	["armorskill"] = "Chọn kỹ năng để kích hoạt",
+	["armorskill"] = "Chọn kỹ năng để phát động",
 	
 	["$enterBattleRoyalMode"] = "游戏进入 <font color=\"red\"><b>鏖战模式</b></font>，所有的【<font color=\"yellow\"><b>桃</b></font>】"..
 		"只能当普【<font color=\"yellow\"><b>杀</b></font>】或【<font color=\"yellow\"><b>闪</b></font>】使用或打出，不能用于回复体力",
@@ -120,7 +120,7 @@ return
     ["careerman:firstshow"] = "Rút đến khi 4 lá trên tay và xem 1 tướng ẩn",
     ["@careerman-target"] = "Dã Tâm Gia: Chọn 1 người chơi để xem 1 tướng ẩn",
     ["@careerman-use"] = "Có thể loại bỏ tiêu ký \"Dã Tâm Gia\" để giới hạn trữ bài +2.",
-    ["@careerman-choose"] = "Chọn 1 hiệu ứng để kích hoạt",
+    ["@careerman-choose"] = "Chọn 1 hiệu ứng để phát động",
 	
 	["canshowinplay"] = "Có thể lật tướng",
 	

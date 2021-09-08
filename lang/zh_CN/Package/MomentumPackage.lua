@@ -40,7 +40,7 @@ return {
 	["hengjiang"] = "Hoành Giang",
 	[":hengjiang"] = "Sau khi nhận 1 sát thương, có thể làm người chơi đang trong này giảm 1 giới hạn trữ bài. Cuối lượt, nếu ở giai đoạn bỏ bài, họ không bỏ lá nào, bạn bốc 1 lá bài.",
 	["@hengjiang"] = "Hoành Giang",
-	["#HengjiangDraw"] = "%from không bỏ bài, %to kích hoạt hiệu quả 【%arg】",
+	["#HengjiangDraw"] = "%from không bỏ bài, %to phát động hiệu quả 【%arg】",
 	["#hengjiang-draw"] = "Hoành Giang (Rút bài)",
 
 	["#madai"] = "Lâm Nguy Thụ Mệnh",
@@ -58,8 +58,8 @@ return {
 	["mifuren"] = "My Phu Nhân",
 	["guixiu"] = "Khuê Tú",
 	[":guixiu"] = "Sau khi mở tướng này, bạn có thế rút 2 lá bài. Sau khi tướng này bị loại bỏ, bạn có thể hồi 1 máu.",
-	["guixiu:draw"] = "Kích hoạt \"Khuê Tú\", bốc 2 lá bài.",
-	["guixiu:recover"] = "Kích hoạt \"Khuê Tú\", hồi 1 máu.",
+	["guixiu:draw"] = "Phát động \"Khuê Tú\", bốc 2 lá bài.",
+	["guixiu:recover"] = "Phát động \"Khuê Tú\", hồi 1 máu.",
 	["cunsi"] = "Tồn Tự",
 	[":cunsi"] = "Giai đoạn hành động, có thể loại bỏ tướng này. Sau đó, chọn 1 người chơi nhận kỹ năng \"Dũng Quyết\"; nếu người đó không phải bạn, họ rút 2 lá bài.",
 	["yongjue"] = "Dũng Quyết",
@@ -79,7 +79,7 @@ return {
 	[":hunshang"] = "Phó tướng kỹ - Giảm 0.5 máu: Giai đoạn chuẩn bị, nếu máu của bạn là 1, bạn có kỹ năng \"Anh Tư\" và \"Anh Hồn\" đến kết thúc lượt",
 	["yingzi_sunce"] = "Anh Tư",
 	["yinghun_sunce"] = "Anh Hồn",
-	["#yinghun_sunce"] = "Kích hoạt \"Anh Hồn\" lên %to",
+	["#yinghun_sunce"] = "Phát động \"Anh Hồn\" lên %to",
 	["yinghun_sunce:d1tx"] = "Rút 1 lá bài, sau đó bỏ %log lá bài.",
 	["yinghun_sunce:dxt1"] = "Rút %log lá bài, sau đó bỏ 1 lá bài.",
 
@@ -112,7 +112,7 @@ return {
 	["chuanxin:remove"] = "Loại bỏ Phó tướng",
 	["fengshi"] = "Phong Thỉ",
 	[":fengshi"] = "Trận pháp kỹ: Trong trạng thái Vây Công, sau khi bạn hoặc người vây công sử dụng lá [Sát] xác định mục tiêu bị vây công, mục tiêu bỏ đi 1 lá trong vùng trang bị.",
-	["@fengshi-discard"] = "%src đã kích hoạt \"Phong Thỉ\", bỏ đi 1 lá trong vùng trang bị." ,
+	["@fengshi-discard"] = "%src đã phát động \"Phong Thỉ\", bỏ đi 1 lá trong vùng trang bị." ,
 	["FengshiSummon"] = "Phong Thỉ",
 
 	["#lord_zhangjiao"] = "Thời Đại Đích Tiên Khu",
@@ -135,12 +135,12 @@ return {
 					"4. Người thế lực Quần có thẻ sử dụng hoặc đánh ra [Thiên Binh] như [Sát].",
 	
 	["&huangjinsymbol"] = "Có thể sử dụng 1 [Thiên Binh] như [Sát]",
-	["#HongfaTianbing"] = "%from đã kích hoạt \"<font color=\"yellow\"><b>Hoàng Cân Thiên Bình Phủ</b></font>\", số người trong thế lực Quần là %arg.",
+	["#HongfaTianbing"] = "%from đã phát động \"<font color=\"yellow\"><b>Hoàng Cân Thiên Bình Phủ</b></font>\", số người trong thế lực Quần là %arg.",
 	["wendao"] = "Vấn Đạo",
 	[":wendao"] = "Một lần trong giai đoạn hành động, bạn có thể bỏ 1 lá Đỏ ngoại trừ [Thái Bình Yêu Thuật] và thu lấy [Thái Bình Yêu Thuật] trong chồng bài bỏ hoặc trên bàn chơi.",
-	["huangjinsymbol:prevent"] = "Có thể kích hoạt \"Hoằng Pháp\", bỏ 1 [Thiên Binh] để chặn mất máu.",
+	["huangjinsymbol:prevent"] = "Có thể phát động \"Hoằng Pháp\", bỏ 1 [Thiên Binh] để chặn mất máu.",
 	["@huangjinsymbol-discard"] = "Bỏ 1 [Thiên Binh]",
-	["@hongfa-tianbing"] = "<font color='#ffcc33'><b>%src</b></font> Có thể kích hoạt \"Hoằng Pháp\", số người trong thế lực Quần +X",
+	["@hongfa-tianbing"] = "<font color='#ffcc33'><b>%src</b></font> Có thể phát động \"Hoằng Pháp\", số người trong thế lực Quần +X",
 	["~hongfa2"] = "Lựa chọn X lá [Thiên Binh], nhấn \"Xác định\"",
 
 	["PeaceSpell"] = "Thái Bình Yêu Thuật",
@@ -148,7 +148,7 @@ return {
 					"1. Tỏa định kỹ, khi bạn nhận sát thương có thuộc tính, chặn sát thương này.\n" ..
 					"2. Tỏa định kỹ, giới hạn trữ bài của bạn +X (X là số người cùng thế lực với bạn).\n" ..
 					"3. Tỏa định kỹ, khi bạn mất đi [Thái Bình Yêu Thuật] từ vùng trang bị, rút 2 lá, sau đó nếu máu của bạn lớn hơn 1, bạn mất 1 máu.\n" ,
-	["#PeaceSpellNatureDamage"] = "[<font color=\"yellow\"><b>Thái Bình Yêu Thuật</b></font>] đã kích hoạt, chặn sát thương từ %from gây cho %to %arg sát thương." ,
+	["#PeaceSpellNatureDamage"] = "[<font color=\"yellow\"><b>Thái Bình Yêu Thuật</b></font>] đã phát động, chặn sát thương từ %from gây cho %to %arg sát thương." ,
 	["#PeaceSpellLost"] = "%from đã mất [<font color=\"yellow\"><b>Thái Bình Yêu Thuật</b></font>] khỏi vùng trang bị, đã mất 1 máu và rút 2 lá." ,
 
 	["illustrator:lidian"] = "张帅",

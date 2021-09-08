@@ -46,14 +46,14 @@ return {
 	["zhangliao"] = "Trương Liêu",
 	["tuxi"] = "Tập Kích",
 	[":tuxi"] = "Giai đoạn rút bài, có thể rút -X lá và chọn X người chơi khác có bài trên tay, thu lấy 1 lá bài trên tay của mỗi người.",
-	["@tuxi-card"] = "Bạn có thể kích hoạt \"Tập Kích\"",
+	["@tuxi-card"] = "Bạn có thể phát động \"Tập Kích\"",
 	["~tuxi"] = "Chọn những người khác và bấm \"Xác Định\"",
 
 	["#xuchu"] = "Hổ Si",
 	["xuchu"] = "Hứa Chử",
 	["luoyi"] = "Lỏa Y",
 	[":luoyi"] = "Cuối giai đoạn rút bài, bạn có thể bỏ đi 1 lá; trong lượt này, khi bạn gây sát thương cho mục tiêu của [Sát] hoặc [Quyết Đấu], sát thương này +1.",
-	["#LuoyiBuff"] = "%from đã kích hoạt \"<font color=\"yellow\"><b>Loả Y</b></font>\", sát thương từ %arg tăng thành %arg2",
+	["#LuoyiBuff"] = "%from đã phát động \"<font color=\"yellow\"><b>Loả Y</b></font>\", sát thương từ %arg tăng thành %arg2",
 	["@luoyi"] = "Lỏa Y: Bạn có thể bỏ đi 1 lá.",
 
 	["#guojia"] = "Tảo Chung Tiên Tri",
@@ -75,8 +75,8 @@ return {
 	["xiahouyuan"] = "Hạ Hầu Uyên",
 	["shensu"] = "Thần Tốc",
 	[":shensu"] = "Có thể bỏ qua giai đoạn phán xét và rút bài, xem như sử dụng [Sát] không giới hạn tầm; Có thể bỏ qua giai đoạn hành động và bỏ đi 1 trang bị, xem như sử dụng [Sát] không giới hạn tầm.",
-	["@shensu1"] = "Bạn có thể bỏ qua giai đoạn phán xét và rút bài để kích hoạt \"Thần Tốc\"",
-	["@shensu2"] = "Bạn có thể bỏ qua giai đoạn hành động và bỏ 1 trang bị để kích hoạt \"Thần Tốc\"",
+	["@shensu1"] = "Bạn có thể bỏ qua giai đoạn phán xét và rút bài để phát động \"Thần Tốc\"",
+	["@shensu2"] = "Bạn có thể bỏ qua giai đoạn hành động và bỏ 1 trang bị để phát động \"Thần Tốc\"",
 	["~shensu1"] = "Chọn mục tiêu của sát [Sát] rồi bấm \"Xác định\"",
 	["~shensu2"] = "Chọn bỏ 1 trang bị, chọn mục tiêu của [Sát] rồi bấm \"Xác định\"",
 
@@ -115,8 +115,8 @@ return {
 	["@quhu-damage"] = "Hãy chọn 1 người trong tầm đánh của %src",
 	["jieming"] = "Tiết Mệnh",
 	[":jieming"] = "Sau khi nhận sát thương, có thể cho 1 người bổ xung bài đến giới hạn máu (Tối đa 5)",
-	["jieming-invoke"] = "Bạn có thể kích hoạt \"Tiết Mệnh\". <br/>Chọn một người chơi và bấm \"Xác định\"<br/>",
-	["#QuhuNoWolf"] = "%from đã kích hoạt \"<font color=\"yellow\"><b>Vờn Hổ</b></font>\" đấu điểm thắng, gây sát thương cho 1 người khác trong tầm đánh của %to",
+	["jieming-invoke"] = "Bạn có thể phát động \"Tiết Mệnh\". <br/>Chọn một người chơi và bấm \"Xác định\"<br/>",
+	["#QuhuNoWolf"] = "%from đã phát động \"<font color=\"yellow\"><b>Vờn Hổ</b></font>\" đấu điểm thắng, gây sát thương cho 1 người khác trong tầm đánh của %to",
 
 	["#caopi"] = "Kế Thừa Bá Nghiệp",
 	["caopi"] = "Tào Phi",
@@ -124,14 +124,14 @@ return {
 	[":xingshang"] = "Khi có người trận vong, bạn có thể thu lấy toàn bộ bài của người đó.",
 	["fangzhu"] = "Lưu Đày",
 	[":fangzhu"] = "Sau khi nhận sát thương, có thể lệnh 1 người khác lựa chọn:\n1. Đặt chồng tướng, sau đó rút X lá (X lá số máu đã mất của bạn).\n2. Bỏ 1 lá, sau đó mất 1 máu.",
-	["fangzhu-invoke"] = "Có thể kích hoạt \"Lưu Đày\". <br/>Chọn một người rồi bấm \"Xác định\"",
+	["fangzhu-invoke"] = "Có thể phát động \"Lưu Đày\". <br/>Chọn một người rồi bấm \"Xác định\"",
 	["@fangzhu-discard"] = "Lưu Đày: Bỏ 1 lá và mất 1 máu, hoặc bấm \"Hủy bỏ\" để đặt chồng tướng và rút %arg lá.",
 
 	["#yuejin"] = "Kiên Cường Đột Phá",
 	["yuejin"] = "Nhạc Tiến",
 	["xiaoguo"] = "Dũng Mãnh",
 	[":xiaoguo"] = "Giai đoạn kết thúc của một người khác, có thể bỏ 1 lá cơ bản để lệnh người đó chọn bỏ 1 trang bị hoặc nhận 1 sát thươg từ bạn.",
-	["@xiaoguo"] = "Có thể bỏ 1 lá cơ bản để kích hoạt \"Dũng Mãnh\"",
+	["@xiaoguo"] = "Có thể bỏ 1 lá cơ bản để phát động \"Dũng Mãnh\"",
 	["@xiaoguo-discard"] = "Dũng Mãnh: Bỏ 1 trang bị, hoặc nhận 1 sát thương.",
 	
 	

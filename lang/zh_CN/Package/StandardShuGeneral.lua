@@ -38,8 +38,8 @@ return {
 	["zhangfei"] = "Trương Phi",
 	["paoxiao"] = "Bào Hao",
 	[":paoxiao"] = "Tỏa định kỹ, Có thể sử dụng lá [Sát] không giới hạn số lượng. Khi bạn sử dụng lá [Sát] thứ 2 trong 1 lượt, rút 1 lá.",
-	["#PaoxiaoDraw"] = "%from đã kích hoạt \"%arg\", rút 1 lá",
-    ["#PaoxiaoTarget"] = "%from đã kích hoạt \"%arg\", bỏ qua phòng cụ của %to",
+	["#PaoxiaoDraw"] = "%from đã phát động \"%arg\", rút 1 lá",
+    ["#PaoxiaoTarget"] = "%from đã phát động \"%arg\", bỏ qua phòng cụ của %to",
 
 	["#zhugeliang"] = "Trì Mộ Đích Thừa Tướng",
 	["zhugeliang"] = "Gia Cát Lượng",
@@ -47,7 +47,7 @@ return {
 	[":guanxing"] = "Giai đoạn chuẩn bị, bạn có thể xem X lá bài trên đầu chồng bài (X là số người chơi trên bàn, tối đa 5), sau đó sắp xếp tùy ý những lá này lên đầu hoặc đáy chồng bài",
 	["kongcheng"] = "Không Thành",
 	[":kongcheng"] = "Tỏa định kỹ, Nếu bạn không có bài trên tay\n1. Khi bạn là mục tiêu của lá [Sát] hoặc [Quyết Đấu], hủy bỏ mục tiêu đối với bạn.\n2. Ngoài lượt của bạn, khi bạn nhận được bài do người chơi khác giao cho, đặt những lá bài này lên trên Tướng này, gọi là [Cầm]. Đầu giai đoạn rút bài, bạn nhận lấy tất cả lá [Cầm]",
-	["#GuanxingResult"] = "%from đã kích hoạt \"<font color=\"yellow\"><b>Quan Tinh</b></font>\": %arg lên trên, %arg2 xuống dưới",
+	["#GuanxingResult"] = "%from đã phát động \"<font color=\"yellow\"><b>Quan Tinh</b></font>\": %arg lên trên, %arg2 xuống dưới",
 	["$GuanxingTop"] = "Đặt lên đầu chồng bài: %card",
 	["$GuanxingBottom"] = "Đặt dưới đáy chồng bài: %card",
 	["zither"] = "Cầm",
@@ -58,13 +58,13 @@ return {
 	[":longdan"] = "1. Có thể sử dụng hoặc đánh ra [Thiểm] như [Sát], nếu như [Sát] này bị triệt tiêu bởi [Thiểm] của mục tiêu, có thể gây 1 sát thương cho 1 người chơi trừ mục tiêu。\n2. Có thể sử dụng hoặc đánh ra [Sát] như [Thiểm], nếu như [Thiểm] này triệt tiêu [Sát] của 1 người chơi, có thể hồi 1 máu cho 1 người chơi khác ngoại trừ người sử dụng [Sát].",
 
 	["#longdan-draw"] = "Long đảm [Rút bài]",
-	["#LongdanDraw"] = "%from đã kích hoạt \"%arg<font color=\"yellow\"><b>(Ngũ Hổ Tướng Đại Kỳ)</b></font>\", rút 1 lá.",
-	["longdan-damage"] = "Kích hoạt \"Long Đảm\", gây 1 sát thương cho người chơi khác?",
-	["longdan-recover"] = "Kích hoạt \"Long Đảm\", hồi 1 máu cho người chơi khác?",
+	["#LongdanDraw"] = "%from đã phát động \"%arg<font color=\"yellow\"><b>(Ngũ Hổ Tướng Đại Kỳ)</b></font>\", rút 1 lá.",
+	["longdan-damage"] = "Phát động \"Long Đảm\", gây 1 sát thương cho người chơi khác?",
+	["longdan-recover"] = "Phát động \"Long Đảm\", hồi 1 máu cho người chơi khác?",
 	["#longdan-slash"] = "Long Đảm [Sát]",
 	["#longdan-jink"] = "Long Đảm [Tránh]",
-	["#LongdanDamage"] = "%from đã kích hoạt \"%arg\"，gây 1 sát thương cho %to",
-	["#LongdanRecover"] = "%from đã kích hoạt \"%arg\"，hồi 1 máu cho %to",
+	["#LongdanDamage"] = "%from đã phát động \"%arg\"，gây 1 sát thương cho %to",
+	["#LongdanRecover"] = "%from đã phát động \"%arg\"，hồi 1 máu cho %to",
 	
 	["#machao"] = "Nhất Kỵ Đươmg Thiên",
 	["machao"] = "Mã Siêu",
@@ -74,9 +74,9 @@ return {
 	[":tieqi"] = "Sau khi sử dụng [Sát] chỉ định mục tiêu, có thể tiến hành phán xét, sau đó vô hiệu hóa kỹ năng không phải Tỏa định kỹ của 1 tướng đã mở của mục tiêu trong lượt này; sau đó nếu mục tiêu không bỏ 1 lá cùng chất với phán xét, mục tiêu không thể sử dụng [Thiểm].",
 	
 	["@tieji-discard"] = "Thiết Kỵ: Bỏ 1 lá bài có chất %arg, nếu không bạn không thể sử dụng [Thiểm]",
-	["#TieqiHeadSkills"] = "%from đã kích hoạt \"%arg\", khóa kỹ năng không phải tỏa định kỹ của chủ tướng của %to",
-	["#TieqiDeputySkills"] = "%from đã kích hoạt \"%arg\", khóa kỹ năng không phải tỏa định kỹ của phó tướng của %to",
-	["#TieqiAllSkills"] = "%from đã kích hoạt \"arg\", khóa kỹ năng không phải tỏa định kỹ của %to ",
+	["#TieqiHeadSkills"] = "%from đã phát động \"%arg\", khóa kỹ năng không phải tỏa định kỹ của chủ tướng của %to",
+	["#TieqiDeputySkills"] = "%from đã phát động \"%arg\", khóa kỹ năng không phải tỏa định kỹ của phó tướng của %to",
+	["#TieqiAllSkills"] = "%from đã phát động \"arg\", khóa kỹ năng không phải tỏa định kỹ của %to ",
 	
 	
 	["#huangyueying"] = "Quy Ẩn Kiệt Nữ",
@@ -120,7 +120,7 @@ return {
 	["liushan"] = "Lưu Thiện",
 	["xiangle"] = "Hưởng Lạc",
 	[":xiangle"] = "Tỏa định kỹ, sau khi trở thành mục tiêu của [Sát], người sử dụng phải bỏ thêm 1 lá cơ bản nếu không [Sát] đó bị vô hiệu với bạn.",
-	["@xiangle-discard"] = "%src đã kích hoạt [Hưởng Lạc], hãy bỏ thêm 1 lá cơ bản nếu không lá [Sát] sẽ vô hiệu.",
+	["@xiangle-discard"] = "%src đã phát động [Hưởng Lạc], hãy bỏ thêm 1 lá cơ bản nếu không lá [Sát] sẽ vô hiệu.",
 	["fangquan"] = "Uỷ Quyền",
 	[":fangquan"] = "Có thể bỏ qua giai đoạn hành động và bỏ 1 lá bài trên tay trước khi kết thúc lượt để lệnh một người chơi có 1 lượt chơi.",
 	["@fangquan-discard"] = "Bạn có thể bỏ ra 1 lá bài và chọn 1 người chơi để họ có lượt sau bạn.",
@@ -134,7 +134,7 @@ return {
 	["#sa_avoid_huoshou"] = "Chủ Mưu (vô hiệu Nam Man Nhập Xâm)" ,
 	["zaiqi"] = "Tái Khởi",
 	[":zaiqi"] = "Có thể bỏ qua giai đoạn rút bài và lật ra số lá bằng số máu đã mất và hồi lượng máu bằng số lá Cơ đã lật và thu lấy những lá còn lại.",
-	["#HuoshouTransfer"] = "%from đã kích hoạt \"%arg2\", [<font color=\"yellow\"><b>Nam Man Nhập Xâm</b></font>] chuyển nguồn sát thương thành %from",
+	["#HuoshouTransfer"] = "%from đã phát động \"%arg2\", [<font color=\"yellow\"><b>Nam Man Nhập Xâm</b></font>] chuyển nguồn sát thương thành %from",
 
 	["#zhurong"] = "Dã Tính Nữ Vương",
 	["zhurong"] = "Chúc Dung",
@@ -148,7 +148,7 @@ return {
 	["ganfuren"] = "Cam Phu Nhân",
 	["shushen"] = "Thục Thận",
 	[":shushen"] = "Sau khi hồi 1 máu, có thể chọn một người chơi khác, người đó rút 1 lá.",
-	["shushen-invoke"] = "Kích hoạt \"Thục Thận\". <br/>Chọn một người chơi rồi bấm \"Xác định\"<br/>",
+	["shushen-invoke"] = "Phát động \"Thục Thận\". <br/>Chọn một người chơi rồi bấm \"Xác định\"<br/>",
 	["shenzhi"] = "Thần Trí",
 	[":shenzhi"] = "Giai đoạn chuẩn bị, có thể bỏ tất cả bài trên tay, nếu số lá bỏ đi lớn hơn hoặc bằng số máu hiện tại, bạn hồi 1 máu.",
 

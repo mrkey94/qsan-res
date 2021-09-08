@@ -56,7 +56,7 @@ local t = {
 
 	["DoubleSword"] = "Thư Hùng Song Cổ Kiếm",
 	[":DoubleSword"] = "Bài trang bị - Vũ khí\n\nTầm đánh: 2\nKỹ năng: Sau khi xác định mục tiêu của lá[Sát], nếu mục tiêu khác giới, cho mục tiêu chọn bỏ 1 lá bài trên tay hoặc để bạn rút 1 lá bài.",
-	["double-sword-card"] = "%src kích hoạt hiệu quả [Thư Hùng Song Cổ Kiếm], bạn cần phải bỏ 1 lá bài trên tay hoặc để %src rút 1 lá bài.",
+	["double-sword-card"] = "%src phát động hiệu quả [Thư Hùng Song Cổ Kiếm], bạn cần phải bỏ 1 lá bài trên tay hoặc để %src rút 1 lá bài.",
 
 	["SixSwords"] = "Ngô Lục Kiếm",
 	[":SixSwords"] = "Bài trang bị - Vũ khí\n\nTầm đánh:2<br/>Kỹ năng: Tỏa định kỹ, người chơi khác cùng phe +1 tầm đánh.",
@@ -107,7 +107,7 @@ local t = {
 	[":Vine"] ="Bài trang bị - Phòng cụ\n\nKỹ năng:\n" ..
 	"1. Tỏa định kỹ, [Nam Man Nhập Xâm]、[Vạn Tiễn Tề Phát] và [Sát] phổ thông không có hiệu quả với bạn.\n "..
 "2. Tỏa định kỹ, Khi nhận sát thương có thuộc tính Hỏa, +1 sát thương này.\n" ,
-	["#VineDamage"] = "Kích hoạt hiệu quả [<font color=\"yellow\"><b>Đằng Giáp</b></font>] của %from, sát thương Hoả hệ tăng từ %arg lên %arg2 điểm.",
+	["#VineDamage"] = "Phát động hiệu quả [<font color=\"yellow\"><b>Đằng Giáp</b></font>] của %from, sát thương Hoả hệ tăng từ %arg lên %arg2 điểm.",
 
 	["Horse"] = "Chiến mã",
 	[":+1 horse"] = "Bài trang bị - Chiến mã\n\nKỹ năng: Tỏa định kỹ, khoảng cách từ người chơi khác đến bản thân +1.",
