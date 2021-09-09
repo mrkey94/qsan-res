@@ -410,7 +410,7 @@ return {
 	["juejue"] = "Trấn Vệ",
 	[":juejue"] = "Đầu giai đoạn bỏ bài, bạn có thể mất 1 máu, khi giai đoạn này kết thúc, nếu trong giai đoạn này bạn có bỏ bài, bạn lệnh người khác chọn:\n1. Đưa X lá trên tay vào chồng bài bỏ (X là số lá bạn đã bỏ trong giai đoạn này);\n2. Nhận 1 sát thương từ bạn. Khi bạn giết người cùng thế lực với bạn, bỏ qua chấp hành thưởng phạt.",
 	["fangyuan"] = "Ngư Lân",
-	[":fangyuan"] = "Trận pháp kỹ,\n1. Giới hạn trữ bài +1 nếu bạn là người vây công trong quan hệ vây công.\n2. Giới hạn trữ bài -1 nếu bạn là người bị vây công trong quan hệ vây công.\n3. Giai đoạn kết thúc, bạn xem như sử dụng [Sát] với 1 người vây công trong quan hệ vây công có bạn là người bị vây công.",
+	[":fangyuan"] = "Trận pháp kỹ,\n1. Nếu bạn là người vây công trong quan hệ vây công, giới hạn trữ bài của người vây công +1, giới hạn trữ bài của người bị vây công -1.\n2. Giai đoạn kết thúc, nếu bạn là người bị vây công trong quan hệ vây công, bạn xem như sử dụng [Sát] với 1 người vây công",
 	["@fangyuan-slash"] = "Ngư Lân: chọn 1 người đang vây công bạn, xem như sử dụng [Sát] với họ",
 	
 	["@juejue-discard"] = "Trấn Vệ: Bỏ %arg lá trên tay, hoặc %src gây 1 sát thương với bạn.",
