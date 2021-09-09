@@ -388,7 +388,7 @@ return {
 	["#sufei"] = "Hùng Mãnh Dật Tài",
 	["sufei"] = "Tô Phi",
 	["lianpian"] = "Liên Phiên",
-	[":lianpian"] = "Giai đoạn kết thúc của 1 người, nếu trong lượt này tổng số bài họ đã bỏ của tất cả người chơi lớn hơn số máu của họ, nếu là lượt của bạn, bạn có thể lệnh 1 người cùng thế lực bổ sung bài trên tay đến giới hạn máu của họ; nếu là lượt của người khác, họ chọn bỏ 1 lá của bạn hoặc lệnh bạn hồi 1 máu.",
+	[":lianpian"] = "Giai đoạn kết thúc của 1 người, nếu trong lượt này tổng số bài họ đã bỏ của tất cả người chơi lớn hơn số máu của bạn, nếu là lượt của bạn, bạn có thể lệnh 1 người cùng thế lực bổ sung bài trên tay đến giới hạn máu của họ; nếu là lượt của người khác, họ chọn bỏ 1 lá của bạn hoặc lệnh bạn hồi 1 máu.",
 	
 	["@lianpian-target"] = "Có thể phát động \"Liên Phiên\", chọn 1 người bổ sung bài trên tay đến giới hạn máu?",
 	["@lianpian"] = "Có thể phát động \"Liên Phiên\" của %src",

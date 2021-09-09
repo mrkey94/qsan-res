@@ -94,7 +94,7 @@ return
 
 	["halfmaxhp"] = "Âm Dương Ngư",
 	[":halfmaxhp"] = "Hạn định kỹ, giai đoạn hành động，bốc 1 lá。②Giai đoạn bỏ bài, tăng giới hạn trữ bài thêm 2。",
-	["@halfmaxhp-use"] = "Bỏ [Khuyết Ngọc] để tăng giới hạn trữ bài thêm 2?",
+	["@halfmaxhp-use"] = "Bỏ [Âm Dương Ngư] để tăng giới hạn trữ bài thêm 2?",
 
 	["firstshow"] = "Tiên Khu",
 	[":firstshow"] = "Hạn định kỹ, giai đoạn hành động, bạn có thể bổ sung bài đến khi có 4 lá trên tay, sau đó xem 1 tướng ẩn của 1 người chơi。",
