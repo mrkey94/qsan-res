@@ -30,7 +30,7 @@ return {
 
 	["#simayi"] = "Lang Cố Chi Quỷ",
 	["simayi"] = "Tư Mã Ý",
-	["fankui"] = "Phản Phệ",
+	["fankui"] = "Phản Quỹ",
 	[":fankui"] = "Sau khi nhận sát thương, có thể lấy 1 lá của nguồn sát thương.",
 	["guicai"] = "Quỷ Tài",
 	[":guicai"] = "Trước khi 1 phán xét có hiệu lực, có thể đánh ra 1 lá bài để thay thế kết quả Phán xét đó.",
