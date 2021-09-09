@@ -26,9 +26,9 @@ local t = {
 
 	["slash"] = "Sát",
 	[":slash"] = "Bài cơ bản\n\nSử dụng: Một lần trong giai đoạn hành động.\nMục tiêu: Người chơi trong tầm đánh\nHiệu quả: Gây 1 sát thương cho mục tiêu.",
-	["slash-jink"] = "%src đã sử dụng lá [Sát]，hãy sử dụng 1 lá [Thiểm]",
-	["@multi-jink-start"] = "%src đã sử dụng lá [sát]，hãy sử dụng %arg lá [Thiểm]",
-	["@multi-jink"] = "%src đã sử dụng[Sát]，hãy dùng thêm %arg lá [Thiểm]",
+	["slash-jink"] = "%src đã sử dụng [Sát], hãy sử dụng 1 [Thiểm]",
+	["@multi-jink-start"] = "%src đã sử dụng lá [sát], hãy sử dụng %arg lá [Thiểm]",
+	["@multi-jink"] = "%src đã sử dụng [Sát], hãy sử dụng thêm %arg lá [Thiểm]",
 	["@slash_extra_targets"] = "Hãy chọn thêm mục tiêu khác cho lá [Sát]",
 
 	["fire_slash"] = "Sát Hỏa",

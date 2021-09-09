@@ -92,28 +92,28 @@ return
 	["companion:peach"] = "Sử dụng như [Đào]",
 	["companion:draw"] = "Bốc 2 lá",
 
-	["halfmaxhp"] = "Khuyết Ngọc",
+	["halfmaxhp"] = "Âm Dương Ngư",
 	[":halfmaxhp"] = "Hạn định kỹ, giai đoạn hành động，bốc 1 lá。②Giai đoạn bỏ bài, tăng giới hạn trữ bài thêm 2。",
 	["@halfmaxhp-use"] = "Bỏ [Khuyết Ngọc] để tăng giới hạn trữ bài thêm 2?",
 
-	["firstshow"] = "Tiên Phong",
+	["firstshow"] = "Tiên Khu",
 	[":firstshow"] = "Hạn định kỹ, giai đoạn hành động, bạn có thể bổ sung bài đến khi có 4 lá trên tay, sau đó xem 1 tướng ẩn của 1 người chơi。",
-	["@firstshow-see"] = "Tiên Phong： Hãy chọn 1 người chơi và xem 1 tướng ẩn",
-	["firstshow_see"] = "Tiên Phong",
-	["@firstshow-choose"] = "Tiên Phong： Hãy xem 1 tướng của %dest",
+	["@firstshow-see"] = "Tiên Khu: Hãy chọn 1 người chơi và xem 1 tướng ẩn",
+	["firstshow_see"] = "Tiên Khu",
+	["@firstshow-choose"] = "Tiên Khu: Hãy xem 1 tướng của %dest",
 	
 	["CompanionCard"] = "Châu Liên Hợp Bích",
-	[":CompanionCard"] = "Tiêu Ký\n\nCách dùng 1：\nGiai đoạn hành động, có thể loại bỏ Tiêu ký này, rút 2 lá。\n\nCách dùng 2\nKhi cần sử dụng [Đào], có thể loại bỏ Tiêu ký này, xem như đã sử dụng [Đào].",
+	[":CompanionCard"] = "Tiêu Ký\n\nCách dùng 1:\nGiai đoạn hành động, có thể loại bỏ Tiêu ký này, rút 2 lá。\n\nCách dùng 2\nKhi cần sử dụng [Đào], có thể loại bỏ Tiêu ký này, xem như đã sử dụng [Đào].",
 	
 	["HalfMaxHpCard"] = "Âm Dương Ngư",
-	[":HalfMaxHpCard"] = "Tiêu Ký\n\nCách dùng 1：\nGiai đoạn hành động, có thể loại bỏ Tiêu ký này, rút 1 lá。\n\nCách dùng：\nGiai đoạn bỏ bài, nếu bài trên tay lớn hơn giới hạn trữ bài, có thể loại bỏ Tiêu ký này，tăng giới hạn trữ bài thêm 2.",
+	[":HalfMaxHpCard"] = "Tiêu Ký\n\nCách dùng 1:\nGiai đoạn hành động, có thể loại bỏ Tiêu ký này, rút 1 lá。\n\nCách dùng:\nGiai đoạn bỏ bài, nếu bài trên tay lớn hơn giới hạn trữ bài, có thể loại bỏ Tiêu ký này，tăng giới hạn trữ bài thêm 2.",
 	
 	["FirstShowCard"] = "Tiên Khu",
 	[":FirstShowCard"] = "Tiêu Ký\n\nGiai đoạn hành động, có thể loại bỏ Tiêu ký này, chọn 1 người chơi có tướng chưa mở, bạn rút bài đến khi tay có 4 lá, sau đó xem 1 tướng ẩn của người đã chọn.",
 	
 	["careerman"] = "Dã Tâm Gia",
     ["CareermanCard"] = "Dã Tâm Gia",
-    [":CareermanCard"] = "Tiêu Ký\n\nCách dùng 1：\nGiai đoạn hành động, có thể loại bỏ Tiêu ký này và chọn: 1. Rút 2 lá; 2. Rút 1 lá; 3. Rút bài đến khi tay có 4 lá và xem 1 tướng ẩn của người khác.\n\nCách dùng 2: Khi cần sử dụng [Đào]， có thể loại bỏ Tiêu ký này, xem như đã sử dụng [Đào]\n\nCách dùng 3: Đầu giai đoạn bỏ bài, có thể loại bỏ Tiêu ký này, giới hạn trữ bài lượt này +2.",
+    [":CareermanCard"] = "Tiêu Ký\n\nCách dùng 1:\nGiai đoạn hành động, có thể loại bỏ Tiêu ký này và chọn: 1. Rút 2 lá; 2. Rút 1 lá; 3. Rút bài đến khi tay có 4 lá và xem 1 tướng ẩn của người khác.\n\nCách dùng 2: Khi cần sử dụng [Đào], có thể loại bỏ Tiêu ký này, xem như đã sử dụng [Đào]\n\nCách dùng 3: Đầu giai đoạn bỏ bài, có thể loại bỏ Tiêu ký này, giới hạn trữ bài lượt này +2.",
     ["careerman:draw1card"] = "Rút 1 lá",
     ["careerman:draw2cards"] = "Rút 2 lá",
     ["careerman:peach"] = "Xem như sử dụng [Đào]",

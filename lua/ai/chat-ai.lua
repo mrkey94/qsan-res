@@ -626,7 +626,7 @@ sgs.ai_chat.yuanshao_fire = {
 
 --xuchu
 sgs.ai_chat.luoyi = {
-"Hắn cởi áo ra rồi, anh em cẩn thận."
+"Nóng quá, các ngươi chuẩn bị chết đi"
 }
 
 sgs.ai_chat.usepeach = {

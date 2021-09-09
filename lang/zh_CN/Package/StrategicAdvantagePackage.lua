@@ -40,7 +40,7 @@ return {
 	["#Breastplate"] = "%from đã vô hiệu hoá %arg điểm sát thương [%arg2] từ %to",
 
 	["IronArmor"] = "Minh Quang Khải",
-	[":IronArmor"] = "Bài Trang bị - Phòng cụ\n\nKỹ năng：\n" ..
+	[":IronArmor"] = "Bài Trang bị - Phòng cụ\n\nKỹ năng:\n" ..
 	"1. Tỏa định kỹ, khi là mục tiêu của [Hỏa Thiêu Liên Doanh], [Hỏa Công] và [Sát Hỏa], hủy bỏ mục tiêu đối với bạn.\n" ..
 	"2. Tỏa định kỹ, nếu là tiểu thế lực, không thể rơi vào trạng thái bị xích.\n" ,
 	["#IronArmor"] = "%from đã phát động [%arg]",
