@@ -642,7 +642,7 @@ function SmartAI:useCardFightTogether(card, use)
 
 	local choices = {}
 	if #bigs > 0 then table.insert(choices, "big") end
-	if #smalls > 0 then table.insert(choices, "small") end
+	if #bigs > 0 and #smalls > 0 then table.insert(choices, "small") end
 
 	if #choices > 0 then
 		local v_big, v_small = 0, 0

@@ -363,7 +363,6 @@ end
 ]]
 
 sgs.ai_skill_playerchosen.tuxi = function(self)
-	if self.player:getTreasure() and self.player:getTreasure():isKindOf("JadeSeal") then return {} end
 	local targets = self:findTuxiTarget()
 	if type(targets) == "table" and #targets > 0 then
 		local result = {}
@@ -375,7 +374,7 @@ sgs.ai_skill_playerchosen.tuxi = function(self)
 	return {}
 end
 
-sgs.ai_skill_invoke.luoyi = function(self,data)
+sgs.ai_skill_discard.luoyi = function(self, discard_num, min_num, optional, include_equip)
 	if self.player:isSkipped(sgs.Player_Play) then return false end
 	local cards = self.player:getHandcards()
 	cards = sgs.QList2Table(cards)
@@ -407,9 +406,9 @@ sgs.ai_skill_invoke.luoyi = function(self,data)
 	end
 	if (slashtarget+dueltarget) > 0 then
 		self:speak("luoyi")
-		return true
+		return self:askForDiscard("dummy_reason", 1, 1, false, true)
 	end
-	return false
+	return {}
 end
 
 function sgs.ai_cardneed.luoyi(to, card, self)
@@ -1073,7 +1072,100 @@ function sgs.ai_skill_invoke.jushou(self, data)
 	for _, friend in ipairs(self.friends) do
 		if friend:hasShownSkill("fangzhu") then return true end
 	end
+	if not self:willShowForDefence() then return false end
+	local to_count = sgs.SPlayerList()
+	
+	local all_players = self.room:getOtherPlayers(self.player)
+	
+	for _, p1 in sgs.qlist(all_players) do
+		if not p1:hasShownOneGeneral() then continue end
+		local add = true
+		for _, p2 in sgs.qlist(all_players) do
+			if p1:isFriendWith(p2) then
+				add = false
+				break
+			end
+		end
+		if add then
+			to_count:append(p1)
+		end
+	end
+	
+	local add_self = true
+	for _, p in sgs.qlist(to_count) do
+		if self.player:willBeFriendWith(p) then
+			add_self = false
+		end
+	end
+	if add_self then
+		to_count:append(self.player)
+	end
+
+	if to_count:length() < 3 then return true end
+
 	return self:isWeak()
+end
+
+--据守选择一张手牌中的能弃置的非装备牌或能使用的装备牌
+sgs.ai_skill_cardask["@jushou"] = function(self, data)
+	local equips, to_discard = {}, {}
+	for _,to_select in sgs.qlist(self.player:getHandcards())do
+        if to_select:getTypeId() == sgs.Card_TypeEquip then
+			if to_select:isAvailable(self.player) then
+				table.insert(equips, to_select)
+			end
+		else
+			if not self.player:isJilei(to_select) then
+				table.insert(to_discard, to_select)
+			end
+		end
+    end
+	--优先使用缺少的装备
+	self:sortByUsePriority(equips)
+	for _, card in ipairs(equips) do
+		local equip = card:getRealCard():toEquipCard()
+		local equip_index = equip:location()
+		if not self.player:getEquip(equip_index) then
+			return "$" .. card:getId()
+		end
+	end
+	--换成价值更高的装备（考虑武器和防具），同时记录不该扔的牌
+	local _cards = {}
+	for _, card in ipairs(equips) do
+		if card:isKindOf("Weapon") then
+			local weapon = self.player:getWeapon()
+			if weapon then
+				if self:evaluateWeapon(card) > self:evaluateWeapon(weapon) then
+					return "$" .. card:getId()
+				elseif self:evaluateWeapon(card) < self:evaluateWeapon(weapon) then
+					table.insert(_cards, card)
+				end
+			end
+		elseif card:isKindOf("Armor") then
+			local armor = self.player:getArmor()
+			if armor then
+				if self:evaluateArmor(card) > self:evaluateArmor(armor) then
+					return "$" .. card:getId()
+				elseif self:evaluateArmor(card) < self:evaluateArmor(armor) then
+					table.insert(_cards, card)
+				end
+			end
+		end
+	end
+	
+	local all_cards = to_discard
+	for _, card in ipairs(equips) do
+		if not table.contains(_cards, card) then
+			table.insert(all_cards, card)
+		end
+	end
+	self:sortByKeepValue(all_cards)
+	if #all_cards > 0 then
+		return "$" .. all_cards[1]:getId()
+	end
+	if #_cards > 0 then
+		return "$" .. _cards[1]:getId()
+	end
 end
 
 
@@ -1292,12 +1384,12 @@ sgs.ai_skill_playerchosen.fangzhu = function(self, targets)
 				target = friend
 			break
 		end
-		if not target then
+		--[[if not target then
 			if not self:toTurnOver(friend, n, "fangzhu") then
 				target = friend
 				break
 			end
-		end
+		end--]]
 	end
 	if not target then
 		if n >= 3 then
@@ -1458,6 +1550,7 @@ sgs.ai_skill_cardask["@xiaoguo-discard"] = function(self, data)
 
 	if not card_id then return "." else return "$" .. card_id end
 end
+
 
 sgs.ai_cardneed.xiaoguo = function(to, card)
 	return getKnownCard(to, global_room:getCurrent(), "BasicCard", true) == 0 and card:getTypeId() == sgs.Card_TypeBasic

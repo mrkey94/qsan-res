@@ -33,7 +33,6 @@ return {
 	[":qixi"] = "Giai đoạn hành động, bạn có thể sử dụng bài Đen xem như [Quá Hạ Sách Kiều].",
 
 	["#lvmeng"] = "Bạch Y Độ Giang",
-	["illustrator:lvmeng"] = "樱花闪乱",
 	["lvmeng"] = "Lữ Mông",
 	["keji"] = "Khắc Kỷ",
 	[":keji"] = "Tỏa định kỹ, đầu giai đoạn bỏ bài, nếu bạn trong giai đoạn hành động không sử dụng các lá bài khác màu sắc với nhau, giới hạn trữ bài của bạn trong lượt này +4.",
@@ -42,14 +41,12 @@ return {
 	["@mouduan-move"] = "Mưu Đoạn: có thể di chuyển 1 lá trên bàn.",
 
 	["#huanggai"] = "Khinh Thân Vi Quốc",
-	["illustrator:huanggai"] = "G.G.G.",
 	["huanggai"] = "Hoàng Cái",
 	["kurou"] = "Khổ Nhục",
 	[":kurou"] = "Một lần trong giai đoạn hành động, bạn có thể bỏ 1 lá; Nếu làm vậy bạn mất 1 máu, sau đó rút 3 lá, giới hạn sử dụng [Sát] của bạn trong giai đoạn này +1.",
 
 	["#zhouyu"] = "Đại Đô Đốc",
 	["zhouyu"] = "Chu Du",
-	["illustrator:zhouyu"] = "绘聚艺堂",
 	["yingzi_zhouyu"] = "Anh Tư",
 	[":yingzi"] = "Tỏa định kỹ, giai đoạn rút bài, bạn rút thêm 1 lá bài; giới hạn trữ bài trên tay bạn bằng với giới hạn máu.",
 	["fanjian"] = "Phản Gián",
@@ -63,7 +60,7 @@ return {
 	["liuli"] = "Lưu Ly",
 	[":liuli"] = "Khi bạn trở thành mục tiêu của [Sát], bạn có thể bỏ đi một lá bài để dời mục tiêu của [Sát] này sang người khác trong tầm đánh của bạn (không thể là người sử dụng thẻ [Sát] và người đã là mục tiêu của [Sát] này).",
 	["~liuli"] = "Chọn 1 lá, chọn người khác rồi bấm \"Xác định\"",
-	["@liuli"] = "%src đã sử dụng [Sát] lên bạn, có thể bỏ 1 lá để kích hoạt \"Lưu Ly\"",
+	["@liuli"] = "%src đã sử dụng [Sát] lên bạn, có thể bỏ 1 lá để phát động \"Lưu Ly\"",
 
 	["#luxun"] = "Kình Thiên Chi Trụ",
 	["luxun"] = "Lục Tốn",
@@ -83,36 +80,32 @@ return {
 
 	["#sunjian"] = "Vũ Liệt Đế",
 	["sunjian"] = "Tôn Kiên",
-	["illustrator:sunjian"] = "LiuHeng",
 	["yinghun_sunjian"] = "Anh Hồn",
 	[":yinghun"] = "Giai đoạn chuẩn bị, nếu bạn đang bị thương, bạn có thể lựa chọn một người chơi khác và bạn lựa chọn một mục: 1. Lệnh họ rút X lá sau đó bỏ đi 1 lá; 2. Lệnh họ rút 1 lá sau đó bỏ đi X lá (X là số máu đã mất).",
 	["#yinghun_sunjian"] = "Kích hoạn \"Anh Hồn\" lên %to",
-	["yinghun-invoke"] = "Có thể kích hoạt \"Anh Hồn\"<br/>Chọn 1 người chơi rồi bấm \"Xác định\"<br/>",
+	["yinghun-invoke"] = "Có thể phát động \"Anh Hồn\"<br/>Chọn 1 người chơi rồi bấm \"Xác định\"<br/>",
 	["yinghun_sunjian:d1tx"] = "Rút 1 lá rồi bỏ ra X lá",
 	["yinghun_sunjian:dxt1"] = "Rút X lá rồi bỏ đi 1 lá",
 
 	["#xiaoqiao"] = "Kiều Tình Chi Hoa",
 	["xiaoqiao"] = "Tiểu Kiều",
-	["illustrator:xiaoqiao"] = "绘聚艺堂",
 	["hongyan"] = "Hồng Nhan",
 	[":hongyan"] = "Toả định kỹ, lá Bích của bạn xem như Cơ.",
 	["tianxiang"] = "Thiên Hương",
 	[":tianxiang"] = "Khi bạn nhận sát thương, có thể bỏ một lá Cơ trên tay để chặn sát thương này lại và lựa chọn một người khác, bạn chọn: 1. Lệnh họ nhận một điểm sát thương từ nguồn sau đó rút X thẻ bài (X là số sinh lực mục tiêu đã tổn thất nhiều nhất 5); 2. Lệnh họ mất một sinh lực sau đó thu lấy bài bạn vừa bỏ.",
 	
-	["@tianxiang-card"] = "Có thể bỏ 1 lá Cơ để kích hoạt \"Thiên Hương \"",
+	["@tianxiang-card"] = "Có thể bỏ 1 lá Cơ để phát động \"Thiên Hương \"",
 	["@tianxiang-choose"] = "Thiên Hương: Chọn cho %dest nhận 1 sát thương và rút bài hoặc cho %dest mất 1 máu và thu lấy [%arg]",
 	["tianxiang:damage"] = "Nhận sát thương",
 	["tianxiang:losehp"] = "Mất máu",
 
 	["#taishici"] = "Đốc Liệt Chi Sĩ",
 	["taishici"] = "Thái Sử Từ",
-	["illustrator:taishici"] = "Tuu.",
 	["tianyi"] = "Thiên Nghĩa",
 	[":tianyi"] = "Một lần trong giai đoạn hành động, có thể đấu điểm với 1 người. Nếu bạn thắng, bạn trong lượt sử dụng [Sát] không hạn chế khoảng cách, giới hạn sử dụng [Sát] và sô mục tiêu của [Sát] +1; Nếu không thắng, bạn không thể sử dụng [Sát] cho đến hết lượt.",
 
 	["#zhoutai"] = "Lịch Chiến Chi Khu",
 	["zhoutai"] = "Chu Thái",
-	["illustrator:zhoutai"] = "Thinking",
 	["buqu"] = "Bất Khuất",
 	[":buqu"] = "Tỏa định kỹ, khi bạn trong trạng thái hấp hối, bạn mở 1 lá bài trên cùng chồng bài và đặt lên tướng này, gọi là [Sang]. Nếu [Sang] mới không cùng điểm với các [Sang] khác trên tướng này, bạn hồi đến 1 máu; nếu cùng điểm, bạn đặt [Sang] này vào chồng bài bỏ.",
 	["scars"] = "Sang",
@@ -125,7 +118,6 @@ return {
 
 	["#lusu"] = "Độc Đoạn Đích Ngoại Giao Gia",
 	["lusu"] = "Lỗ Túc",
-	["illustrator:lusu"] = "LiuHeng",
 	["haoshi"] = "Hảo Thi",
 	[":haoshi"] = "Giai đoạn rút bài, có thể rút thêm 2 lá, sau đó khi kết thúc giai đoạn rút bài, nếu số bài trên tay bạn nhiều hơn 5, bạn giao một nửa bài trên tay cho 1 người khác có số bài trên tay ít nhất.",
 	["#haoshi-give"] = "Hảo Thi: Cho bài",
@@ -137,25 +129,38 @@ return {
 	["#erzhang"] = "Kinh Thiên Vĩ Địa",
 	["erzhang"] = "Trương Chiêu & Trương Hoành",
 	["&erzhang"] = "Trương Chiêu Trương Hoành",
-	["illustrator:erzhang"] = "废柴男",
 	["zhijian"] = "Trực Gián",
 	[":zhijian"] = "Giai đoạn hành động, có thể đặt 1 trang bị trên tay vào vùng tranh bị của người khác, sau đó rút 1 lá.",
 	["guzheng"] = "Cổ Chính",
 	[":guzheng"] = "Kết thúc giai đoạn bỏ bài của người khác, có thể trả lại 1 lá trong những lá bỏ đi ở giai đoạn này lên tay của họ; nếu làm vậy, bạn có thể thu lấy những lá còn lại.",
 	["$ZhijianEquip"] = "%from được trang bị %card",
-	["@guzheng"] = "Có thể kích hoạt \"Cổ Chính\" để khiến %src lấy lại 1 lá trong chỗ bài bỏ." ,
+	["@guzheng"] = "Có thể phát động \"Cổ Chính\" để khiến %src lấy lại 1 lá trong chỗ bài bỏ." ,
 	["@guzheng-obtain"] = "Cổ chính: Có thể lấy những lá bỏ còn lại.",
 	["#guzheng"] = "Cổ Chính",
 	["#guzhengOther"] = "Cổ Chính",
 
 	["#dingfeng"] = "Thanh Trắc Trọng Thần",
 	["dingfeng"] = "Đinh Phụng",
-	["illustrator:dingfeng"] = "魔鬼鱼",
 	["duanbing"] = "Đoản Binh",
 	[":duanbing"] = "Sau khi chỉ định mục tiêu cho [Sát], bạn có thể lệnh 1 người có khoảng cách là 1 trở thành mục tiêu của [Sát] này",
 	["duanbing-invoke"] = "\"Đoản Binh\": Có thể chọn 1 người trong tầm 1 để trở thành mục tiêu của [Sát]",
 	["fenxun"] = "Phấn Tấn",
 	[":fenxun"] = "Một lần trong giai đoạn hành động, có thể bỏ đi 1 lá bài và lựa chọn 1 người khác, khoảng cách từ bạn đến họ là 1 cho đến hết lượt.",
+
+
+	["illustrator:lvmeng"] = "樱花闪乱",
+	["illustrator:huanggai"] = "G.G.G.",
+	["illustrator:zhouyu"] = "绘聚艺堂",
+	["illustrator:sunjian"] = "LiuHeng",
+	["illustrator:xiaoqiao"] = "绘聚艺堂",
+	["illustrator:taishici"] = "Tuu.",
+	["illustrator:zhoutai"] = "Thinking",
+	["illustrator:lusu"] = "LiuHeng",
+	["illustrator:erzhang"] = "废柴男",
+	["illustrator:dingfeng"] = "魔鬼鱼",
+
+
+	
 
 }
 

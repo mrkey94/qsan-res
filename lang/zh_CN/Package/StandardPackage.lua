@@ -26,9 +26,9 @@ local t = {
 
 	["slash"] = "Sát",
 	[":slash"] = "Bài cơ bản\n\nSử dụng: Một lần trong giai đoạn hành động.\nMục tiêu: Người chơi trong tầm đánh\nHiệu quả: Gây 1 sát thương cho mục tiêu.",
-	["slash-jink"] = "%src đã sử dụng lá [Sát]，hãy sử dụng 1 lá [Thiểm]",
-	["@multi-jink-start"] = "%src đã sử dụng lá [sát]，hãy sử dụng %arg lá [Thiểm]",
-	["@multi-jink"] = "%src đã sử dụng[Sát]，hãy dùng thêm %arg lá [Thiểm]",
+	["slash-jink"] = "%src đã sử dụng [Sát], hãy sử dụng 1 [Thiểm]",
+	["@multi-jink-start"] = "%src đã sử dụng lá [sát], hãy sử dụng %arg lá [Thiểm]",
+	["@multi-jink"] = "%src đã sử dụng [Sát], hãy sử dụng thêm %arg lá [Thiểm]",
 	["@slash_extra_targets"] = "Hãy chọn thêm mục tiêu khác cho lá [Sát]",
 
 	["fire_slash"] = "Sát Hỏa",
@@ -56,7 +56,7 @@ local t = {
 
 	["DoubleSword"] = "Thư Hùng Song Cổ Kiếm",
 	[":DoubleSword"] = "Bài trang bị - Vũ khí\n\nTầm đánh: 2\nKỹ năng: Sau khi xác định mục tiêu của lá[Sát], nếu mục tiêu khác giới, cho mục tiêu chọn bỏ 1 lá bài trên tay hoặc để bạn rút 1 lá bài.",
-	["double-sword-card"] = "%src kích hoạt hiệu quả [Thư Hùng Song Cổ Kiếm], bạn cần phải bỏ 1 lá bài trên tay hoặc để %src rút 1 lá bài.",
+	["double-sword-card"] = "%src phát động hiệu quả [Thư Hùng Song Cổ Kiếm], bạn cần phải bỏ 1 lá bài trên tay hoặc để %src rút 1 lá bài.",
 
 	["SixSwords"] = "Ngô Lục Kiếm",
 	[":SixSwords"] = "Bài trang bị - Vũ khí\n\nTầm đánh:2<br/>Kỹ năng: Tỏa định kỹ, người chơi khác cùng phe +1 tầm đánh.",
@@ -79,35 +79,35 @@ local t = {
 	["~Axe"] = "Chọn 2 thẻ bài muốn bỏ rồi kích \"Xác định\"",
 
 	["KylinBow"] = "Kỳ Lân Cung",
-	[":KylinBow"] = "Bài trang bị - Vũ khí\n\nTầm đánh: 5\nKỹ năng: Khi gây sát thương cho mục tiêu của lá [Sát], có thể loại bỏ một Chiến mã trong vùng trang bị của mục tiêu.",
+	[":KylinBow"] = "Bài trang bị - Vũ khí\n\nTầm đánh: 5\nKỹ năng: Khi gây sát thương cho mục tiêu của [Sát], có thể loại bỏ một Chiến mã trong vùng trang bị của mục tiêu.",
 	["KylinBow:dhorse"] = "+1 Chiến mã",
 	["KylinBow:ohorse"] = "-1 Chiến mã",
 	["KylinBow:shorse"] = "Lục Long Tham Giá",
 
 	["EightDiagram"] = "Bát Quái Trận",
-	[":EightDiagram"] = "Bài trang bị - Phòng cụ\n\nKỹ năng: Khi cần sử dụng hoặc đánh ra lá [Thiểm], có thể rút Phán xét, nếu phán xét có màu Đỏ sẽ xem như sử dụng hoặc đánh ra lá [Thiểm].",
+	[":EightDiagram"] = "Bài trang bị - Phòng cụ\n\nKỹ năng: Khi cần sử dụng hoặc đánh ra [Thiểm], có thể tiến hành Phán xét, nếu phán xét có màu Đỏ, xem như sử dụng hoặc đánh ra [Thiểm].",
 
 	["RenwangShield"] = "Nhân Vương Thuẫn",
-	[":RenwangShield"] = "Bài trang bị - Phòng cụ\n\nKỹ năng: Tỏa định kỹ, [Sát] Đen không có tác dụng lên bạn.",
+	[":RenwangShield"] = "Bài trang bị - Phòng cụ\n\nKỹ năng: Tỏa định kỹ, [Sát] Đen không có hiệu quả với bạn.",
 
 	["IceSword"] = "Hàn Băng Kiếm",
-	[":IceSword"] = "Bài trang bị - Vũ khí\n\nTầm đánh: 2\nKỹ năng: Khi gây sát thương cho mục tiêu của lá [Sát], bạn có thể chặn sát thương này lại và lần lượt bỏ 2 lá bài của mục tiêu.",
+	[":IceSword"] = "Bài trang bị - Vũ khí\n\nTầm đánh: 2\nKỹ năng: Khi gây sát thương cho mục tiêu của [Sát], bạn có thể chặn sát thương này lại và lần lượt bỏ 2 lá của mục tiêu.",
 
 	["Fan"] = "Chu Tước Vũ Phiến",
-	[":Fan"] = "Bài trang bị - Vũ khí\n\nTầm đánh: 4\nKỹ năng: Có thể sử dụng lá [Sát] thường như [Sát Hỏa].",
+	[":Fan"] = "Bài trang bị - Vũ khí\n\nTầm đánh: 4\nKỹ năng: Có thể sử dụng [Sát] thường như [Sát Hỏa].",
 	["fan"] = "Chu Tước Vũ Phiến",
 
 	["SilverLion"] = "Bạch Ngân Sư Tử",
 	[":SilverLion"] = "Bài trang bị - Phòng cụ\n\nKỹ năng:\n" ..
-	"1. Tỏa định kỹ, khi nhận sát thương, nếu sát thương này lớn hơn 1, giảm lượng sát thương xuống còn 1.\n" ..
+	"1. Tỏa định kỹ, khi nhận sát thương, nếu sát thương này lớn hơn 1, sát thương này trở thành 1.\n" ..
 "2. Tỏa định kỹ, sau khi bạn mất đi [Bạch Ngân Sư Tử] từ vùng trang bị của bạn, hồi 1 máu.\n" ,
 	["#SilverLion"] = "[<font color=\"yellow\"><b>Bạch Ngân Sư Tử</b></font>] của %from giảm %arg sát thương còn <font color=\"yellow\"><b>1</b></font> điểm.",
 
 	["Vine"] = "Đằng Giáp",
 	[":Vine"] ="Bài trang bị - Phòng cụ\n\nKỹ năng:\n" ..
-	"1. Tỏa định kỹ, [Nam Man Nhập Xâm]、[Vạn Tiễn Tề Phát] và [Sát] phổ thông không có tác dụng với bạn.\n "..
+	"1. Tỏa định kỹ, [Nam Man Nhập Xâm]、[Vạn Tiễn Tề Phát] và [Sát] phổ thông không có hiệu quả với bạn.\n "..
 "2. Tỏa định kỹ, Khi nhận sát thương có thuộc tính Hỏa, +1 sát thương này.\n" ,
-	["#VineDamage"] = "Kích hoạt hiệu quả [<font color=\"yellow\"><b>Đằng Giáp</b></font>] của %from, sát thương Hoả hệ tăng từ %arg lên %arg2 điểm.",
+	["#VineDamage"] = "Phát động hiệu quả [<font color=\"yellow\"><b>Đằng Giáp</b></font>] của %from, sát thương Hoả hệ tăng từ %arg lên %arg2 điểm.",
 
 	["Horse"] = "Chiến mã",
 	[":+1 horse"] = "Bài trang bị - Chiến mã\n\nKỹ năng: Tỏa định kỹ, khoảng cách từ người chơi khác đến bản thân +1.",

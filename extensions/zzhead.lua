@@ -2,7 +2,7 @@ general_extension = sgs.Package("zzhead", sgs.Package_GeneralPack)
 
 
 sgs.LoadTranslationTable{
-	["zzhead"] = "Hàng test, vui lòng không sử dụng",
+	["zzhead"] = "Credit (Non-playable)",
 
 }
 
@@ -91,10 +91,11 @@ Zzhead19 = sgs.General(general_extension, "zzhead19", "god", 3 , true, true)
 Zzhead20 = sgs.General(general_extension, "zzhead20", "god", 3 , true, true)
 Zzhead21 = sgs.General(general_extension, "zzhead21", "god", 3 , true, true)
 Zzhead22 = sgs.General(general_extension, "zzhead22", "god", 3 , true, true)
-Zzhead23 = sgs.General(general_extension, "zzhead23", "god", 3 , true, true)
+Zzhead23 = sgs.General(general_extension, "zzhead23", "god", 3 , false, true)
 Zzhead24 = sgs.General(general_extension, "zzhead24", "god", 3 , true, true)
 Zzhead25 = sgs.General(general_extension, "zzhead25", "god", 3 , true, true)
 Zzhead26 = sgs.General(general_extension, "zzhead26", "god", 3 , true, true)
+Zzhead27 = sgs.General(general_extension, "zzhead27", "god", 3 , true, true)
 Zzhead101 = sgs.General(general_extension, "zzhead101", "god", 3 , true, true)
 Zzhead102 = sgs.General(general_extension, "zzhead102", "god", 3 , true, true)
 Zzhead103 = sgs.General(general_extension, "zzhead103", "god", 3 , true, true)
@@ -131,6 +132,7 @@ Zzhead1002 = sgs.General(general_extension, "zzhead1002", "god", 3 , false, true
 Zzhead1003 = sgs.General(general_extension, "zzhead1003", "god", 3 , true, true)
 Zzhead1004 = sgs.General(general_extension, "zzhead1004", "god", 3 , true, true)
 Zzhead1005 = sgs.General(general_extension, "zzhead1005", "god", 3 , true, true)
+Zzhead1006 = sgs.General(general_extension, "zzhead1006", "god", 3 , true, true)
 
 zzjishi = sgs.CreateTriggerSkill{
 	name = "zzjishi" ,
@@ -295,7 +297,14 @@ zzfengyushuang = sgs.CreateTriggerSkill{
 }
 Zzhead26:addSkill(zzfengyushuang)
 
+zzfengxiao = sgs.CreateTriggerSkill{
+    name = "zzfengxiao" ,
 
+}
+Zzhead27:addSkill(zzfengxiao)
+Zzhead27:addCompanion("zzhead26")
+
+Zzhead1002:addCompanion("zzhead1001")
 
 sgs.LoadTranslationTable{
     ["#zzhead0"] = "神杀基石",
@@ -433,6 +442,10 @@ sgs.LoadTranslationTable{
     ["zzfengyushuang"] = "狗托",
     [":zzfengyushuang"] = "神杀忠实粉丝之一，技术高超，各种素材局提供者！" ,
 	
+	["#zzhead27"] = "狗托之神",
+    ["zzhead27"] = "风箫",
+    ["zzfengxiao"] = "真的狗托",
+    [":zzfengxiao"] = "神杀忠实粉丝之一，技术尚可，各种狗托素材局提供者！" ,    
 	
 	["#zzhead101"] = "小杀一号",
 	["zzhead101"] = "小杀一号",
@@ -507,6 +520,8 @@ sgs.LoadTranslationTable{
     ["zzhead1004"] = "Tierra",
 	["#zzhead1005"] = "Người Vô Giải Binh Lương",
     ["zzhead1005"] = "Tom",
+	["#zzhead1006"] = "Donator",
+    ["zzhead1006"] = "TLinh",
 
 }
 

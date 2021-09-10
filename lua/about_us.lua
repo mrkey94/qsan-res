@@ -84,7 +84,6 @@ vietnamese = {
 	'Lãng Khách',
 	'Ong Thành Đạt',
 	'Mayumi Hibari',
-	'Trần Thị Minh Anh'
 }
 
 about_us.width = 900

@@ -26,7 +26,6 @@ return {
 
 	["#lidian"] = "Thâm Minh Đại Nghĩa",
 	["lidian"] = "Lý Điển",
-	["illustrator:lidian"] = "Trương Suất",
 	["xunxun"] = "Tuân Tuân",
 	[":xunxun"] = "Đầu giai đoạn rút bài, có thể xem trước 4 lá trên chồng bài, sau đó đặt 2 lá trong số đó lên đầu chồng bài, còn lại đặt xuống đáy chồng bài.",
 	["@xunxun"] = "Đặt 2 lá lên đầu chồng bài, còn lại xếp vào đáy chồng bài.",
@@ -38,16 +37,14 @@ return {
 
 	["#zangba"] = "Tiết Độ Thanh Từ",
 	["zangba"] = "Tang Bá",
-	["illustrator:zangba"] = "HOOO",
 	["hengjiang"] = "Hoành Giang",
 	[":hengjiang"] = "Sau khi nhận 1 sát thương, có thể làm người chơi đang trong này giảm 1 giới hạn trữ bài. Cuối lượt, nếu ở giai đoạn bỏ bài, họ không bỏ lá nào, bạn bốc 1 lá bài.",
 	["@hengjiang"] = "Hoành Giang",
-	["#HengjiangDraw"] = "%from không bỏ bài, %to kích hoạt hiệu quả 【%arg】",
+	["#HengjiangDraw"] = "%from không bỏ bài, %to phát động hiệu quả 【%arg】",
 	["#hengjiang-draw"] = "Hoành Giang (Rút bài)",
 
 	["#madai"] = "Lâm Nguy Thụ Mệnh",
 	["madai"] = "Mã Đại",
-	["illustrator:madai"] = "Thinking",
 	["mashu_madai"] = "Mã Thuật",
 	["qianxi"] = "Tiềm Tập",
 	[":qianxi"] = "Giai đoạn chuẩn bị, có thể rút 1 lá, sau đó bỏ 1 lá và chọn một người chơi trong tầm 1, họ không thể sử dụng hoặc đánh ra bài trên tay cùng màu với bài bạn đã bỏ đến hết lượt này.",
@@ -59,11 +56,10 @@ return {
 
 	["#mifuren"] = "Loạn Thế Trầm Hương",
 	["mifuren"] = "My Phu Nhân",
-	["illustrator:mifuren"] = "Mộc Mỹ Nhân",
 	["guixiu"] = "Khuê Tú",
 	[":guixiu"] = "Sau khi mở tướng này, bạn có thế rút 2 lá bài. Sau khi tướng này bị loại bỏ, bạn có thể hồi 1 máu.",
-	["guixiu:draw"] = "Kích hoạt \"Khuê Tú\", bốc 2 lá bài.",
-	["guixiu:recover"] = "Kích hoạt \"Khuê Tú\", hồi 1 máu.",
+	["guixiu:draw"] = "Phát động \"Khuê Tú\", bốc 2 lá bài.",
+	["guixiu:recover"] = "Phát động \"Khuê Tú\", hồi 1 máu.",
 	["cunsi"] = "Tồn Tự",
 	[":cunsi"] = "Giai đoạn hành động, có thể loại bỏ tướng này. Sau đó, chọn 1 người chơi nhận kỹ năng \"Dũng Quyết\"; nếu người đó không phải bạn, họ rút 2 lá bài.",
 	["yongjue"] = "Dũng Quyết",
@@ -72,7 +68,6 @@ return {
 	
 	["#sunce"] = "Giang Đông Đích Tiểu Bá Vương",
 	["sunce"] = "Tôn Sách",
-	["illustrator:sunce"] = "Mộc Mỹ Nhân",
 	["jiang"] = "Hùng Dũng",
 	[":jiang"] = "Sau khi sử dụng hoặc trở thành mục tiêu của lá [Sát] Đỏ hoặc [Quyết đấu], có thể rút 1 lá bài.",
 	["yingyang"] = "Ưng Dương",
@@ -84,14 +79,13 @@ return {
 	[":hunshang"] = "Phó tướng kỹ - Giảm 0.5 máu: Giai đoạn chuẩn bị, nếu máu của bạn là 1, bạn có kỹ năng \"Anh Tư\" và \"Anh Hồn\" đến kết thúc lượt",
 	["yingzi_sunce"] = "Anh Tư",
 	["yinghun_sunce"] = "Anh Hồn",
-	["#yinghun_sunce"] = "Kích hoạt \"Anh Hồn\" lên %to",
+	["#yinghun_sunce"] = "Phát động \"Anh Hồn\" lên %to",
 	["yinghun_sunce:d1tx"] = "Rút 1 lá bài, sau đó bỏ %log lá bài.",
 	["yinghun_sunce:dxt1"] = "Rút %log lá bài, sau đó bỏ 1 lá bài.",
 
 	["#chenwudongxi"] = "Tráng Hoài Kích Liệt",
 	["chenwudongxi"] = "Trấn Vũ & Đổng Tập",
 	["&chenwudongxi"] = "Trấn Vũ Đổng Tập",
-	["illustrator:chenwudongxi"] = "Địa Ngục Hứa",
 	["duanxie"] = "Đoạn Tiết",
 	[":duanxie"] = "Một lần trong giai đoạn hành động, có thể đưa 1 người chơi không trong trạng thái xích vào trạng thái xích, sau đó đưa bản thân vào trạng thái xích.",
 	["fenming"] = "Phấn Mệnh",
@@ -100,7 +94,6 @@ return {
 
 	["#dongzhuo"] = "Ma Vương",
 	["dongzhuo"] = "Đổng Trác",
-	["illustrator:dongzhuo"] = "Ba Tát Tiểu Mã",
 	["hengzheng"] = "Hoàng Chinh",
 	[":hengzheng"] = "Đầu giai đoạn rút bài, nếu máu của bạn là 1 hoặc không còn bài trên tay, bạn có thể không rút bài, thu lấy từ mỗi người chơi khác 1 lá bài trong vùng chơi.",
 	["baoling"] = "Bạo Lăng",
@@ -112,7 +105,6 @@ return {
 
 	["#zhangren"] = "Tác Mệnh Thần Xạ",
 	["zhangren"] = "Trương Nhiệm",
-	["illustrator:zhangren"] = "DH",
 	["chuanxin"] = "Xuyên Tâm",
 	[":chuanxin"] = "Giai đoạn hành động của bạn, khi gây sát thương cho mục tiêu không cùng thế lực của [Sát] hoặc [Quyết Đấu], nếu mục tiêu có Phó tướng, có thể chặn sát thương này, lệnh cho mục tiêu chọn 1:\n1. Họ bỏ toàn bộ bài trong vùng Trang Bị (ít nhất 1 lá) và mất 1 máu.\nHọ loại bỏ Phó tướng.",
 	["@chuanxin-choose"] = "Xuyên Tâm: Lựa chọn bỏ trang bị và mất 1 máu hoặc loại phó tướng",
@@ -120,43 +112,65 @@ return {
 	["chuanxin:remove"] = "Loại bỏ Phó tướng",
 	["fengshi"] = "Phong Thỉ",
 	[":fengshi"] = "Trận pháp kỹ: Trong trạng thái Vây Công, sau khi bạn hoặc người vây công sử dụng lá [Sát] xác định mục tiêu bị vây công, mục tiêu bỏ đi 1 lá trong vùng trang bị.",
-	["@fengshi-discard"] = "%src đã kích hoạt \"Phong Thỉ\", bỏ đi 1 lá trong vùng trang bị." ,
+	["@fengshi-discard"] = "%src đã phát động \"Phong Thỉ\", bỏ đi 1 lá trong vùng trang bị." ,
 	["FengshiSummon"] = "Phong Thỉ",
 
-	["#lord_zhangjiao"] = "时代的先驱",
-	["lord_zhangjiao"] = "张角-君",
-	["&lord_zhangjiao"] = "张角" ,
-	["illustrator:lord_zhangjiao"] = "青骑士",
-	["wuxin"] = "悟心",
-	[":wuxin"] = "摸牌阶段开始时，你可观看牌堆顶的X张牌（X为群势力角色数）并可改变这些牌的顺序。",
-	["hongfa"] = "弘法",
-	[":hongfa"] = "君主技，锁定技，你拥有\"黄巾天兵符\"。\n\n#\"黄巾天兵符\"\n" ..
-					"①准备阶段开始时，若没有“天兵”，你将牌堆顶的X张牌置于武将牌上（称为“天兵”）（X为群势力角色数）。\n" ..
-					"②你执行的效果中的\"群势力角色数\"+X（X为\"天兵\"数）。\n" ..
-					"③当你的失去体力结算开始前，若有“天兵”，你可终止此失去体力流程.你将一张“天兵”置入弃牌堆。”\n" ..  
-					"④与你势力相同的角色可以将一张\"天兵\"当【杀】使用或打出。",	
-	["heavenly_army"] = "天兵",
+	["#lord_zhangjiao"] = "Thời Đại Đích Tiên Khu",
+	["lord_zhangjiao"] = "Trương Giác - Quân",
+	["&lord_zhangjiao"] = "Trương Giác" ,
+	["wuxin"] = "Ngộ Tâm",
+	[":wuxin"] = "Đầu giai đoạn rút bài, có thể xem X lá đầu chồng bài rút và sắp xếp tùy ý những lá này lên đầu chồng bài rút (X là số người thế lực Quần).",
+	["hongfa"] = "Hoằng Pháp",
+	[":hongfa"] = "Quân chủ kỹ, Tỏa định kỹ, Bạn có \"Hoàng Cân Thiên Bình Phủ\".\n\n#\"Hoàng Cân Thiên Bình Phủ\"\n" ..
+					"1. Giai đoạn chuẩn bị, nếu bạn không có [Thiên Binh], bạn lấy X lá đầu chồng bài rút đặt ngửa lên tướng này, gọi là [Thiên Binh] (X là số người thế lực Quần).\n" ..
+					"2. Khi bạn tính số người trong thế lực Quần, +1 với mỗi [Thiên Binh].\n" ..
+					"3. Khi bạn mất 1 máu, có thể đưa 1 [Thiên Binh] vào chồng bài bỏ, chặn việc mất máu.\n" ..  
+					"4. Người thế lực Quần có thẻ sử dụng hoặc đánh ra [Thiên Binh] như [Sát].",
+	["heavenly_army"] = "Thiên Binh",
 	
-	["huangjinsymbol"] = "黄巾天兵符",
-	[":huangjinsymbol"] = "①准备阶段开始时，若没有“天兵”，你将牌堆顶的X张牌置于武将牌上（称为“天兵”）（X为群势力角色数）。" ..
-						  "②你执行的效果中的\"群势力角色数\"+X（X为\"天兵\"数）。" ..
-				          "③当你的失去体力结算开始前，若有“天兵”，你可终止此失去体力流程.你将一张“天兵”置入弃牌堆。" ..
-				          "④与你势力相同的角色可以将一张\"天兵\"当【杀】使用或打出。",
+	["huangjinsymbol"] = "Hoàng Cân",
+	[":huangjinsymbol"] = "1. Giai đoạn chuẩn bị, nếu bạn không có [Thiên Binh], bạn lấy X lá đầu chồng bài rút đặt ngửa lên tướng này, gọi là [Thiên Binh] (X là số người thế lực Quần).\n" ..
+					"2. Khi bạn tính số người trong thế lực Quần, +1 với mỗi [Thiên Binh].\n" ..
+					"3. Khi bạn mất 1 máu, có thể đưa 1 [Thiên Binh] vào chồng bài bỏ, chặn việc mất máu.\n" ..  
+					"4. Người thế lực Quần có thẻ sử dụng hoặc đánh ra [Thiên Binh] như [Sát].",
 	
-	["&huangjinsymbol"] = "你可以将一张\"天兵\"当【杀】使用或打出。",
-	["#HongfaTianbing"] = "%from 发动了“<font color=\"yellow\"><b>黄巾天兵符</b></font>”的效果，令群势力角色数%arg",
-	["wendao"] = "问道",
-	[":wendao"] = "出牌阶段限一次，你可弃置一张不为【太平要术】的红色牌▶你获得弃牌堆里或一名角色的装备区里的【太平要术】。",
-	["huangjinsymbol:prevent"] = "你可以发动“弘法”，移去一张“天兵”，防止此次失去体力",
-	["@huangjinsymbol-discard"] = "请弃置一张“天兵”",
-	["@hongfa-tianbing"] = "<font color='#ffcc33'><b>%src</b></font> 你可以发动“弘法”，令“群势力角色数”+X",
-	["~hongfa2"] = "选择X张\"天兵\"→点击确定",
+	["&huangjinsymbol"] = "Có thể sử dụng 1 [Thiên Binh] như [Sát]",
+	["#HongfaTianbing"] = "%from đã phát động \"<font color=\"yellow\"><b>Hoàng Cân Thiên Bình Phủ</b></font>\", số người trong thế lực Quần là %arg.",
+	["wendao"] = "Vấn Đạo",
+	[":wendao"] = "Một lần trong giai đoạn hành động, bạn có thể bỏ 1 lá Đỏ ngoại trừ [Thái Bình Yêu Thuật] và thu lấy [Thái Bình Yêu Thuật] trong chồng bài bỏ hoặc trên bàn chơi.",
+	["huangjinsymbol:prevent"] = "Có thể phát động \"Hoằng Pháp\", bỏ 1 [Thiên Binh] để chặn mất máu.",
+	["@huangjinsymbol-discard"] = "Bỏ 1 [Thiên Binh]",
+	["@hongfa-tianbing"] = "<font color='#ffcc33'><b>%src</b></font> Có thể phát động \"Hoằng Pháp\", số người trong thế lực Quần +X",
+	["~hongfa2"] = "Lựa chọn X lá [Thiên Binh], nhấn \"Xác định\"",
 
 	["PeaceSpell"] = "Thái Bình Yêu Thuật",
 	[":PeaceSpell"] = "Bài trang bị - Phòng cụ\n\nKỹ năng:\n" ..
 					"1. Tỏa định kỹ, khi bạn nhận sát thương có thuộc tính, chặn sát thương này.\n" ..
 					"2. Tỏa định kỹ, giới hạn trữ bài của bạn +X (X là số người cùng thế lực với bạn).\n" ..
 					"3. Tỏa định kỹ, khi bạn mất đi [Thái Bình Yêu Thuật] từ vùng trang bị, rút 2 lá, sau đó nếu máu của bạn lớn hơn 1, bạn mất 1 máu.\n" ,
-	["#PeaceSpellNatureDamage"] = "[<font color=\"yellow\"><b>Thái Bình Yêu Thuật</b></font>] đã kích hoạt, chặn sát thương từ %from gây cho %to %arg sát thương." ,
-	["#PeaceSpellLost"] = "%from đã mất [<font color=\"yellow\"><b>太平要术</b></font>] khỏi vùng trang bị, đã mất 1 máu và rút 2 lá." ,
+	["#PeaceSpellNatureDamage"] = "[<font color=\"yellow\"><b>Thái Bình Yêu Thuật</b></font>] đã phát động, chặn sát thương từ %from gây cho %to %arg sát thương." ,
+	["#PeaceSpellLost"] = "%from đã mất [<font color=\"yellow\"><b>Thái Bình Yêu Thuật</b></font>] khỏi vùng trang bị, đã mất 1 máu và rút 2 lá." ,
+
+	["illustrator:lidian"] = "张帅",
+	["illustrator:zangba"] = "HOOO",
+	["illustrator:madai"] = "Thinking",
+	["illustrator:mifuren"] = "Mộc Mĩ Nhân",
+	["illustrator:sunce"] = "Mộc Mĩ Nhân",
+	["illustrator:chenwudongxi"] = "地狱许",
+	["illustrator:dongzhuo"] = "巴萨小马",
+	["illustrator:zhangren"] = "DH",
+	["illustrator:lord_zhangjiao"] = "青骑士",
+
+
+	["designer:lidian"] = "KayaK",
+	["designer:zangba"] = "Poisoning",
+	["designer:madai"] = "Lăng Thiên Dực(HanXu)",
+	["designer:mifuren"] = "Poisoning",
+	["designer:sunce"] = "KayaK(HanXu)",
+	["designer:chenwudongxi"] = "Poisoning",
+	["designer:dongzhuo"] = "KayaK(HanXu)",
+	["designer:zhangren"] = "Poisoning",
+	["designer:lord_zhangjiao"] = "HanXu",
+
+
 }
