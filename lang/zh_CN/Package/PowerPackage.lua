@@ -140,16 +140,16 @@ return {
 	["command1"] = "Gây 1 sát thương cho 1 người do bạn chọn",
 	["command2"] = "Rút 1 lá, giao cho bạn 2 lá",
 	["command3"] = "Mất 1 máu",
-	["command4"] = "Cấm dùng/đánh bài trong lượt này, khóa tất cả kỹ năng trừ Tỏa định kỹ",
+	["command4"] = "Cấm dùng/đánh bài lượt này, khóa kỹ năng trừ Tỏa định kỹ",
 	["command5"] = "Chồng tướng, cấm hồi máu lượt này",
 	["command6"] = "Giữ 1 lá trên tay, 1 trang bị, bỏ chỗ còn lại",
 
-	["#command1"] = "Gây 1 st cho 1 ng do bạn chọn",
+	["#command1"] = "Gây 1 sát thương cho 1 người do bạn chọn",
 	["#command2"] = "Rút 1 lá, giao cho bạn 2 lá",
 	["#command3"] = "Mất 1 máu",
-	["#command4"] = "Lượt này, cấm dùng/đánh bài, khóa kỹ năng trừ Tỏa định kỹ",
+	["#command4"] = "Cấm dùng/đánh bài lượt này, khóa kỹ năng trừ Tỏa định kỹ",
 	["#command5"] = "Chồng tướng, cấm hồi máu lượt này",
-	["#command6"] = "Giữ 1 lá trên tay và 1 lá đã trang bị, bỏ chỗ còn lại.",
+	["#command6"] = "Giữ 1 lá trên tay, 1 trang bị, bỏ chỗ còn lại",
 	
 	["#CommandChoice"] = "%from đã lựa chọn %arg",
 	
