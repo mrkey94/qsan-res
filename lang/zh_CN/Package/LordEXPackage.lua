@@ -374,7 +374,7 @@ return {
 	["#pengyang"] = "Giang Dương Thái Thủ",
 	["pengyang"] = "Bành Dạng",
 	["daming"] = "Gián Nghịch",
-	[":daming"] = "Đầu giai đoạn hành động của người cùng thế lực, bạn có thể bỏ 1 công cụ, bạn đưa 1 người đang không trong trạng thái liên hoàn vào trạng thái liên hoàn, bạn rút X lá ( X là số thế lực có người trong trạng thái liên hoàn), chọn:\n1. Sử dụng [Đào] với người đang có lượt; 2. Người đang có lượt sử dụng [Sát Lôi] với người do bạn chọn.",
+	[":daming"] = "Đầu giai đoạn hành động của người cùng thế lực, bạn có thể bỏ 1 công cụ, bạn đưa 1 người đang không trong trạng thái liên hoàn vào trạng thái liên hoàn, bạn rút X lá (X là số người trong trạng thái liên hoàn), chọn:\n1. Sử dụng [Đào] với người đang có lượt; 2. Người đang có lượt sử dụng [Sát Lôi] với người do bạn chọn.",
 	["xiaoni"] = "Hiêu Bạt",
 	[":xiaoni"] = "Tỏa định kỹ, khi bạn sử dụng hoặc trở thành mục tiêu của lá cơ bản hoặc công cụ phổ thông, nếu có người khác cùng thế lực với bạn và tất cả họ có số bài trên tay không nhiều hơn bạn, bạn lệnh tất cả mục tiêu không thể hưởng ứng với lá này.",
 	

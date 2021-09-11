@@ -103,7 +103,7 @@ return {
 	["lianhuan"] = "Liên Hoàn",
 	[":lianhuan"] = "Giai đoạn hành động, có thể sử dụng lá Tép trên tay như [Thiết Tác Liên Hoàn] hoặc đổi lấy 1 lá bài mới.",
 	["niepan"] = "Niết Bàn",
-	[":niepan"] = "Hạn định kỹ: Khi trong trạng thái hấp hối, có thể bỏ toàn bộ bài trong vùng chơi, loại bỏ các trạng thái, sau đó rút 3 lá và hồi máu đến 3",
+	[":niepan"] = "Hạn định kỹ: Khi trong trạng thái hấp hối, có thể bỏ toàn bộ bài trong vùng chơi, loại bỏ các trạng thái, sau đó rút 3 lá và hồi máu đến 3.",
 	["@nirvana"] = "Niết Bàn",
 
 	["#wolong"] = "Ngoạ Long",
