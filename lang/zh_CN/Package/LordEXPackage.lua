@@ -234,7 +234,7 @@ return {
     [":imperialedicttrick"] = "Một lần trong giai đoạn hành động, nếu có 4 lá [Chiếu] không cùng chất, bạn có thể đưa tất cả [Chiếu] vào chồng bài bỏ, rút ngẫu nhiêu 1 lá công cụ thế lực.",
 
     ["rule_the_world"] = "Hiệu Lệnh Thiên Hạ",
-    [":rule_the_world"] = "Bài công cụ - Ngụy\n\nSử dụng: Trong giai đoạn hành động.\nMục tiêu: Một người không phải ít máu nhất.\nHiệu quả: Ngoại trừ mục tiêu, mỗi người lựa chọn:\n1. Bỏ 1 lá trên tay xem như sử dụng [Sát] không giới hạn tầm với mục tiêu; người thế lực Ngụy không cần bỏ bài.\n2. Bỏ 1 lá của mục tiêu, người thế lực Ngụy thu lấy lá đó.",
+    [":rule_the_world"] = "Bài công cụ - Ngụy\n\nSử dụng: Trong giai đoạn hành động.\nMục tiêu: Một người không phải ít máu nhất.\nHiệu quả: Ngoại trừ mục tiêu, mỗi người có thể lựa chọn:\n1. Bỏ 1 lá trên tay xem như sử dụng [Sát] không giới hạn tầm với mục tiêu; người thế lực Ngụy không cần bỏ bài.\n2. Bỏ 1 lá của mục tiêu, người thế lực Ngụy thu lấy lá đó.",
     ["rule_the_world:slash"] = "%log xem như sử dụng [Sát] với %to",
     ["rule_the_world:discard"] = "Một lá bài của %to bị %log",
     ["rule_the_world_slash"] = "Bỏ 1 lá bài và",
@@ -247,13 +247,13 @@ return {
     ["@conquering-slash"] = "Khắc Phục Trung Nguyên: Chọn mục tiêu, xem như sử dụng [Sát], hoặc bấm \"Hủy bỏ\" để rút bài. ",
 
     ["consolidate_country"] = "Cố Quốc An Bang",
-    [":consolidate_country"] = "Bài công cụ - Ngô\n\nSử dụng: Trong giai đoạn hành động.\nMục tiêu: Bản thân.\nHiệu quả: Bạn rút 8 lá sau đó bỏ ít nhất 6 lá trên tay, nếu bạn thuộc thế lực Ngô, có thể giao tùy ý tối đa 6 lá cho người khác thuộc thế lực Ngô.",
+    [":consolidate_country"] = "Bài công cụ - Ngô\n\nSử dụng: Trong giai đoạn hành động.\nMục tiêu: Bản thân.\nHiệu quả: Bạn rút 8 lá sau đó bỏ ít nhất 6 lá trên tay, nếu bạn thuộc thế lực Ngô, có thể giao tùy ý tối đa 6 lá cho người khác thuộc thế lực Ngô, mỗi người tối đa 2 lá.",
 
-    ["@consolidate_country-discard"] = "Cố Quốc An Bang: Chọn 6 lá trên tay để bỏ",
-    ["@consolidate_country-give"] = "Cố Quốc An Bang: Có thể giao những lá này cho người thế lực Ngô.",
+    ["@consolidate_country-discard"] = "Cố Quốc An Bang: Chọn tối thiểu 6 lá trên tay để bỏ",
+    ["@consolidate_country-give"] = "Cố Quốc An Bang: Có thể giao 6 lá cho người thế lực Ngô khác, tối đa 2 lá mỗi người.",
 
     ["chaos"] = "Văn Hòa Loạn Võ",
-    [":chaos"] = "Bài công cụ - Quần\n\nSử dụng: Trong giai đoạn hành động.\nMục tiêu: Tất cả người chơi.\nHiệu quả: Mục tiêu mở bài trên tay, sau đó bạn chọn 1 mục:\n1. Lệnh họ bỏ 2 lá khác loại trên tay.\n2. Bỏ 1 lá trên tay họ, người thế lực Quần sau đó nếu không có bài trên tay, bổ sung bài trên tay tới máu hiện tại.",
+    [":chaos"] = "Bài công cụ - Quần\n\nSử dụng: Trong giai đoạn hành động.\nMục tiêu: Tất cả người chơi.\nHiệu quả: Mục tiêu mở bài trên tay, sau đó bạn chọn 1 mục:\n1. Lệnh họ bỏ 2 lá khác loại trên tay.\n2. Bỏ 1 lá trên tay họ.\nNgười thế lực Quần sau khi chấp hành lựa chọn của bạn, nếu họ không có bài trên tay, họ bổ sung bài trên tay tới máu hiện tại.",
     
     ["chaos:letdiscard"] = "Lệnh %to bỏ 2 lá không cùng loại trên tay",
     ["chaos:discard"] = "Bỏ 1 lá trên tay %to",
