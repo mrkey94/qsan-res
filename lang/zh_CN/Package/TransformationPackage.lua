@@ -46,7 +46,7 @@ return {
 	["&lijueguosi"] = "Lý Giác Quách Tỵ",
 	["xiongsuan"] = "Hung Toán",
 	[":xiongsuan"] = "Hạn định kỹ: Giai đoạn hành động, có thể bỏ 1 lá bài trên tay và chọn 1 người chơi cùng thế lực. Gây cho họ 1 sát thương, sau đó bạn rút 3 lá bài và chọn 1 Hạn định kỹ đã phát động của họ. Cuối lượt này, xem như Hạn định kỹ đã chọn chưa sử dụng.",
-	["@xiongsuan-reset"] = "Hung Toán: Đặt lại 1 Hạn Định Kỹ của %dest",
+	["@xiongsuan-reset"] = "Hung Toán: Đặt lại 1 Hạn định kỹ của %dest",
 	["#XiongsuanReset"] = "%from đặt lại Kỹ năng \"%arg\"",
 	
 
