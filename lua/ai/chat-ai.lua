@@ -73,7 +73,20 @@ sgs.ai_chat_func[sgs.SlashEffected].blindness = function(self, player, data)
 				"Đừng đánh nữa, tôi sắp tuyệt vọng rồi đấy.",
 				"Không giết ta nhanh, đến lượt ta sẽ không tha cho ngươi."
 				}
-
+	if player:screenName() == "Tài Tống" then
+		table.insert(chat, "Mày có bị điên không?")
+		table.insert(chat, "Biết chơi sát không?")
+		table.insert(chat, "Mới tập chơi hả?")
+		table.insert(chat, "Mày có bị điên không?")
+		table.insert(chat, "Biết chơi sát không?")
+		table.insert(chat, "Mới tập chơi hả?")
+		table.insert(chat, "Mày có bị điên không?")
+		table.insert(chat, "Biết chơi sát không?")
+		table.insert(chat, "Mới tập chơi hả?")
+		table.insert(chat, "Mày có bị điên không?")
+		table.insert(chat, "Biết chơi sát không?")
+		table.insert(chat, "Mới tập chơi hả?")
+	end
 	if self:hasCrossbowEffect(effect.from) then
 		table.insert(chat, "Chào anh em, tôi chuẩn bị chết đây.")
 		table.insert(chat, "Người sắp lủng 1 đống lỗ rồi.")
@@ -111,6 +124,11 @@ sgs.ai_chat_func[sgs.Death].stupid_friend = function(self, player, data)
 				"Phe ta diệt vong rồi.",
 				"Không còn gì để nói",
 				}
+	if player:screenName() == "Tài Tống" then
+		table.insert(chat, "Mày có bị điên không?")
+		table.insert(chat, "Biết chơi sát không?")
+		table.insert(chat, "Mới tập chơi hả?")
+	end
 	if damage and damage.from and player:isFriendWith(damage.from) and damage.to:objectName() == player:objectName() and ((not damage.card) or (damage.card:getSkillName() ~= "lijian")) then
 		local index = 1 + (os.time() % #chat)
 		damage.to:speak(chat[index])
@@ -358,6 +376,22 @@ sgs.ai_chat_func[sgs.GeneralShown].show = function(self, player, data)
 		"Hừm",
 		"Tướng không có gì đặc biệt đâu :))"
 		}
+	if self.player:screenName() == "Ong Thành Đạt" then
+		table.insert(chat1, "Để em, để em")
+		table.insert(chat1, "Để em, để em")
+		table.insert(chat1, "Để em, để em")
+		table.insert(chat1, "Để em, để em")
+	end
+	if self.player:screenName() == "#S" then
+		table.insert(chat1, "Tôi đã lừa bạn bao giờ chưa!")
+		table.insert(chat1, "Tôi đã lừa bạn bao giờ chưa!")
+		table.insert(chat1, "Tôi đã lừa bạn bao giờ chưa!")
+		table.insert(chat1, "Tôi đã lừa bạn bao giờ chưa!")
+		table.insert(chat1, "Trên đời có 2 nguồn thông tin đáng tin cậy, 1 là VTV, và 2 là tôi.")
+		table.insert(chat1, "Trên đời có 2 nguồn thông tin đáng tin cậy, 1 là VTV, và 2 là tôi.")
+		table.insert(chat1, "Trên đời có 2 nguồn thông tin đáng tin cậy, 1 là VTV, và 2 là tôi.")
+		table.insert(chat1, "Trên đời có 2 nguồn thông tin đáng tin cậy, 1 là VTV, và 2 là tôi.")
+	end
 	local notshown, shown= 0, 0
 	for _,p in sgs.qlist(self.room:getAlivePlayers()) do
 		if  not p:hasShownOneGeneral() then
@@ -420,6 +454,7 @@ sgs.ai_chat_func[sgs.DamageCaused].attackAnjiang = function(self, player, data)
 	local chat2= {
 			"Có phải Ngụy đâu mà lên tướng.",
 			"Đừng đánh tôi",
+			"Ơ kìa",
 			}
 	if damage and not damage.to:hasShownOneGeneral() then
 		if damage.to:getMaxHp() == 3 then
