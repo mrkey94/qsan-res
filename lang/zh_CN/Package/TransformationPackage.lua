@@ -38,14 +38,14 @@ return {
 	[":wanwei"] = "Khi bài của bạn bị người khác chỉ định do bị lấy hoặc bỏ đi, có thể đổi thành bạn tự chọn 1 lá của bạn.",
 	["@wanwei"] = "Văn Ngụy: Hãy chọn %arg lá bài để mất",
 	["yuejian"] = "Ước Kiệm",
-	[":yuejian"] = "Đầu giai đoạn bỏ bài của người cùng phe, nếu lượt này họ không sử dụng bài chọn người khác phe làm mục tiêu, giới hạn trữ bài của họ trở thành giới hạn máu",
+	[":yuejian"] = "Đầu giai đoạn bỏ bài của người cùng thế lực, nếu lượt này họ không sử dụng bài chọn người khác thế lực làm mục tiêu, giới hạn trữ bài của họ trở thành giới hạn máu",
 
 	-- 群
 	["lijueguosi"] = "Lý Giác & Quách Tỵ",
 	["#lijueguosi"] = "Phạm Tộ Khuynh Họa",
 	["&lijueguosi"] = "Lý Giác Quách Tỵ",
 	["xiongsuan"] = "Hung Toán",
-	[":xiongsuan"] = "Hạn định kỹ: Giai đoạn hành động, có thể bỏ 1 lá bài trên tay và chọn 1 người chơi cùng phe. Gây cho họ 1 sát thương, sau đó bạn rút 3 lá bài và chọn 1 Hạn định kỹ đã phát động của họ. Cuối lượt này, xem như Hạn định kỹ đã chọn chưa sử dụng.",
+	[":xiongsuan"] = "Hạn định kỹ: Giai đoạn hành động, có thể bỏ 1 lá bài trên tay và chọn 1 người chơi cùng thế lực. Gây cho họ 1 sát thương, sau đó bạn rút 3 lá bài và chọn 1 Hạn định kỹ đã phát động của họ. Cuối lượt này, xem như Hạn định kỹ đã chọn chưa sử dụng.",
 	["@xiongsuan-reset"] = "Hung Toán: Đặt lại 1 Hạn Định Kỹ của %dest",
 	["#XiongsuanReset"] = "%from đặt lại Kỹ năng \"%arg\"",
 	
