@@ -374,7 +374,8 @@ sgs.ai_chat_func[sgs.GeneralShown].show = function(self, player, data)
 	}
 	local chat1 = {
 		"Hừm",
-		"Tướng không có gì đặc biệt đâu :))"
+		"Tướng không có gì đặc biệt đâu :))",
+		"Lên tướng cho mọi người vui",
 		}
 	if self.player:screenName() == "Ong Thành Đạt" then
 		table.insert(chat1, "Để em, để em")
@@ -434,7 +435,7 @@ sgs.ai_chat_func[sgs.GeneralShown].show = function(self, player, data)
 	for _, p in ipairs(sgs.robot) do
 		if p:objectName() ~= self.player:objectName() and (math.random() < 0.06 or (self.player:getRole() == "careerist" and math.random() < 0.5)) then
 			p:speak(chat[math.random(1, #chat)])
-		elseif p:objectName() == self.player:objectName() and (math.random() < 0.1 or shown == 1)then
+		elseif p:objectName() == self.player:objectName() and (math.random() < 0.6 or shown == 1)then
 			p:speak(chat1[math.random(1, #chat1)])
 		end
 	end
