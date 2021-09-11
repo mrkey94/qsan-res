@@ -416,7 +416,7 @@ sgs.LoadTranslationTable{
 	["yigeiwoligiaogiao"] = "Lương",
 	["@tunchu-give"] = "Đặt tùy ý lượng bài trên tay lên tướng.",
 	["tunchu"] = "Truân Trữ",
-	[":tunchu"] = "Chủ tướng kỹ, giai đoạn rút bài, nếu bạn chưa có [Lươg], bạn có thể rút thêm 2 lá; nếu làm vậy, cuối giai đoạn rút bài, bạn có thể đặt tùy ý bài trên tay lên tướng này, gọi là [Lương]. Nếu bạn có [Lương], bạn không thể sử dụng [Sát]." ,
+	[":tunchu"] = "Chủ tướng kỹ, giai đoạn rút bài, nếu bạn chưa có [Lương], bạn có thể rút thêm 2 lá; nếu làm vậy, cuối giai đoạn rút bài, bạn có thể đặt tùy ý bài trên tay lên tướng này, gọi là [Lương]. Nếu bạn có [Lương], bạn không thể sử dụng [Sát]." ,
 	["shuliang"] = "Thâu Lương",
 	["@shuliang"] = "Có thể bỏ 1 [Lương] để cho người có lượt rút 2 lá.",
 	[":shuliang"] = "Chủ tướng kỹ, giai đoạn kết thúc của 1 người, nếu bài trên tay họ nhỏ hơn số máu, bạn có thể đưa 1 [Lương] vào chồng bài bỏ, lệnh họ rút 2 lá.",
