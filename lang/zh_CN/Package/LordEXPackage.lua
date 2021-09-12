@@ -184,7 +184,7 @@ return {
     ["#dongzhao"] = "Di Tôn Dị Đỉnh",
     ["dongzhao"] = "Đổng Chiêu",
     ["quanjin"] = "Khuyến Tiến",
-    [":quanjin"] = "Một lần trong giai đoạn hành động, bạn có thể giao 1 lá trên tay cho người từng nhận sát thương trong giai đoạn này và lệnh họ chấp hành 1 [Quân Lệnh]. Nếu họ chấp hành, bạn rút 1 lá; nếu không chấp hành và bạn không phải người có nhiều bài trên tay nhất, bạn rút X lá (X là số bài trên tay của người nhiều bài trên tay nhất - số bài trên tay bạn, tối đa 5).",
+    [":quanjin"] = "Một lần trong giai đoạn hành động, bạn có thể giao 1 lá trên tay cho người từng nhận sát thương trong giai đoạn này và lệnh họ chấp hành 1 [Quân Lệnh]. Nếu họ chấp hành, bạn rút 1 lá; nếu không chấp hành và bạn không phải người có nhiều bài trên tay nhất, bạn bổ xung bài trên tay đến khi bằng người có nhiều bài trên tay nhất, tối đa 5 lá.",
     ["zaoyun"] = "Tạc Vận",
     [":zaoyun"] = "Một lần trong giai đoạn hành động, có thể chọn 1 người không cùng thế lực với bạn và khoảng cách từ bạn đến họ lớn hơn 1 và bỏ X lá bài trên tay (X là khoảng cách từ bạn đến họ -1), khoảng cách từ bạn đến họ là 1 cho đến hết lượt, bạn gây 1 sát thương cho họ.",
 
@@ -408,7 +408,7 @@ return {
 	["#zhuling"] = "Kiên Thành Túc Tướng",
 	["zhuling"] = "Văn Sính",
 	["juejue"] = "Trấn Vệ",
-	[":juejue"] = "Đầu giai đoạn bỏ bài, bạn có thể mất 1 máu, khi giai đoạn này kết thúc, nếu trong giai đoạn này bạn có bỏ bài, bạn lệnh người khác chọn:\n1. Đưa X lá trên tay vào chồng bài bỏ (X là số lá bạn đã bỏ trong giai đoạn này);\n2. Nhận 1 sát thương từ bạn. Khi bạn giết người cùng thế lực với bạn, bỏ qua chấp hành thưởng phạt.",
+	[":juejue"] = "Đầu giai đoạn bỏ bài, bạn có thể mất 1 máu, khi giai đoạn này kết thúc, nếu trong giai đoạn này bạn có bỏ bài, bạn lệnh tất cả người khác chọn:\n1. Đưa X lá trên tay vào chồng bài bỏ (X là số lá bạn đã bỏ trong giai đoạn này);\n2. Nhận 1 sát thương từ bạn. Khi bạn giết người cùng thế lực với bạn, bỏ qua chấp hành thưởng phạt.",
 	["fangyuan"] = "Ngư Lân",
 	[":fangyuan"] = "Trận pháp kỹ,\n1. Nếu bạn là người vây công trong quan hệ vây công, giới hạn trữ bài của người vây công +1, giới hạn trữ bài của người bị vây công -1.\n2. Giai đoạn kết thúc, nếu bạn là người bị vây công trong quan hệ vây công, bạn xem như sử dụng [Sát] với 1 người vây công",
 	["@fangyuan-slash"] = "Ngư Lân: chọn 1 người đang vây công bạn, xem như sử dụng [Sát] với họ",
