@@ -292,7 +292,7 @@ return {
     ["#zhugeke"] = "Hưng Gia Xích Tộc",
     ["zhugeke"] = "Gia Cát Khác",
     ["aocai"] = "Ngạo Tài",
-    [":aocai"] = "Ngoài lượt của bạn, khi bạn cần sử dụng hoặc đánh ra bài cơ bản, bạn có thể xem hai lá trên đầu chồng bài, có thể sử dụng hoặc đánh ra lá cơ bản tương ứng trong đó.",
+    [":aocai"] = "Ngoài lượt của bạn, khi bạn cần sử dụng hoặc đánh ra bài cơ bản, bạn có thể xem hai lá trên đầu chồng bài, có thể sử dụng hoặc đánh ra lá cơ bản có tên tương ứng trong đó.",
     ["duwu"] = "Độc Võ",
     [":duwu"] = "Hạn định kỹ, giai đoạn hành động, bạn có thể chọn tất cả người khác thế lực trong tầm đánh và lựa chọn Quân Lệnh, họ lần lượt chọn có chấp hành Quân Lệnh hay không, nếu không chấp hành, bạn gây 1 sát thương cho họ và rút một lá; sau khi 1 người thoát khỏi trạng thái hấp hối do nhận sát thương từ kỹ năng này, bạn mất 1 máu.",
     
@@ -401,7 +401,7 @@ return {
 	["tongdu"] = "Trù Độ",
 	[":tongdu"] = "Giai đoạn kết thúc của người cùng thế lực, họ có thể rút X lá (X là số bài họ đã bỏ trong giai đoạn bỏ bài của lượt này, tối đa 3",
 	["qingyin"] = "Quy Ẩn",
-	[":qingyin"] = "Hạn định kỹ, giai đoạn hành động, bạn chọn tất cả người cùng thế lực (Áp dụng sau khi bạn đã mở tướng này); họ lần lượt hồi đến tối đa; sau đó bạn loại bỏ tướng này.",
+	[":qingyin"] = "Hạn định kỹ, giai đoạn hành động, bạn chọn tất cả người cùng thế lực (Áp dụng sau khi bạn đã mở tướng này); họ lần lượt hồi máu đến tối đa; sau đó bạn loại bỏ tướng này.",
 	["@tongdu"] = "Có thể phát động \"Trù Độ\" của %src",
 	["#tongdu-other"] = "Trù Độ",
 	
