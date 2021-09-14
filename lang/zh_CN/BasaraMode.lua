@@ -84,7 +84,7 @@ return
 		"chỉ có thể sử dụng hoặc đánh ra như [<font color=\"yellow\"><b>Sát</b></font>] hoặc [<font color=\"yellow\"><b>Thiểm</b></font>].",
 
 	["aozhan"] = "Huyết Chiến",
-	[":aozhan"] = "①Bạn không thể sử dụng [Đào] chuyển hóa。②Bạn chỉ có thể sử dụng hoặc đánh ra [Đào] như [Sát] hoặc [Tránh]。",
+	[":aozhan"] = "1. Bạn không thể sử dụng [Đào] chuyển hóa2. Bạn chỉ có thể sử dụng hoặc đánh ra [Đào] như [Sát] hoặc [Tránh].",
 
 
 	["companion"] = "Châu Liên Hợp Bích",
