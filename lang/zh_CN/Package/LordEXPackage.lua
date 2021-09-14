@@ -140,7 +140,7 @@ return {
 	["mifangfushiren"] = "Mi Phương & Phó Sĩ Nhân",
 	["&mifangfushiren"] = "Mi Phương Phó Sĩ Nhân",
 	["fengshix"] = "Phong Thế",
-	[":fengshix"] = "Sau khi bạn sử dụng bài chỉ định 1 mục tiêu duy nhất, nếu số bài trên tay họ nhỏ hơn bạn, bạn có thể bỏ 1 lá của bạn và họ, sau đó sát thương này +1. Sau khi bạn trở thành mục tiêu duy nhất của bài từ người khác, nếu số lá trên tay bạn nhỏ hơn họ, họ có thể lệnh họ bỏ 1 lá của bạn và họ, sau đó sát thương này +1.",
+	[":fengshix"] = "Sau khi bạn sử dụng bài chỉ định 1 mục tiêu duy nhất, nếu số bài trên tay họ nhỏ hơn bạn, bạn có thể bỏ 1 lá của bạn và họ, sau đó sát thương này +1. Sau khi bạn trở thành mục tiêu duy nhất của bài từ người khác, nếu số lá trên tay bạn nhỏ hơn họ, họ có thể lệnh bạn bỏ 1 lá của bạn và họ, sau đó sát thương này +1.",
 	
 	["@fengshix"] = "Có thể phát động \"Phong Thế\" của %src",
 	
