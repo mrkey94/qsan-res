@@ -139,7 +139,7 @@ return {
 	["#zhurong"] = "Dã Tính Nữ Vương",
 	["zhurong"] = "Chúc Dung",
 	["juxiang"] = "Cự Tượng",
-	[":juxiang"] = "Tỏa định kỹ, vô hiệu hoá [Nam Man Nhập Xâm] lên bản thân; có thể thu lấy [Nam Man Xâm Lược] sau khi lá này chuyển vào chồng bài bỏ.",
+	[":juxiang"] = "Tỏa định kỹ, vô hiệu hoá [Nam Man Nhập Xâm] lên bản thân; sau khi [Nam Man Nhập Xâm] kết toán xong, thu lấy lá này.",
 	["#sa_avoid_juxiang"] = "Cự Tượng vô hiệu hoá [Nam Man Nhập Xâm]" ,
 	["lieren"] = "Liệt Nhận",
 	[":lieren"] = "Sau khi gây sát thương cho mục tiêu của [Sát], có thể tiến hành đấu điểm. Nếu thắng, có thể thu lấy 1 lá bài của mục tiêu.",
