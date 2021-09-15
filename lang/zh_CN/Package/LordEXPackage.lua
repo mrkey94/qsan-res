@@ -214,7 +214,7 @@ return {
     ["zhidao"] = "Trĩ Đạo",
     [":zhidao"] = "Tỏa định kỹ, đầu giai đoạn hành động, bạn chọn 1 người khác; trong lượt này, khoảng cách từ bạn đến họ là 1, bạn không thể chọn người ngoài bạn và họ làm mục tiêu của bài; sau khi bạn gây sát thương cho họ lần đầu tiên trong lượt này, bạn thu lấy 1 lá trong vùng chơi của họ.",
     ["jilix"] = "Ký Li",
-    [":jilix"] = "Phó tướng kỹ, Tỏa định kỹ, máu gốc giảm 0.5, sau khi kết toán xong lá cơ bản Đỏ hoặc công cụ phổ thông Đỏ, nếu bạn là mục tiêu duy nhất của lá này, bạn lệnh cho người sử dụng xem như sử dụng lá cùng tên với lá đó với bạn; khi bạn nhận sát thương lần thứ 2 trong cùng 1 giai đoạn, bạn chặn sát thương và loại bỏ tướng này.",
+    [":jilix"] = "Phó tướng kỹ, Tỏa định kỹ, máu gốc giảm 0.5, sau khi kết toán xong lá cơ bản Đỏ hoặc công cụ phổ thông Đỏ, nếu bạn là mục tiêu duy nhất của lá này, bạn lệnh cho người sử dụng xem như sử dụng lá cùng tên với lá đó với bạn (không giới hạn khoảng cách, số lần sử dụng); khi bạn nhận sát thương lần thứ 2 trong cùng 1 giai đoạn, bạn chặn sát thương và loại bỏ tướng này.",
     
     ["#zhidao-damage"] = "Trĩ Đạo",
     ["@zhidao-target"] = "Trĩ Đạo: Chọn 1 người khác",
