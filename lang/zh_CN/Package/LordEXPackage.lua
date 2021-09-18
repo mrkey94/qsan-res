@@ -50,7 +50,7 @@ return {
 	
 	["zhiwei"] = "Chi Vi",
 	["#zhiwei-effect"] = "Chi Vi",
-	[":zhiwei"] = "Khi bạn mở tướng này, có thể chọn 1 người khác. Đến khi tướng này bị úp hoặc loại bỏ; Sau khi họ gây sát thương, bạn rút 1 lá; Sau khi họ nhận sát thương, bạn bỏ 1 lá ngẫu nhiên trên tay; Giai đoạn bỏ bài, bạn có thể lệnh cho họ thu lấy tất cả bài bỏ của bạn. Khi họ trận vong, nếu bạn đã mở tất cả tướng, bạn úp tướng này.",
+	[":zhiwei"] = "Khi bạn mở tướng này, có thể chọn 1 người khác. Đến khi tướng này bị úp hoặc loại bỏ; Sau khi họ gây sát thương, bạn rút 1 lá; Sau khi họ nhận sát thương, bạn bỏ 1 lá ngẫu nhiên trên tay; Giai đoạn bỏ bài, bạn lệnh họ thu lấy tất cả bài bỏ của bạn. Khi họ trận vong, nếu bạn đã mở tất cả tướng, bạn úp tướng này.",
 	
 	["zhiwei-invoke"] = "Có thể phát động \"Chi Vi\", chọn 1 người khác.",
 	
