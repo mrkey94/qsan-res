@@ -106,7 +106,7 @@ return {
 	["#zhangren"] = "Tác Mệnh Thần Xạ",
 	["zhangren"] = "Trương Nhiệm",
 	["chuanxin"] = "Xuyên Tâm",
-	[":chuanxin"] = "Giai đoạn hành động của bạn, khi gây sát thương cho mục tiêu không cùng thế lực của [Sát] hoặc [Quyết Đấu], nếu mục tiêu có Phó tướng, có thể chặn sát thương này, lệnh cho mục tiêu chọn 1:\n1. Họ bỏ toàn bộ bài trong vùng Trang Bị (ít nhất 1 lá) và mất 1 máu.\nHọ loại bỏ Phó tướng.",
+	[":chuanxin"] = "Giai đoạn hành động của bạn, khi gây sát thương cho mục tiêu không cùng thế lực của [Sát] hoặc [Quyết Đấu] (bạn có thể lật tướng để phát động kỹ năng này), nếu mục tiêu có Phó tướng, có thể chặn sát thương này, lệnh cho mục tiêu chọn 1:\n1. Họ bỏ toàn bộ bài trong vùng Trang Bị (ít nhất 1 lá) và mất 1 máu.\nHọ loại bỏ Phó tướng.",
 	["@chuanxin-choose"] = "Xuyên Tâm: Lựa chọn bỏ trang bị và mất 1 máu hoặc loại phó tướng",
 	["chuanxin:discard"] = "Bỏ trang bị và mất 1 máu",
 	["chuanxin:remove"] = "Loại bỏ Phó tướng",
