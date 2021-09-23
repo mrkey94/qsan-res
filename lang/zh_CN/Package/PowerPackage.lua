@@ -52,7 +52,7 @@ return {
 	[":enyuan"] = "Tỏa định kỹ, Sau khi bạn trở thành mục tiêu của [Đào] do người chơi khác sử dụng, họ rút 1 lá. Sau khi bạn nhận sát thương, nguồn gây sát thương chọn giao 1 lá bài trên tay cho bạn hoặc mất 1 máu",
 	["@enyuan-give"] = "Ân Oán: Chọn 1 lá trên tay và đưa cho %src hoặc bấm Hủy bỏ để mất 1 máu.",
 	["xuanhuo"] = "Huyễn Hoặc",
-	[":xuanhuo"] = "Một lần trong giai đoạn hành động của người chơi cùng thế lực, người đó có thể giao cho bạn 1 lá bà, sau đó họ có thể bỏ 1 lá và lựa chọn nhận 1 trong các kỹ năng sau mà chưa có trên bàn cho đến hết lượt hoặc tướng có kỹ năng tương ứng được mở: \"Võ Thánh\", \"Bào Hao\", \"Long Đảm\", \"Thiết Kỵ\", \"Liệt Cung\", \"Cuồng Cốt\".",
+	[":xuanhuo"] = "Một lần trong giai đoạn hành động của người chơi khác cùng thế lực, người đó có thể giao cho bạn 1 lá trên tay, sau đó họ có thể bỏ 1 lá và lựa chọn nhận 1 trong các kỹ năng sau mà chưa có trên bàn cho đến hết lượt hoặc tướng có kỹ năng tương ứng được mở: \"Võ Thánh\", \"Bào Hao\", \"Long Đảm\", \"Thiết Kỵ\", \"Liệt Cung\", \"Cuồng Cốt\".",
 	["@xuanhuo-choose"] = "Huyễn Hoặc: Chọn 1 kỹ năng để sở hữu.",
 	["@xuanhuo-discard"] = "Huyễn Hoặc: Chọn 1 lá bài để bỏ.",
 	["xuanhuoattach"] = "Huyễn Hoặc",
