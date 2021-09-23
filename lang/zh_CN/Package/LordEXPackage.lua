@@ -93,10 +93,33 @@ return {
     ["yusui"] = "Ngọc Toái",
     [":yusui"] = "Sau khi bạn trở thành mục tiêu của bài đen do người không cùng thế lực sử dụng, bạn có thể mất 1 máu rồi chọn:\n1. Lệnh họ bỏ X lá trên tay (X là giới hạn máu của họ); 2, Lệnh họ mất Y máu (Y là số máu của họ trừ đi số máu của bạn, tối thiểu 0)",
     ["boyan"] = "Bác Ngôn",
-    [":boyan"] = "Một lần trong giai đoạn hành động, bạn có thể chọn 1 ngươi khác, họ bổ sung bài trên tay đến giới hạn máu của họ, trong lượt này họ không thể sử dụng hoặc đánh ra bài trên tay của họ.",
+    [":boyan"] = "Một lần trong giai đoạn hành động, bạn có thể chọn 1 người khác, họ bổ sung bài trên tay đến giới hạn máu của họ, trong lượt này họ không thể sử dụng hoặc đánh ra bài trên tay của họ; bạn có thể lệnh họ nhận kỹ năng \"Bác Ngôn (Tung Hoành)\" (bỏ mô tả 'họ bổ sung bài trên tay đến giới hạn máu của họ') cho đến khi kết thúc lượt chơi tiếp theo của họ.",
     ["@yusui-choice"] = "Ngọc Toái: lựa chọn hành động cho %dest chấp hành",
     ["yusui:losehp"] = "Mất máu đến khi số máu bằng bạn.",
     ["yusui:discard"] = "Bỏ số bài trên tay bằng giới hạn máu.",
+	["@boyan-zongheng"] = "Có thể lệnh cho %dest nhận kỹ năng \"Bác Ngôn (Tung Hoành)\"?",
+
+	["boyanzongheng"] = "Bác Ngôn",
+	[":boyanzongheng"] = "Một lần trong giai đoạn hành động, bạn có thể chọn 1 người khác, lệnh họ trong lượt này không thể sử dụng hoặc đánh ra bài trên tay của họ.",
+	
+	["#dengzhi"] = "Tuyệt Cảnh Ngoại Giao Gia",
+	["dengzhi"] = "Đặng Chi",
+
+	["jianliang"] = "Giản Lượng",
+	[":jianliang"] = "Đầu giai đoạn rút bài, nếu bạn là người có ít bài trên tay nhất, bạn có thể lệnh người cùng thế lực bạn lần lượt rút lá.",
+	["weimeng"] = "Ngụy Minh",
+	[":weimeng"] = "Một lần trong giai đoạn hành động, bạn có thể chọn 1 người khác có bài, bạn thu lấy tối đa X lá của họ (X là số máu của bạn), sau đó giao lượng bài tương đương cho họ. Bạn có thể lệnh họ nhận kỹ năng \"Ngụy Minh (Tung Hoành)\" (Thay X thành 1) cho đến khi kết thúc lượt tiếp theo của họ.",
+
+	["weimengzongheng"] = "Ngụy Minh",
+	[":weimengzongheng"] = "Một lần trong giai đoạn hành động, bạn có thể chọn 1 người khác có bài, bạn thu lấy 1 lá của họ, sau đó giao 1 lá cho họ.",
+
+
+
+	["@weimeng-num"] = "Ngụy Minh: Chọn số lượng bài sẽ lấy từ %dest",
+
+	["@weimeng-give"] = "Ngụy Minh: Chọn %arg lá giao cho %dest",
+
+	["@weimeng-zongheng"] = "Có thể lệnh cho %dest nhận kỹ năng \"Ngụy Minh (Tung Hoành)\"?",
 	
 	["lord_ex"] = "Bất Thần",
 	["lord_ex_card"] = "Bất Thần (Thử nghiệm)",
@@ -448,6 +471,7 @@ return {
 	["illustrator:sufei"] = "兴游",
 	["illustrator:liuba"] = "三国志",
 	["illustrator:zhuling"] = "Mộc Mĩ Nhân",
+	["illustrator:dengzhi"] = "佚名",
 
 	["designer:huaxin"] = "HanXu",
 	["designer:luyusheng"] = "HanXu",
@@ -479,6 +503,7 @@ return {
 	["designer:sufei"] = "QSanguosha Team",
 	["designer:liuba"] = "QSanguosha Team",
 	["designer:zhuling"] = "QSanguosha Team",
+	["designer:dengzhi"] = "韩旭",
 
 
 }

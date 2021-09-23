@@ -51,7 +51,9 @@ huangyueying liubei								22 21
 zhurong liubei									21 20
 ganfuren pangtong								22 20
 fazheng wangping								25 24
-fazheng pangtong								25 23
+fazheng pangtong								24 23
+fazheng wolong								    24 23
+fazheng ganfuren								23 22
 lord_sunquan sunshangxiang						26 25
 sunshangxiang lingtong							25 24
 sunshangxiang ganning							24 23
@@ -70,6 +72,7 @@ zhoutai sunjian									23 22
 lusu daqiao										23 22
 lusu xiaoqiao									23 22
 xiaoqiao sunce									24 23
+xiaoqiao lukang									25 24
 daqiao sunce									24 23
 sunquan lvmeng									23 23
 huanggai taishici								23 23
@@ -88,10 +91,13 @@ lvfan sunshangxiang								24 24
 luxun zhouyu									21 21
 luxun huanggai									21 21
 lord_zhangjiao new_zuoci						25 25
-yuanshao tianfeng								25 25
+yuanshao tianfeng								25 24
+zhangxiu hetaihou								25 24
+zhangjiao zhangxiu								24 24
 diaochan jiaxu									23 24
 yuanshao mateng									24 24
 yuanshao jiaxu									24 24
+yuanshao xuyou									25 24
 lvbu yanliangwenchou							24 24
 jiaxu huatuo									23 23
 diaochan caiwenji								23 23
@@ -114,8 +120,7 @@ kongrong huatuo									21 21
 tianfeng caiwenji								21 20
 zhangliao zhanghe								5 5
 zhangliao xiahouyuan							5 5
-zhangliao lidian                                5 5
-zhenji caoren									5 4
 xunyu caoren									5 5
 guanyu zhaoyun									5 5
 machao huangzhong								5 5
+lijueguosi zhangxiu								5 5

@@ -523,6 +523,9 @@ sgs.ai_skill_cardask["@fire-attack"] = function(self, data, pattern, target)
 						or self:isGoodChainTarget(target) or target:hasArmorEffect("Vine") then
 					needKeepPeach = false
 				end
+				if self.player:getHp() == 1 and not (self:getCardsNum("Peach") + self:getCardsNum("Analeptic") > 1) then
+					needKeepPeach = true
+				end
 				if not needKeepPeach then
 					card = acard
 					break

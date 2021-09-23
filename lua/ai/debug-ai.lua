@@ -52,7 +52,7 @@ function sgs.debugFunc(player, debugType)
 			local msg = string.format("%s/%s[Visiblecards]:", players[i]:getActualGeneral1Name(), players[i]:getActualGeneral2Name())
 			local cards = sgs.QList2Table(players[i]:getHandcards())
 			for _, card in ipairs(cards) do
-				if sgs.cardIsVisible(c, players[i], player) then
+				if sgs.cardIsVisible(card, players[i], player) then
 					msg = msg .. card:getClassName() ..", "
 				end
 			end
@@ -68,7 +68,7 @@ function sgs.debugFunc(player, debugType)
 			for _, card in ipairs(cards) do
 				msg = msg .. card:getClassName() ..", "
 			end
-			global_room:writeToConsole(msg2)
+			global_room:writeToConsole(msg)
 		end
 	end
 
