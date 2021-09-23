@@ -25,7 +25,7 @@ Mode2v2v2v2_rule = sgs.CreateTriggerSkill{
 		local times = room:getTag(player:getKingdom().."_Change"):toInt()
 		player:speak(times)
 		if times >= 0 then return false end
-		local used = room:getTag("Xmode_UsedGeneral"):toString():split("+")
+		local used = room:getTag("Mode2v2v2v2_UsedGeneral"):toString():split("+")
 		local random_general = getRandomGenerals(4,player:getKingdom(),used)
 		local choice = room:askForGeneral(player,table.concat(random_general,"+"),nil,false):split("+")
 		table.insertTable(used,choice)
